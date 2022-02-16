@@ -1,0 +1,30 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 73, in script
+    show char donovan_happy at leftish
+  File "game/script.rpy", line 73, in <module>
+    show char donovan_happy at leftish
+NameError: name 'leftish' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 73, in script
+    show char donovan_happy at leftish
+  File "renpy/ast.py", line 1197, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "renpy/ast.py", line 1156, in show_imspec
+    at_list = [ renpy.python.py_eval(i) for i in at_list ]
+  File "renpy/python.py", line 2276, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "renpy/python.py", line 2269, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 73, in <module>
+    show char donovan_happy at leftish
+NameError: name 'leftish' is not defined
+
+Windows-10-10.0.22000
+Ren'Py 7.4.11.2266
+Visually Daunting 1.0
+Tue Feb 15 18:35:54 2022

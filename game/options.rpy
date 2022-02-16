@@ -23,13 +23,16 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "1.0"
+define config.version = "0.01"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
-define gui.about = _p("""
+define gui.about = _p(""" 
+Created by Dirty Rotten
+
+A captone project developed by a core team of 3 people, with multiple outside help. Complete credits will be finalized at a later date.
 """)
 
 
