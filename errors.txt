@@ -2,9 +2,21 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 255: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    jump lb_mushroom_hunting
-    ^
+File "game/script.rpy", line 375: expected statement.
+    ethan: "I'm Ethan, he's Donovan."
+         ^
+
+File "game/script.rpy", line 379: expected statement.
+    Donovan: "Right."
+           ^
+
+File "game/script.rpy", line 397: end of line expected.
+    show wendy worried at right begind overlay
+                                ^
+
+File "game/script.rpy", line 408: expected statement.
+    ethan: "So, you guys ready?"
+         ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Tue Feb 15 22:19:03 2022
+Thu Feb 17 22:19:29 2022

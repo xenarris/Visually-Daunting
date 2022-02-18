@@ -6,7 +6,10 @@
 define e = Character("Eileen")
 define dono = Character("Donovan")
 define ethan = Character("Ethan")
+define wendy = Character("Wendy")
+define donna = Character("Donna")
 define chat = Character("Chat")
+define unknown = Character("???")
 
 #Initialize things here 
 #(Ren'py reads everything as a giant file according to the internet)
@@ -23,6 +26,8 @@ init:
     #choice flags here
     #false = 0, true = 1
     $ seen_bulletin = 0
+    $ went_lakeside = 0
+    $ went_recreation_area = 0
 
     #counters here
     
@@ -130,7 +135,7 @@ label lb_mushroom_hunting:
 
     "{i}[[Chat likes that meme]{/i}"
 
-    dono "We got a tip from user [[ricitioxy] on how local psychonauts survice such harsh climates."
+    dono "We got a tip from user [[ricitioxy] on how local psychonauts service such harsh climates."
     "{i}[[Donovan closed eyes, open mouth]{/i}"
     dono "For those who don't grow, there's some wild foraging at hand."
     dono "Arkansas' mild winters lead to excellent fruiting. And while harvesting mushrooms is illegal..."
@@ -251,11 +256,171 @@ label lb_mushroom_hunting_opt2:
     jump lb_mushroom_hunting_sw_intersection
 
 label lb_mushroom_hunting_sw_intersection:
-    scene bg park_sw_switch
+
+    scene bg laptop_overlay as overlay
+    show bg park_sw_switch behind overlay
     "[[debug] sw_intersection start here"
 
     "{i}Nighttime{/i}"
     
+    "Ethan and Donovan seem to be bent over looking"
+
+    "{i}Rustling{/i}"
+
+    show ethan sad at right behind overlay
+    ethan "I've got nothing."
+
+    show donovan sad at left behind overlay
+    dono "Ah, I've got nothing."
+
+    #chat is sending emoji's here too
+    "{i}Chat seems visibly upset{/i}"
+
+    show donovan happy at left
+    dono "Alright folks, it looks like the proverbial 'high-road/low-road' situation."
+    dono "So, should we head further North? Or Flip East? Up to you guys."
+
+    #Choice North (Lake side) or East (Recreation area)
+    menu:
+        dono "So, should we head further North? Or Flip East? Up to you guys."
+        "North!!":
+            $ went_lakeside = 1
+            jump lb_mushroom_hunting_lakeside
+        "East, east, east, eastast!!!":
+            $ went_recreation_area = 1
+            jump lb_mushroom_hunting_recreation
+
+    
+    "[[debug] Will now restart/jump back to mushroom_hunting label"
+    jump lb_mushroom_hunting
+
+label lb_mushroom_hunting_lakeside:
+
+    scene bg laptop_overlay as overlay
+    show bg park_lakeside behind overlay
+    "[[Debug] went lakeside"
+
+    show donovan happy at left behind overlay
+    dono "Alright, you guys, let's talk some facts."
+    
+    #Donovan points at ethan here
+    dono "Ethan, take it away!"
+
+    "{i}Chat sends ethan love{/i}"
+
+    #Scholarly Ethan mode here
+    show ethan happy at right behind overlay
+    ethan "Looking around, we can see a lot of younger trees and a lot of non-native species."
+
+    "{i}Chat sending mixed emojis of trees{/i}"
+
+    ethan "What we're truly looking for though, are some of those old-growth Alabama pines! As the Devil's Tooth loves to grow on them."  
+    
+    "{i}Chat is mind blown and memeing{/i}"
+
+    #donovan does a smile at the camera here
+    show donovan happy at left behind overlay
+
+    "{i}Chat is sending pines, hearts, mind-blown emojis{/i}"
+
+    #typo? maye TODO
+    ethan "And while maye look like we made a bad choice in parks, don't even worry."
+
+    if seen_bulletin == 1:
+        ethan "This park was established a long time ago. Although its seen some revisions, I'm sure we'll find us some pines!"
+    else:
+        ethan "Most parks, even the newer ones, tend to keep some of their old trees around."
+
+    "{i}Chat goes wild over the boys, loves their travels{/i}"
+
+    ethan "That's been an Ethan-minute."
+
+    dono "Thanks E, for putting us in the know."
+
+    #Light approaches in the background, Ethan moves
+    #over to Donovan and makes room for Donna & Wendy to enter
+
+    #TODO Move dono and ethan left properly
+    show donovan shocked at left behind overlay
+    dono "Woah!"
+
+    show ethan confused at left behind overlay
+    ethan "Hello?"
+
+    #Meeting wendy and donna the first time
+    #unknown person at first
+    show donna worried at right behind overlay
+    unknown "Hey, have you seen a dog?"
+
+    #Confused ethan
+    ethan "What?"
+
+    unknown "A dog. A Cavalier King. He's a Cavalier King. He's missing."
+
+    #Worried donovan
+    show donovan worried at left behind overlay
+
+    if seen_bulletin == 1:
+        dono "We saw your poster earlier. The one at the entrance. That's your dog right?"
+    else:
+        "Woah, folks. It looks like we've got a missing dog."
+
+    dono "How long has your..."
+    dono "I'm sorry, what's your dog's name?"
+
+    #donna frustated here
+    show donna frustrated at right behind overlay
+    donna "I'm Donna, this is Wendy, our dog is Chips."
+
+    #Frustrated ethan
+    show ethan frustated at left behind overlay
+    ethan "I'm Ethan, he's Donovan."
+    
+    #frustrated donovan
+    show donovan frustated at left behind overlay
+    dono "Right."
+
+    show donovan concerned at left behind overlay
+    dono "So, how long has Chips been missing?"
+
+    #sad wendy
+    show wendy sad at right behind overlay
+    wendy "It's not about how long he's been missing, it's about him being scared and hungry."
+
+    #straight faced ethan
+    show ethan smile at left behind overlay
+    ethan "Hmmph, Donovan let's find their dog."
+
+    #smiling donovan
+    show donovan smile at left behind overlay
+    dono "We can find anything, we can find Chips no problem."
+
+    #worried wendy
+    show wendy worried at right behind overlay
+    wendy "Really? You would help us find him?"
+
+    #smile ethan
+    ethan "It's our job, and we do it well. Take us to where you last saw him."
+
+    #neutral donna
+    show donna neutral at right behind overlay
+    donna "It's right up here"
+
+    #still smiling here
+    ethan "So, you guys ready?"
+
+    #player must agree to progress
+    menu:
+        ethan "So, you guys ready?"
+
+        "I'm ready":
+            "{i}Chat agrees{/i}"
+
+    "[[debug] Will now restart/jump back to mushroom_hunting label"
+    jump lb_mushroom_hunting
+
+label lb_mushroom_hunting_recreation:
+    "[[Debug] went lakeside"    
     
     "[[debug] Will now restart/jump back to mushroom_hunting label"
     jump lb_mushroom_hunting
