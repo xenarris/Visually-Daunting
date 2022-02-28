@@ -37,6 +37,7 @@ label start:
 
     jump lb_laptop_introduction
 
+    # 12:05
     #everything in this label past this is unused
     show eileen happy
 
@@ -74,6 +75,7 @@ label lb_laptop_introduction:
 
 label lb_mushroom_hunting:
     #Off Stream intoduction
+    #12:06
     scene bg park_bulletin
 
     "Two young friends, Donovan and Ethan, stand in front of a park billboard."
@@ -143,6 +145,7 @@ label lb_mushroom_hunting:
 
     "{i}Chat loves Donovan some more{/i}"
 
+    #12:08
     ethan "Tonight we're searching for Hydnellum Peckii, a.k.a. the 'Devil's Tooth.'"
 
     dono "A cream colored mushroom with a short body and a wide cap, that's flat on top."
@@ -158,6 +161,7 @@ label lb_mushroom_hunting:
 
     "{i}Chat psychedelic emojis{/i}"
 
+    #12:09
     dono "So, should we start?"
     ethan "Lets..."
 
@@ -260,6 +264,7 @@ label lb_mushroom_hunting_sw_intersection:
     scene bg laptop_overlay as overlay
     show bg park_sw_switch behind overlay
     "[[debug] sw_intersection start here"
+    #12:10
 
     "{i}Nighttime{/i}"
     
@@ -299,6 +304,7 @@ label lb_mushroom_hunting_lakeside:
     scene bg laptop_overlay as overlay
     show bg park_lakeside behind overlay
     "[[Debug] went lakeside"
+    #12:11
 
     show donovan happy at left behind overlay
     dono "Alright, you guys, let's talk some facts."
@@ -330,6 +336,8 @@ label lb_mushroom_hunting_lakeside:
         ethan "This park was established a long time ago. Although its seen some revisions, I'm sure we'll find us some pines!"
     else:
         ethan "Most parks, even the newer ones, tend to keep some of their old trees around."
+
+    #12:12
 
     "{i}Chat goes wild over the boys, loves their travels{/i}"
 
@@ -416,11 +424,160 @@ label lb_mushroom_hunting_lakeside:
         "I'm ready":
             "{i}Chat agrees{/i}"
 
+    #12:13
+    #jump to next part
+
+
     "[[debug] Will now restart/jump back to mushroom_hunting label"
     jump lb_mushroom_hunting
 
 label lb_mushroom_hunting_recreation:
-    "[[Debug] went lakeside"    
+
+    scene bg laptop_overlay as overlay
+    show bg park_recreation behind overlay
+
+    "[[Debug] went east]"
+
+
+    #12:11
+    #ETHAN
+    #[Looking to side, inquisitive]
+    show ethan inquisitive_side at left behind overlay
+    ethan "Hey, we've got people...!"
+    #(Show "dark frames" in the distance)
+
+    #CHAT [Ponders, jokes about serial killers - gets scared - oh no!]
+
+    # DONOVAN [Hand up, waving]
+    show donovan waving at left behind overlay
+    dono "Hey!"
+    #(Move Donovan over, have dark shadows "Move" forward and then
+    #transform into same figures but visibly women)
+
+    #CHAT [responds to mystery]
+
+    #WOMEN [Standing close together - single illustration, visibly gloomy]
+    unknown "Hey."
+
+
+    show donovan inquisitive at left behind overlay
+    #[Looking inquisitive] 
+    dono "What are you guys doing out here?"
+    
+    show ethan inquisitive at left behind overlay
+    #[Also inquisitive]
+    ethan "Looking real upset."
+    
+    #WOMEN [Standing close] 
+    unknown "Uh, it's our dog. We haven't been able to find him."
+
+    unknown "We've been looking..."
+    
+
+    #[Looks surprised]
+    show ethan surprised at left behind overlay
+    ethan "Oh, hey! I think I saw your dog!"
+
+    #(non-verbal)[Looks at Ethan confused]
+    #WOMEN(non-verbal) [Look up, lively even]
+
+    #[Looks ashamed]
+    show ethan ashamed at left behind overlay
+    ethan "Ugh, no-no-no! Not like that. Sorry."
+
+    #WOMEN(non-verbal)[Looking extra gloomy, hopeless]
+    #CHAT[crying, sad]
+    
+    #ETHAN [Still ashamed]
+    ethan "I meant...on the flier. The one at the entrance."
+
+    #DONOVAN (non-verbal) [Frowns]
+
+    #WOMEN [demure] 
+    unknown "Oh yeah, that's our baby. We put that up a week ago."
+
+    #ETHAN [Looks at women concerned]
+
+    #DONOVAN [Looks at women concerned]
+    
+    #CHAT [RIP, dog emojis, sad, crying]
+
+    #ETHAN [Shocked]
+    ethan "Wait, a week? Like seven days. Seven."
+    
+    ethan "I just need to clarify so I know we're on the same page."
+
+    #CHAT [shock emojis]
+
+    #DONOVAN [Unhappy]
+    dono "Bruh,seriously!"
+    dono "Hey, don't worry."
+    dono "He's just concerned. You know?"
+    
+    #ETHAN [Frustrated]
+    ethan "That's a long time for a dog to be lost!"
+
+    #12:12
+
+    #DONOVAN [Frustrated back]
+    dono "Bruh, stop."
+    
+    #WOMEN [one begins crying while other comforts]
+    unknown "..."
+    unknown "We...we already know that. You're not telling us something new."
+    unknown "It's just, our baby is out here and we just want to find him."
+    unknown "However that is..."
+
+    #CHAT [cry emojis sad]
+    #ETHAN (non-verbal)[sad]
+    #DONOVAN (non-verbal)[sad]
+
+    #DONOVAN (CONT'D) [Snaps to smile]
+    dono "Hey, it's cool. We've got you."
+    
+    #[CHAT] [Happy emojis]
+
+    #WOMEN [Look up, original gloom]
+    unknown "What...?"
+    
+    #DONOVAN [Smiles at women]
+    dono "It's cool, really! Trust me. We got you. We find stuff, that's our job."
+    dono "We're practically experts."
+
+    #ETHAN [smiles as well]
+    ethan "We can find your dog, don't even sweat it!"
+    
+    #CHAT [dog emojis & psy love]
+    
+    #WOMEN [look a little happier]
+    unknown "Really?"
+    
+    #ETHAN [Big smile]
+    ethan "A hundred percent!"
+    
+    #DONOVAN(non-verbal)[big smiles]
+
+    #DONNA [Smiling but looking gloomy still]
+    donna "I'm Donna."
+
+    #DONOVAN [smiling] 
+    dono "Donovan."
+
+    #WENDY [looking a bit less gloomy]
+    wendy "Wendy..."
+    
+    #ETHAN [smiling]
+    ethan "Ethan!"
+    ethan "And we're looking for...?"
+
+    #DONNA[A little optimistic]
+    donna "Chips."
+    
+    #DONOVAN [Smiling]
+    dono "Well let's go find the pup!"
+
+    #CHAT [Blows up about dog, fired up] (Only advances afteradding a response.)
+    # 12:13
     
     "[[debug] Will now restart/jump back to mushroom_hunting label"
     jump lb_mushroom_hunting
