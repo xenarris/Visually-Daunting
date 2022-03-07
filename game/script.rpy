@@ -436,6 +436,8 @@ label lb_mushroom_hunting_recreation:
     scene bg laptop_overlay as overlay
     show bg park_recreation behind overlay
 
+    #Seen Bulletin board
+
     "[[Debug] went east]"
 
 
@@ -581,3 +583,139 @@ label lb_mushroom_hunting_recreation:
     
     "[[debug] Will now restart/jump back to mushroom_hunting label"
     jump lb_mushroom_hunting
+
+label lb_mushroom_hunting_recreation_no_bulletin:
+
+    scene bg laptop_overlay as overlay
+    show bg park_recreation behind overlay
+    
+    #12:11
+    #DONOVAN [looking inquisitive]
+    dono "Hey, I see something."
+
+    #[Focusing hard]
+    dono "Someone...?"
+
+    #CHAT
+    # chat "sends alien, werewolf, zombie emojis"
+    
+    #??? [Come forward into the light]
+    unknown "Have you guys seen a dog?"
+
+    # DONOVAN (non-verbal) [confused]
+
+    # ETHAN [confused]
+    ethan "A dog...?"
+    
+    # chat "Shocked faces"
+    
+    # DONOVAN [still confused]
+    dono "No, we haven't seen one."
+    
+    # ETHAN [inquisitive]
+    ethan "Is that why you guys are here?"
+    
+    #??? [gloomy looking]
+    unknown "We're looking for Chips, our dog. We lost him. Did you guys see the posters?"
+
+    unknown "The ones at the front. That's us. That's Chips."
+
+    # ETHAN [more confused]
+    ethan "We didn't see those either. Sorry."
+
+
+    chat "dog emojis"
+
+    # ??? [gloomy one other speaks up]
+    unknown "We put them up, so that people would see."
+
+    # ETHAN [matter of factly]
+
+    Ethan: "We didn't."
+
+    # ??? [frustrated]
+    
+    unknown "Mmmph."
+    
+    # DONOVAN [concerned]
+    dono "Is there any way we can help?"
+
+    chat "Psy love"
+    
+    # ETHAN [Shoots Donovan a confused glance]
+    
+    # ??? [gloomy]
+    unknown "We'd appreciate if you guys looked for him. Maybe...help us find him?"  
+    unknown "We've been trying for the past week and..."
+    
+    # ETHAN [matter of factly]
+    
+    ethan "Woah, woah, woah, woah, woah!"
+    ethan "A week? That's a long time to have not seen your dog. Are you sure he's not..."
+
+    # 12:12
+    # DONOVAN [Frustrated looking at Ethan]
+    dono "Ethan! Bruh."
+    
+    # [Sympathetic look]
+    dono "I'm sorry about him, he clearly has no filter."
+
+    CHAT "blows up, some mad some not"
+    
+    # ETHAN (non-verbal) [looks a bit disgruntle]
+    
+    # DONOVAN [Ignores Ethan, smiles]
+    dono "If you guys need help, we can totally help you."
+    
+    # [big toothy smile]
+    dono "We've got you!"
+
+    # CHAT [Swoons over Donovan]
+
+    # ETHAN (non-verbal) [face straightens out]
+
+    # ??? [relief]
+    unknown "Really?"
+    unknown "We've been looking everywhere. You have no idea how much this means!"
+    unknown "Oh, thank you."
+
+    #DONOVAN[Smiles]
+    
+    dono "No problem! I'm Donovan by the way. He's Ethan."
+    
+    chat "psy love"
+
+    # DONNA [Smiles back but still looks weathered]
+    
+    donna "I'm Donna, she's Wendy. You already know Chips."
+
+    # DONOVAN [smiling]
+    
+    Donovan: "Well, let's go
+    find him. Let's go find Chips!"
+
+    # ETHAN [exhasperated]
+    
+    ethan "Then we can get back to our buisness..."
+    
+    chat "some love ethan's cattiness"
+
+    # WENDY [a little optimistic but more guarded]
+    
+    wendy "The last time we saw him was around the lake."
+
+    # DONOVAN [smiles]
+    
+    dono "Cool."
+    dono "Where's that at?"
+
+    chat "lake & lochness monster"
+
+    # DONNA [a little optimistic as well]
+    donna "It's back that way, and a little to the North. We'll show you."
+
+    # ETHAN [little flustered]
+    ethan "Lead the way..."
+    
+    chat "blows up for adventure, finding dog, gogogo]"
+    # 12:13
