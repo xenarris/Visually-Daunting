@@ -10,6 +10,7 @@ define wendy = Character("Wendy")
 define donna = Character("Donna")
 define chat = Character("Chat")
 define unknown = Character("???")
+define chips = Character("Chips")
 
 #Initialize things here 
 #(Ren'py reads everything as a giant file according to the internet)
@@ -295,10 +296,6 @@ label lb_mushroom_hunting_sw_intersection:
             $ went_recreation_area = 1
             jump lb_mushroom_hunting_recreation
 
-    
-    "[[debug] Will now restart/jump back to mushroom_hunting label"
-    jump lb_mushroom_hunting
-
 label lb_mushroom_hunting_lakeside:
 
     scene bg laptop_overlay as overlay
@@ -427,9 +424,7 @@ label lb_mushroom_hunting_lakeside:
     #12:13
     #jump to next part
 
-
-    "[[debug] Will now restart/jump back to mushroom_hunting label"
-    jump lb_mushroom_hunting
+    jump lb_mushroom_hunting_lake_act1_ending_scene
 
 label lb_mushroom_hunting_recreation:
 
@@ -581,8 +576,7 @@ label lb_mushroom_hunting_recreation:
     #CHAT [Blows up about dog, fired up] (Only advances afteradding a response.)
     # 12:13
     
-    "[[debug] Will now restart/jump back to mushroom_hunting label"
-    jump lb_mushroom_hunting
+    jump lb_mushroom_hunting_lake_act1_ending_scene
 
 label lb_mushroom_hunting_recreation_no_bulletin:
 
@@ -623,7 +617,6 @@ label lb_mushroom_hunting_recreation_no_bulletin:
     # ETHAN [more confused]
     ethan "We didn't see those either. Sorry."
 
-
     chat "dog emojis"
 
     # ??? [gloomy one other speaks up]
@@ -631,7 +624,7 @@ label lb_mushroom_hunting_recreation_no_bulletin:
 
     # ETHAN [matter of factly]
 
-    Ethan: "We didn't."
+    ethan "We didn't."
 
     # ??? [frustrated]
     
@@ -691,8 +684,7 @@ label lb_mushroom_hunting_recreation_no_bulletin:
 
     # DONOVAN [smiling]
     
-    Donovan: "Well, let's go
-    find him. Let's go find Chips!"
+    dono "Well, let's go find him. Let's go find Chips!"
 
     # ETHAN [exhasperated]
     
@@ -719,3 +711,296 @@ label lb_mushroom_hunting_recreation_no_bulletin:
     
     chat "blows up for adventure, finding dog, gogogo]"
     # 12:13
+
+    jump lb_mushroom_hunting_lake_act1_ending_scene
+
+label lb_mushroom_hunting_lake_act1_ending_scene:
+    # EXT. OUTTER LAKE NE JUNCTION - NIGHT - [HAVE MET D&W]
+    
+    # This scene joins all extensions, leading to the attack from Chips the missing dog.  It breaks up into three parts (before the attack chatter) (the attack) and (the decision path).  From there, it breaks up into another three parts, all of which lead to doom but in differing ways.  Afterwards you stay and fight or you run a) People choose to help and get attacked.  Camera falls and shows cowering Donna as the blood pools.  b) You tell the character to run c) (stretch) tell them to help Donna
+    # ======
+    # 12:13
+    
+    # DONNA [Frowning] 
+    donna "Chips ran off on us up here..."
+    donna "You know, I know what you're thinking, but we're good moms.  We never expected he'd would run off like this."
+    # (Non-verbal)[Back to frowning]
+
+    # WENDY [Frowning] 
+    wendy "When we first got him, Chips was afraid of his own shadow."
+
+    # CHAT [Sends dog emojis]
+    # DONNA [Smiling] 
+    donna "Hell, I once farted and he took off running."
+    # (non-verbal)[Back to frowning]
+
+    # WENDY [Sad] 
+    wendy "We trained him, took him to a specialist.  Bought him this harness.  Was supposed to be good for anxious dogs."
+        
+    # DONNA [Looking @Wendy] 
+    donna "You know dogs, you never know what's going to trigger them."
+        
+    # DONOVAN [Concern]
+    dono "How did he got lost?"
+
+    # ETHAN [Flustered]
+    ethan "Yes, how did you guys lose Chips?"
+        
+    # CHAT [Detective emoji stuffs - whatever]
+
+    # DONNA [Frowning still] 
+    donna "We took him here, because it's a lot calmer than most places."
+
+    # WENDY [Sad] 
+    wendy "With the training and everything, his behavior had changed drastically. We just wanted to be safe."
+        
+    # DONNA [Frowning] 
+    donna "One of the things you can't do here is skateboard."
+        
+    # ETHAN [Straight faced] 
+    ethan "Another thing you can't do is be in this park after dark. And we're all breaking that rule."
+        
+    # DONNA [Frowining] 
+    donna "Exactly, people break the rules. I don't know why we thought otherwise. We fucked up."
+        
+    # 12:14
+        
+    # CHAT [Chat freaks out - shocked/sad]
+        
+    # DONOVAN (non-verbal) [Sad]
+        
+    # ETHAN (non-verbal) [Sad]
+        
+    # DONNA (non-verbal) [Sad]
+
+    # WENDY [Sad] 
+    wendy "There was a skateboarder. He got scared."
+        
+    # DONNA [Frustrated] 
+    donna "The wheels must have freaked him out or something.  I don't know."
+
+    # WENDY [Crying] 
+    wendy "I was holding him that day.  I had the leash."
+    wendy"He got scared and started to pull.  He kept pulling, and I wasn't strong enough to fight him. I fell."
+
+    # DONNA [Sad] 
+    donna "I'm trying to save her, and while I'm doing that he's already bolted."
+
+    # WENDY [Crying] 
+    wendy "The leash fell out of my hand. He got so scared he just ran. He went to hide in the woods."
+
+    # DONNA [Frustrated] 
+    donna "We looked for him. We couldn't stop."
+    donna "They had to kick us out. We waited in the car until there was nobody left, and went right back out."
+        
+    # WENDY [sad] 
+    wendy "We keep coming back, every day. We hung those posters too. In the hopes someone had seen Chips. That they could maybe bring him home."
+        
+    # CHAT [Crying sad wah, wah messages]
+        
+    # ETHAN [Sympathetic] 
+    ethan "Who even skateboards in the middle of winter? What is wrong with people?"
+        
+    # DONOVAN [Frustrated] 
+    dono "I don't know bro, but let's set this right."
+
+    # 12:15
+    # ****
+        
+    # (Sudden ruffle in the bushes. Everyone turns to look.)
+
+    # [We're getting PEAK zombie dog here]
+
+    # (Camera cuts to bushes)
+    # (Rustling continues - Bushes cut to shadow)
+
+    # (Shadow cuts to zombie Chips appearing. Looking all mangled and nasty.)
+
+    # *****
+        
+    # ETHAN (non-verbal) [disgusted]
+    # DONOVAN (non-verbal) [confused]
+    # DONNA (non-verbal) [disgusted]
+    # CHAT [freaking out, puking, grossed out]
+    # WENDY [Shocked] 
+    wendy "Ch-Chips...?"
+
+    # ****
+    # (Not sure if Chips is off-screen or everyone has moved to one side w/ Chips on the other - pushed as far as they can go and very close together.)
+    # ******
+
+    # CHIPS [Zombie stare] 
+    chips "Rrrrrrrr..."
+
+    # DONNA [Scared] 
+    donna "Wendy, I-I-I-I..."
+    donna "I-I don't think Chips is alright."
+        
+    # ETHAN [Scared] 
+    ethan "That dog is not okay!"
+        
+    # WENDY [Happy face] 
+    wendy "Chips, baby. Come here. Come on. We've got you. Come!"
+    wendy "Chips!"
+        
+    # DONOVAN [Scared] 
+    dono "Woah...!"
+        
+    # ****
+    # (Chips suddenly attacks Wendy who has crept closer and closer to the zombie dog. Jumping up, knocking her down again (with his weight) and biting on to her neck as she falls. Blood splurts everywhere, everyone instantly is shocked)
+
+    # (Dog stands on top of Wendy and vomits black substance from mouth all over her face. In an instant the dog runs back off into the woods.)
+    # *******
+        
+    # 12:16
+        
+    # CHAT [some shocked, some laughing, some calling it fake, some saying call the cops]
+        
+    # WENDY [In shock] 
+    wendy "...ghhhk...ghkk..."
+        
+    # DONOVAN [Freaked out] 
+    dono "Oh fuck, oh fuck!"
+        
+    # ETHAN [Freaking out] 
+    ethan "Holy shit, oh-my-god!"
+    
+    # ****
+    # (Ethan starts clawing the gunk off her face.)
+
+    # (Donna has shut down, she collapses to the ground in total non-responsive shock.)
+
+    # (Within seconds, Wendy changes hands on Ethans head, biting off a portion of his cheek.)
+    # *******
+        
+    # WENDY [Enraged] 
+    wendy "Rrrraeeee!"
+    
+    # ETHAN [Shocked] 
+    ethan "Aughhhh! Oh-my-god, oh-my-god. What the fuck! Ughhh..."
+    
+    # ****
+    # (As Ethan attempts to get up and run Wendy takes this moment to grab on to his shoulders and bite into his neck. His eyes go wide, as he breathes his last breath.)
+    # ******
+        
+    # DONOVAN [Insanely terrified] 
+    dono "Dude, Ethan. Bro. What? Fuck!"
+    dono "Donna. Donna, come on. We've got to go. Donna. Get up. Fuck!"
+        
+    # ****
+    # (Donovan tries to pull Donna up but she doesn't respond. Wendy stands up.)
+    # ******
+        
+    # 12:17
+        
+    # DONOVAN [Crying scared] 
+    dono "Fuck man, what do I do? Fuck. Please...!"
+        
+    # USER
+    # [Option 1] FIGHT!111!!!1!!!
+    # [Option 2] HELP DONNA!!!
+    # [Option 3] GET OUT OF THERE
+    # ****
+    # (At this point depending on what the user chooses it sets up three different endings.)
+    # *****
+    # ****
+        
+    menu :
+        dono ""
+        "FIGHT!111!!!1!!!":
+            # Option 1
+            jump lb_mushroom_hunting_act1_end1
+        "HELP DONNA!!!":
+            # Option 2
+            jump lb_mushroom_hunting_act1_end2
+        "GET OUT OF THERE":
+            # Option 3
+            jump lb_mushroom_hunting_act1_end3
+
+label lb_mushroom_hunting_act1_end1:
+    # [Option 1] 
+    # (Donovan's skull gets crushed)
+        
+    # DONOVAN [Scared but more aware] 
+    dono "Fight...! Yeah. I should do that.  What the fuck. Okay."
+
+    # [Scared] 
+    dono "I've got my knife. I'm going to fuck her up."
+
+    # [Angry] 
+    dono "Yargh! Fuck you, fuck you! Fuck!"
+
+    # ****
+    # (Donovan kicks Wendy back with his boot and stabs her in her head. Wendy collapses.)
+    # ******
+    
+    # DONOVAN [Aggressive, Happy & Blood Covered] 
+    dono "Yeah, fuck! Fuck you. Fuck!"
+
+    # [Sad holding back tears]
+    dono "Man, Ethan, man. Fuck!"
+    
+    # *****
+    # (At this moment Chips appears out of nowhere again, lunging high and opening his jaw biting on to Donovan's entire head.)
+    # ******
+    
+    # [Confused]
+    dono "Uuh. Wuhh...wooo?"
+    
+    # ****
+    # (Ethan collapses. The camera focusing on the dog's backside. Black begins to cover the lens (the goo). Chat is blowing up. Give it 4 seconds - and shut it down automatically on the 5th.)
+    # 12:18
+
+label lb_mushroom_hunting_act1_end2:
+    # [Option 2] (Donovan is going to get murdercycled here)
+    
+    # DONOVAN
+    # [Upset] 
+    dono "Donna, Donna. Come on! We need to go, please! Get up!"
+    dono "Donna, please! Fuck! What the fuck, man! Fuck."
+    
+    # ****
+    # (Ethan sits up with Wendy standing. They both start walking towards them.)
+    # ******
+    # DONOVAN
+    # [Freaking out] 
+    dono "Ethan, bro. The fuck!? What the fuck, what the fuck!"
+
+    dono "Fuck, man. Donna! Please! We gotta go...! Fuck!"
+    
+    # ****
+
+    # (Shows Donovan trying to drag comatose Donna as he suddenly gets charged by the two. The camera falls and just shows Donna lit up and empty. Black goo slides on the ground. Mods cut in, and feed ends.)
+    
+    # 12:18
+
+
+label lb_mushroom_hunting_act1_end3:  
+    # [Option 3 - Uncertain ending - Run]
+    
+    # ****
+    # (If the player tells Ethan to run all we hear is him screaming "Fuck!" as he runs, he'll make it to the car, jingle the keys, open the door and the feed will cut out b/c mods.)
+    # *****
+    
+    # DONOVAN [Scared] 
+    dono "Fuck this, I'm fucking gone!"
+    
+    # ****
+    # (Starts running, camera keeps flying in and out of his scared face as if being swayed up and down.)
+    # ******
+    
+    # DONOVAN [Scared] 
+    dono "Fuck man, Ethan, man! Fuck!"
+    
+    # ****
+    # (Keeps running and hits the car)
+    # *****
+    
+    # DONOVAN [Scared] 
+    dono "Fucking keys. Fuck. Fuck!"
+    
+    # *****
+    # (Shows door then smashes keys in. Turn door opens. Donovan gets in, at the same moment the feed cuts out. Mods shut it down.)
+    # ****
+    
+    # 12:18
