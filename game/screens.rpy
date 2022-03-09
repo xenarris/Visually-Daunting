@@ -136,7 +136,9 @@ style window:
     yalign gui.textbox_yalign
     ysize gui.textbox_height
 
-    background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
+    # Peter change here - change alignment to fit textbox
+    #background Image("gui/textbox.png", xalign=0.5, yalign=-1.0)
+    background Image("gui/textbox.png", xalign=0.075, yalign=-0.5)
 
 style namebox:
     xpos gui.name_xpos
