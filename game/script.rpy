@@ -4,13 +4,13 @@
 # name of the character.
 
 define e = Character("Eileen")
-define dono = Character("Donovan")
-define ethan = Character("Ethan")
-define wendy = Character("Wendy")
-define donna = Character("Donna")
-define chat = Character("Chat")
-define unknown = Character("???")
-define chips = Character("Chips")
+define dono = Character("Donovan:")
+define ethan = Character("Ethan:")
+define wendy = Character("Wendy:")
+define donna = Character("Donna:")
+define chat = Character("Chat:")
+define unknown = Character("???:")
+define chips = Character("Chips:")
 
 #Initialize things here 
 #(Ren'py reads everything as a giant file according to the internet)
