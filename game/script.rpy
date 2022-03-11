@@ -43,12 +43,14 @@ label splashscreen:
 label start:
 
     # To add fade between menu & start of game
+    stop music fadeout 1.0
     scene black
     pause(1)
 
-    scene bg laptop_twelve
+    scene bg laptop_twelve with fade
     pause(1.5)
 
+    play sound "audio/new_message.ogg"
     show umbrae_intro_message
     pause
 

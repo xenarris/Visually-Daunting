@@ -1,30 +1,30 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 20, in script
-    scene black
-  File "game/script.rpy", line 20, in script
-    scene black
-Exception: Scene may not run while in init phase.
+  File "game/script.rpy", line 50, in script
+    scene bg laptop_twelve fade
+Exception: Image 'bg laptop_twelve' does not accept attributes 'fade'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/bootstrap.py", line 284, in bootstrap
-    renpy.main.main()
-  File "renpy/main.py", line 557, in main
-    renpy.game.context().run(node)
-  File "game/script.rpy", line 20, in script
-    scene black
-  File "game/script.rpy", line 20, in script
-    scene black
-  File "renpy/ast.py", line 1340, in execute
-    renpy.config.scene(self.layer)
-  File "renpy/exports.py", line 825, in scene
-    raise Exception("Scene may not run while in init phase.")
-Exception: Scene may not run while in init phase.
+  File "game/script.rpy", line 50, in script
+    scene bg laptop_twelve fade
+  File "renpy/ast.py", line 1343, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "renpy/ast.py", line 1182, in show_imspec
+    atl=atl)
+  File "renpy/exports.py", line 742, in show
+    if not base.find_target() and renpy.config.missing_show:
+  File "renpy/display/image.py", line 412, in find_target
+    self.target = target._duplicate(a)
+  File "renpy/display/core.py", line 389, in _duplicate
+    args.extraneous()
+  File "renpy/display/core.py", line 266, in extraneous
+    " ".join(self.args),
+Exception: Image 'bg laptop_twelve' does not accept attributes 'fade'.
 
 Windows-10-10.0.19041
 Ren'Py 7.5.0.22030403n
 Visually Daunting 0.01
-Fri Mar 11 13:14:58 2022
+Fri Mar 11 14:02:18 2022
