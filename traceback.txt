@@ -1,30 +1,30 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 73, in script
-    show char donovan_happy at leftish
-  File "game/script.rpy", line 73, in <module>
-    show char donovan_happy at leftish
-NameError: name 'leftish' is not defined
+  File "game/script.rpy", line 20, in script
+    scene black
+  File "game/script.rpy", line 20, in script
+    scene black
+Exception: Scene may not run while in init phase.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 73, in script
-    show char donovan_happy at leftish
-  File "renpy/ast.py", line 1197, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "renpy/ast.py", line 1156, in show_imspec
-    at_list = [ renpy.python.py_eval(i) for i in at_list ]
-  File "renpy/python.py", line 2276, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "renpy/python.py", line 2269, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 73, in <module>
-    show char donovan_happy at leftish
-NameError: name 'leftish' is not defined
+  File "renpy/bootstrap.py", line 284, in bootstrap
+    renpy.main.main()
+  File "renpy/main.py", line 557, in main
+    renpy.game.context().run(node)
+  File "game/script.rpy", line 20, in script
+    scene black
+  File "game/script.rpy", line 20, in script
+    scene black
+  File "renpy/ast.py", line 1340, in execute
+    renpy.config.scene(self.layer)
+  File "renpy/exports.py", line 825, in scene
+    raise Exception("Scene may not run while in init phase.")
+Exception: Scene may not run while in init phase.
 
-Windows-10-10.0.22000
-Ren'Py 7.4.11.2266
-Visually Daunting 1.0
-Tue Feb 15 18:35:54 2022
+Windows-10-10.0.19041
+Ren'Py 7.5.0.22030403n
+Visually Daunting 0.01
+Fri Mar 11 13:14:58 2022

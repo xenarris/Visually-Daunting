@@ -2,21 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 375: expected statement.
-    ethan: "I'm Ethan, he's Donovan."
-         ^
+File "game/script.rpy", line 32: expected statement.
+    fade
+        ^
 
-File "game/script.rpy", line 379: expected statement.
-    Donovan: "Right."
-           ^
-
-File "game/script.rpy", line 397: end of line expected.
-    show wendy worried at right begind overlay
-                                ^
-
-File "game/script.rpy", line 408: expected statement.
-    ethan: "So, you guys ready?"
-         ^
-
-Ren'Py Version: Ren'Py 7.4.11.2266
-Thu Feb 17 22:19:29 2022
+Ren'Py Version: Ren'Py 7.5.0.22030403n
+Fri Mar 11 13:31:07 2022
