@@ -79,10 +79,42 @@ label gaming:
 return
 
 label sleeping:
+
+    #user
+    pause(1)
+    hide image "park/dms/umbrae1.png"
     play sound "audio/message_sent.mp3"
-    pause(.5)
-    pause(.5)
-    pause(.5)
+    show image "park/dms/umbrae13.png"
+    pause(1.5)
+    hide image "park/dms/umbrae13.png"
+    play sound "audio/message_sent.mp3"
+    show image "park/dms/umbrae14.png"
+    pause(2)
+
+    #umbrae
+    hide image "park/dms/umbrae14.png"
+    play sound "audio/message_short.mp3"
+    show image "park/dms/umbrae15.png"
+    pause(1.5)
+    hide image "park/dms/umbrae15.png"
+    play sound "audio/message_short.mp3"
+    show image "park/dms/umbrae16.png"
+    pause(1.5)
+    hide image "park/dms/umbrae16.png"
+    play sound "audio/message_short.mp3"
+    show image "park/dms/umbrae17.png"
+    pause(2.5)
+    
+    #user
+    hide image "park/dms/umbrae17.png"
+    play sound "audio/message_sent.mp3"
+    show image "park/dms/umbrae18.png"
+    pause(1.5)
+    hide image "park/dms/umbrae18.png"
+    play sound "audio/message_sent.mp3"
+    show image "park/dms/umbrae19.png"
+    pause(2.5)
+
     pause
 return
 
