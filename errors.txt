@@ -2,9 +2,11 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 32: expected statement.
-    fade
-        ^
+The label first_chat is defined twice, at File "game/script.rpy", line 66:
+    label first_chat:
+and File "game/scripts/park/first_chat.rpy", line 1:
+    label first_chat:
+
 
 Ren'Py Version: Ren'Py 7.5.0.22030403n
-Fri Mar 11 13:31:07 2022
+Fri Mar 11 15:54:15 2022

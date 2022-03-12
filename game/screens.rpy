@@ -1520,3 +1520,14 @@ style slider_vbox:
 style slider_slider:
     variant "small"
     xsize 900
+
+# To call umbrae chat button
+screen chat_nav():
+    add "images/park/assets/umbrae_intro_message.png"
+    # modal True
+
+    imagebutton auto "message_%s":
+        focus_mask True
+        hovered SetVariable("screen_tooltip","Open Chat")
+        unhovered SetVariable("screen_tooltip","")
+        action Jump("first_chat")

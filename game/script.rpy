@@ -10,10 +10,9 @@ init:
     image menu_pause = "gui/main_menu.png"
 
     ##### Flags #####
-    #false = 0, true = 1
-    $ seen_bulletin = 0
-    $ went_lakeside = 0
-    $ went_recreation_area = 0
+    $ seen_bulletin = False
+    $ went_lakeside = False
+    $ went_recreation_area = False
 
 # TODO - Figure out splash screen fix
 #### Splash Screen #####
@@ -35,24 +34,44 @@ label splashscreen:
 
     return
 
-
+# Chat notation
+#show image "park/chat/chat0.png" ypos -200 xpos 500
     
 ########################### The game starts here. ###############################
 
 ##### Park ######
 label start:
 
-    # To add fade between menu & start of game
+    # Fade in
     stop music fadeout 1.0
     scene black
     pause(1)
 
     scene bg laptop_twelve with fade
-    pause(1.5)
+    pause(1.25)
 
+    # Open Chat Alert
     play sound "audio/new_message.ogg"
-    show umbrae_intro_message
+    call screen chat_nav
+
+
+
+    # Pop open button
+    # screen jump_to_first_chat:
+
+    #     frame:
+    #         xpadding 40
+    #         ypadding 20
+    #         xalign 0.5
+    #         yalign 0.5
+    #         textbutton "open chat" action [ToggleScreen("jump_to_first_chat"), Jump("first_chat")]
+
+    # call screen jump_to_first_chat
+
     pause
+
+
+            
 
 return
 
