@@ -1,42 +1,62 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-IOError: Couldn't find file 'audio/menu.ogg'.
+While loading <'Image' u'park/dms/umbrae5.png'>:
+  File "game/scripts/park/first_chat.rpy", line 33, in script
+    pause(1.5)
+  File "renpy/common/000statements.rpy", line 453, in execute_pause
+    renpy.pause(delay)
+IOError: Couldn't find file 'park/dms/umbrae5.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
-    python hide:
-  File "renpy/ast.py", line 928, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "renpy/python.py", line 2245, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in <module>
-    python hide:
-  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in _execute_python_hide
-    ui.interact()
+  File "game/scripts/park/first_chat.rpy", line 33, in script
+    pause(1.5)
+  File "renpy/ast.py", line 2015, in execute
+    self.call("execute")
+  File "renpy/ast.py", line 2003, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "renpy/statements.py", line 278, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 453, in execute_pause
+    renpy.pause(delay)
+  File "renpy/exports.py", line 1563, in pause
+    rv = renpy.ui.interact(mouse='pause', type='pause', roll_forward=roll_forward, pause=delay)
   File "renpy/ui.py", line 298, in interact
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "renpy/display/core.py", line 3325, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 4025, in interact_core
-    renpy.audio.audio.periodic()
-  File "renpy/audio/audio.py", line 1162, in periodic
-    raise_(exc[0], exc[1], exc[2])
-  File "renpy/audio/audio.py", line 1140, in periodic_thread_main
-    periodic_pass()
-  File "renpy/audio/audio.py", line 1082, in periodic_pass
-    c.periodic()
-  File "renpy/audio/audio.py", line 518, in periodic
-    topf = load(filename)
-  File "renpy/audio/audio.py", line 69, in load
-    rv = renpy.loader.load(fn)
-  File "renpy/loader.py", line 798, in load
-    raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'audio/menu.ogg'.
+  File "renpy/display/core.py", line 3839, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "renpy/display/core.py", line 2565, in draw_screen
+    renpy.config.screen_height,
+  File "render.pyx", line 492, in renpy.display.render.render_screen
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/layout.py", line 826, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/layout.py", line 826, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/layout.py", line 826, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/transform.py", line 733, in render
+    return transform_render(self, width, height, st, at)
+  File "accelerator.pyx", line 187, in renpy.display.accelerator.transform_render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/im.py", line 625, in render
+    return cache.get(self, render=True)
+  File "renpy/display/im.py", line 287, in get
+    surf = image.load()
+  File "renpy/display/im.py", line 706, in load
+    raise e
+IOError: Couldn't find file 'park/dms/umbrae5.png'.
 
 Windows-10-10.0.22000
 Ren'Py 7.4.11.2266
 Visually Daunting 0.01
-Fri Mar 11 21:23:04 2022
+Fri Mar 11 22:59:03 2022

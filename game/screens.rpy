@@ -1524,10 +1524,22 @@ style slider_slider:
 # To call umbrae chat button
 screen chat_nav():
     add "images/park/assets/umbrae_intro_message.png"
-    # modal True
 
-    imagebutton auto "message_%s":
+    imagebutton auto "message_%s.png":
         focus_mask True
-        hovered SetVariable("screen_tooltip","Open Chat")
-        unhovered SetVariable("screen_tooltip","")
         action Jump("first_chat")
+
+# Umbrae first chat Screens
+screen chat_choice01():
+
+    imagebutton auto "park/dms/gaming_%s.png":
+        focus_mask True
+        action Jump("gaming")
+
+    imagebutton auto "park/dms/sleeping_%s.png":
+        focus_mask True
+        action Jump("sleeping")
+
+    imagebutton auto "park/dms/working_%s.png":
+        focus_mask True
+        action Jump("working")

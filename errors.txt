@@ -2,11 +2,9 @@
 errors listed below, and try again.
 
 
-The label first_chat is defined twice, at File "game/script.rpy", line 66:
-    label first_chat:
-and File "game/scripts/park/first_chat.rpy", line 1:
-    label first_chat:
+File "game/screens.rpy", line 1546: expected a keyword argument, colon, or end of line.
+    imagebutton "images/park/assets/dms/choice0_working":
+                ^
 
-
-Ren'Py Version: Ren'Py 7.5.0.22030403n
-Fri Mar 11 15:54:15 2022
+Ren'Py Version: Ren'Py 7.4.11.2266
+Fri Mar 11 22:20:16 2022
