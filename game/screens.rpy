@@ -1530,7 +1530,7 @@ screen chat_nav():
         action Jump("first_chat")
 
 # Umbrae first chat Screens
-screen chat_choice01():
+screen chat_choice0():
 
     imagebutton auto "park/dms/gaming_%s.png":
         focus_mask True
@@ -1543,3 +1543,9 @@ screen chat_choice01():
     imagebutton auto "park/dms/working_%s.png":
         focus_mask True
         action Jump("working")
+        
+# To join first stream
+screen stream_join0():
+    imagebutton auto "watch_%s.png":
+        focus_mask True
+        action Jump("park_stream")

@@ -34,9 +34,6 @@ label splashscreen:
     with Pause(.5)
 
     return
-
-# Chat notation
-#show image "park/chat/chat0.png" ypos -200 xpos 500
     
 ########################### The game starts here. ###############################
 

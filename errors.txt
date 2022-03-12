@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 1546: expected a keyword argument, colon, or end of line.
-    imagebutton "images/park/assets/dms/choice0_working":
-                ^
+File "game/screens.rpy", line 1549: u'hide' is not a keyword argument or valid child for the screen statement.
+    hide image "watch_idle.png"
+        ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Fri Mar 11 22:20:16 2022
+Sat Mar 12 01:36:57 2022

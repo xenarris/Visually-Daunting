@@ -13,7 +13,7 @@ label first_chat:
     hide image "park/dms/umbrae0.png"
     show image "park/dms/umbrae1.png"
     pause(1.75)
-    call screen chat_choice01
+    call screen chat_choice0
     pause
 
 return
@@ -73,7 +73,7 @@ label gaming:
     hide image "park/dms/umbrae11.png"
     play sound "audio/message_sent.mp3"
     show image "park/dms/umbrae12.png"
-    pause
+    jump join_park_stream
 return
 
 label sleeping:
@@ -111,7 +111,7 @@ label sleeping:
     hide image "park/dms/umbrae18.png"
     play sound "audio/message_sent.mp3"
     show image "park/dms/umbrae19.png"
-    pause
+    jump join_park_stream
 return
 
 label working:
@@ -140,5 +140,25 @@ label working:
     hide image "park/dms/umbrae23.png"
     play sound "audio/message_sent.mp3"
     show image "park/dms/umbrae24.png"
+    jump join_park_stream
+return
+
+# All roads lead here
+label join_park_stream:
+    pause(3)
+
+    #First round of messages
+    hide image "park/dms/umbrae12.png"
+    hide image "park/dms/umbrae19.png"
+    hide image "park/dms/umbrae24.png"
+    play sound "audio/message_short.mp3"
+    show image "park/dms/umbrae25.png"
+    show image "watch_idle.png"
+    pause(1.5)
+    hide image "park/dms/umbrae25.png"
+    play sound "audio/message_short.mp3"
+    show image "park/dms/umbrae26.png"
+    call screen stream_join0
     pause
+
 return
