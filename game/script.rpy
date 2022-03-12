@@ -8,13 +8,14 @@ init:
     image logo = "dirty_rotten.png"
     image warning = "explicit_content.png"
     image menu_pause = "gui/main_menu.png"
+    image bg wizcord = "bg wizcord.png"
+    image bg wizcord_choice = "bg wizcord_choice.png"
 
     ##### Flags #####
     $ seen_bulletin = False
     $ went_lakeside = False
     $ went_recreation_area = False
 
-# TODO - Figure out splash screen fix
 #### Splash Screen #####
 label splashscreen:
     scene black
@@ -51,27 +52,9 @@ label start:
     pause(1.25)
 
     # Open Chat Alert
-    play sound "audio/new_message.ogg"
+    play sound "audio/new_message.mp3"
     call screen chat_nav
-
-
-
-    # Pop open button
-    # screen jump_to_first_chat:
-
-    #     frame:
-    #         xpadding 40
-    #         ypadding 20
-    #         xalign 0.5
-    #         yalign 0.5
-    #         textbutton "open chat" action [ToggleScreen("jump_to_first_chat"), Jump("first_chat")]
-
-    # call screen jump_to_first_chat
-
     pause
-
-
-            
 
 return
 
