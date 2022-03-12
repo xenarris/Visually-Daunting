@@ -305,7 +305,7 @@ screen navigation():
 
             #textbutton _("Start") action Start()
 
-            imagebutton auto "gui/mm_start_%s.png" xpos 709 ypos 548 focus_mask True action Start()
+            imagebutton auto "gui/mm_start_%s.png" xpos 717 ypos 547 focus_mask True action Start()
 
         else:
 
