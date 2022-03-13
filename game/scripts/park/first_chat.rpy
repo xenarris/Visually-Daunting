@@ -150,6 +150,10 @@ label join_park_stream:
     hide image "park/dms/umbrae12.png"
     hide image "park/dms/umbrae19.png"
     hide image "park/dms/umbrae24.png"
+
+    scene bg wizcord_stream_ease
+    pause(.3)
+
     play sound "audio/message_short.mp3"
     show image "park/dms/umbrae25.png"
     show image "watch_idle.png"

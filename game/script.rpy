@@ -10,6 +10,7 @@ init:
     image menu_pause = "gui/main_menu.png"
     image bg wizcord = "bg wizcord.png"
     image bg wizcord_choice = "bg wizcord_choice.png"
+    image bg wizcord_stream_ease = "bg wizcord_stream_ease.png"
 
     ##### Flags #####
     $ seen_bulletin = False
@@ -42,8 +43,11 @@ label start:
 
     # Fade in
     stop music fadeout 1.0
+    pause(2)
     scene black
-    pause(1)
+    show image "images/park/assets/actI.png" with dissolve
+    pause(5)
+    scene black with dissolve
     
     play music "audio/laptop_boot1.mp3" fadein 1.0
     scene bg laptop_twelve with fade

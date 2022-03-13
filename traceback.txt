@@ -1,28 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/scripts/park/park_stream_start.rpy", line 195, in script
-    scene bg stream_switch with dissolve(.1)
-TypeError: 'Dissolve' object is not callable
+  File "game/scripts/park/first_chat.rpy", line 154, in script
+    scene bg wizcord_stream_ease with fadein
+  File "game/scripts/park/first_chat.rpy", line 154, in <module>
+    scene bg wizcord_stream_ease with fadein
+NameError: name 'fadein' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scripts/park/park_stream_start.rpy", line 195, in script
-    scene bg stream_switch with dissolve(.1)
-  File "renpy/ast.py", line 1443, in execute
-    renpy.exports.with_statement(trans, paired)
-  File "renpy/exports.py", line 1684, in with_statement
-    return renpy.game.interface.do_with(trans, paired, clear=clear)
-  File "renpy/display/core.py", line 2762, in do_with
-    clear=clear)
-  File "renpy/display/core.py", line 3325, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 3676, in interact_core
-    new_widget=layers_root)
-TypeError: 'Dissolve' object is not callable
+  File "game/scripts/park/first_chat.rpy", line 154, in script
+    scene bg wizcord_stream_ease with fadein
+  File "renpy/ast.py", line 1439, in execute
+    paired = renpy.python.py_eval(self.paired)
+  File "renpy/python.py", line 2276, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "renpy/python.py", line 2269, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/scripts/park/first_chat.rpy", line 154, in <module>
+    scene bg wizcord_stream_ease with fadein
+NameError: name 'fadein' is not defined
 
 Windows-10-10.0.22000
 Ren'Py 7.4.11.2266
 Visually Daunting 0.01
-Sat Mar 12 20:57:42 2022
+Sat Mar 12 21:15:02 2022
