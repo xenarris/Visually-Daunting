@@ -4,7 +4,7 @@
 #(Ren'py reads everything as a giant file according to the internet)
 init:
 
-    ##### Game Assets #####
+    ##### Global Game Assets #####
     image logo = "dirty_rotten.png"
     image warning = "explicit_content.png"
     image menu_pause = "gui/main_menu.png"
@@ -44,7 +44,8 @@ label start:
     stop music fadeout 1.0
     scene black
     pause(1)
-
+    
+    play music "audio/laptop_boot1.mp3" fadein 1.0
     scene bg laptop_twelve with fade
     pause(1.25)
 

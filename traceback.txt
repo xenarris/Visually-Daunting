@@ -1,62 +1,34 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' u'park/dms/umbrae5.png'>:
-  File "game/scripts/park/first_chat.rpy", line 33, in script
-    pause(1.5)
-  File "renpy/common/000statements.rpy", line 453, in execute_pause
-    renpy.pause(delay)
-IOError: Couldn't find file 'park/dms/umbrae5.png'.
+While running game code:
+  File "game/scripts/park/park_stream_start.rpy", line 59, in script
+    call screen tutorial_2
+  File "renpy/common/000statements.rpy", line 569, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+Exception: Screen tutorial_2 is not known.
+
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scripts/park/first_chat.rpy", line 33, in script
-    pause(1.5)
+  File "game/scripts/park/park_stream_start.rpy", line 59, in script
+    call screen tutorial_2
   File "renpy/ast.py", line 2015, in execute
     self.call("execute")
   File "renpy/ast.py", line 2003, in call
     return renpy.statements.call(method, parsed, *args, **kwargs)
   File "renpy/statements.py", line 278, in call
     return method(parsed, *args, **kwargs)
-  File "renpy/common/000statements.rpy", line 453, in execute_pause
-    renpy.pause(delay)
-  File "renpy/exports.py", line 1563, in pause
-    rv = renpy.ui.interact(mouse='pause', type='pause', roll_forward=roll_forward, pause=delay)
-  File "renpy/ui.py", line 298, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "renpy/display/core.py", line 3325, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 3839, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "renpy/display/core.py", line 2565, in draw_screen
-    renpy.config.screen_height,
-  File "render.pyx", line 492, in renpy.display.render.render_screen
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 826, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 826, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 826, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/transform.py", line 733, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 187, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/im.py", line 625, in render
-    return cache.get(self, render=True)
-  File "renpy/display/im.py", line 287, in get
-    surf = image.load()
-  File "renpy/display/im.py", line 706, in load
-    raise e
-IOError: Couldn't find file 'park/dms/umbrae5.png'.
+  File "renpy/common/000statements.rpy", line 569, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "renpy/exports.py", line 3131, in call_screen
+    show_screen(_screen_name, _transient=True, *args, **kwargs)
+  File "renpy/display/screen.py", line 1131, in show_screen
+    raise Exception("Screen %s is not known.\n" % (name[0],))
+Exception: Screen tutorial_2 is not known.
+
 
 Windows-10-10.0.22000
 Ren'Py 7.4.11.2266
 Visually Daunting 0.01
-Fri Mar 11 22:59:03 2022
+Sat Mar 12 17:30:26 2022
