@@ -19,20 +19,21 @@ init:
 
 #### Splash Screen #####
 label splashscreen:
-    scene black
+    scene black with fade
     with Pause(.25)
 
-    show logo with fade
-    with Pause(2)
+    show logo with dissolve
+    with Pause(3.5)
 
-    show warning
-    with Pause(3)
+    scene black with fade
+    show warning with fade
+    with Pause(7.5)
 
     scene black with dissolve
     with Pause(.75)
 
-    show menu_pause
-    with Pause(.5)
+    show menu_pause with fade
+    with Pause(1)
 
     return
     

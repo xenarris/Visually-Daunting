@@ -1,28 +1,34 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/scripts/park/first_chat.rpy", line 154, in script
-    scene bg wizcord_stream_ease with fadein
-  File "game/scripts/park/first_chat.rpy", line 154, in <module>
-    scene bg wizcord_stream_ease with fadein
-NameError: name 'fadein' is not defined
+  File "renpy/common/00start.rpy", line 233, in script call
+    call _splashscreen from _call_splashscreen_1
+  File "game/script.rpy", line 35, in script
+    show menu_pause fade
+Exception: Image 'menu_pause' does not accept attributes 'fade'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scripts/park/first_chat.rpy", line 154, in script
-    scene bg wizcord_stream_ease with fadein
-  File "renpy/ast.py", line 1439, in execute
-    paired = renpy.python.py_eval(self.paired)
-  File "renpy/python.py", line 2276, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "renpy/python.py", line 2269, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/scripts/park/first_chat.rpy", line 154, in <module>
-    scene bg wizcord_stream_ease with fadein
-NameError: name 'fadein' is not defined
+  File "renpy/common/00start.rpy", line 233, in script call
+    call _splashscreen from _call_splashscreen_1
+  File "game/script.rpy", line 35, in script
+    show menu_pause fade
+  File "renpy/ast.py", line 1197, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "renpy/ast.py", line 1167, in show_imspec
+    atl=atl)
+  File "renpy/exports.py", line 742, in show
+    if not base.find_target() and renpy.config.missing_show:
+  File "renpy/display/image.py", line 409, in find_target
+    self.target = target._duplicate(a)
+  File "renpy/display/core.py", line 390, in _duplicate
+    args.extraneous()
+  File "renpy/display/core.py", line 271, in extraneous
+    " ".join(self.args),
+Exception: Image 'menu_pause' does not accept attributes 'fade'.
 
 Windows-10-10.0.22000
 Ren'Py 7.4.11.2266
 Visually Daunting 0.01
-Sat Mar 12 21:15:02 2022
+Sat Mar 12 21:42:15 2022
