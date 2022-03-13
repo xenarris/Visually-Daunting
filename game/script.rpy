@@ -4,6 +4,19 @@
 #(Ren'py reads everything as a giant file according to the internet)
 init:
 
+    ##### Positions #####
+    $ zero = Position(xpos=0.0, xanchor='center')
+    $ one = Position(xpos=0.1, xanchor='center')
+    $ two = Position(xpos=0.2, xanchor='center')
+    $ three = Position(xpos=0.3, xanchor='center')
+    $ four = Position(xpos=0.4, xanchor='center')
+    $ five = Position(xpos=0.5, xanchor='center')
+    $ six = Position(xpos=0.6, xanchor='center')
+    $ seven = Position(xpos=0.7, xanchor='center')
+    $ eight = Position(xpos=0.8, xanchor='center')
+    $ nine = Position(xpos=0.9, xanchor='center')
+    $ ten = Position(xpos=1.0, xanchor='center')
+                    
     ##### Global Game Assets #####
     image logo = "dirty_rotten.png"
     image warning = "explicit_content.png"

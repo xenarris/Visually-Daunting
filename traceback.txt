@@ -1,19 +1,15 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "renpy/common/00start.rpy", line 233, in script call
-    call _splashscreen from _call_splashscreen_1
-  File "game/script.rpy", line 35, in script
-    show menu_pause fade
-Exception: Image 'menu_pause' does not accept attributes 'fade'.
+  File "game/scripts/park/park_intro.rpy", line 6, in script
+    show donovan forward_smile xpos .1
+Exception: Image 'donovan forward_smile' does not accept attributes 'xpos .1'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/00start.rpy", line 233, in script call
-    call _splashscreen from _call_splashscreen_1
-  File "game/script.rpy", line 35, in script
-    show menu_pause fade
+  File "game/scripts/park/park_intro.rpy", line 6, in script
+    show donovan forward_smile xpos .1
   File "renpy/ast.py", line 1197, in execute
     show_imspec(self.imspec, atl=getattr(self, "atl", None))
   File "renpy/ast.py", line 1167, in show_imspec
@@ -26,9 +22,9 @@ Full traceback:
     args.extraneous()
   File "renpy/display/core.py", line 271, in extraneous
     " ".join(self.args),
-Exception: Image 'menu_pause' does not accept attributes 'fade'.
+Exception: Image 'donovan forward_smile' does not accept attributes 'xpos .1'.
 
 Windows-10-10.0.22000
 Ren'Py 7.4.11.2266
 Visually Daunting 0.01
-Sat Mar 12 21:42:15 2022
+Sat Mar 12 23:51:45 2022

@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/scripts/park/park_stream_start.rpy", line 195: end of line expected.
-    scene bg stream_switch with dissolve squares
-                                         ^
+File "game/scripts/park/park_intro.rpy", line 6: end of line expected.
+    show donovan forward_smile with dissolve at one
+                                             ^
+
+File "game/scripts/park/park_intro.rpy", line 8: end of line expected.
+    show ethan forward_wave with dissolve at two
+                                          ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Sat Mar 12 20:58:02 2022
+Sun Mar 13 00:24:48 2022

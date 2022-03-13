@@ -1543,7 +1543,7 @@ screen chat_choice0():
     imagebutton auto "park/dms/working_%s.png":
         focus_mask True
         action Jump("working")
-        
+
 # To join first stream
 screen stream_join0():
     imagebutton auto "watch_%s.png":

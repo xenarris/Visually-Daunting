@@ -141,12 +141,12 @@ label tutorial_keysmash_choice:
 
     show image "images/park/chat/chat4.png" at topright
     show image "images/park/chat/user/user9.png" at topright
-    
-    scene bg fade_out with dissolve
+
+    scene bg fade_out_mash with irisout
     show image "images/park/assets/shamz_fwitch.png"
     show image "images/park/chat/chat4.png" at topright
     show image "images/park/chat/user/user9.png" at topright
-    pause(3)
+    pause(2)
     jump tutorial_end
 return
 
@@ -162,11 +162,11 @@ label tutorial_zzz_choice:
     show image "images/park/chat/chat4.png" at topright
     show image "images/park/chat/user/user10.png" at topright
     
-    scene bg fade_out with dissolve
+    scene bg fade_out_zzz with irisout
     show image "images/park/assets/shamz_fwitch.png"
     show image "images/park/chat/chat4.png" at topright
     show image "images/park/chat/user/user10.png" at topright
-    pause(3)
+    pause(2)
     jump tutorial_end
 return
 
@@ -182,7 +182,7 @@ label tutorial_lul_choice:
     show image "images/park/chat/chat4.png" at topright
     show image "images/park/chat/user/user11.png" at topright
 
-    scene bg fade_out with irisout
+    scene bg fade_out_lul with irisout
     show image "images/park/assets/shamz_fwitch.png"
     show image "images/park/chat/chat4.png" at topright
     show image "images/park/chat/user/user11.png" at topright
@@ -192,9 +192,9 @@ return
 
 label tutorial_end:
     stop music fadeout 1.0
-    scene bg stream_switch
     scene bg park_front
     show image "images/park/assets/shamz_fwitch.png"
     show image "images/park/chat/chat5_start_stream.png" at topright
-    pause
+    
+    jump start_the_stream
 return
