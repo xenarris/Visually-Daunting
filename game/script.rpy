@@ -20,7 +20,9 @@ init:
     ##### Global Game Assets #####
     image logo = "dirty_rotten.png"
     image warning = "explicit_content.png"
-    image menu_pause = "gui/main_menu.png"
+    image menu_fade = "gui/menu_fade.png"
+    image menu_clear = "gui/menu_clear.png"
+    image menu_appear = "gui/main_menu.png"
     image bg wizcord = "bg wizcord.png"
     image bg wizcord_choice = "bg wizcord_choice.png"
     image bg wizcord_stream_ease = "bg wizcord_stream_ease.png"
@@ -45,8 +47,14 @@ label splashscreen:
     scene black with dissolve
     with Pause(.75)
 
-    show menu_pause with fade
-    with Pause(1)
+    show menu_fade with fade
+    with Pause(.2)
+
+    show menu_clear with dissolve
+    with Pause(.3)
+
+    show menu_appear with dissolve
+    with Pause(.3)
 
     return
     

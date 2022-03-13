@@ -2,7 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scripts/park/park_intro.rpy", line 62: indentation mismatch.
+File "game/script.rpy", line 25: expected 'image_name_component' not found.
+    image menu = "gui/main_menu.png"
+         ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Sun Mar 13 01:41:59 2022
+Sun Mar 13 13:36:26 2022
