@@ -10,7 +10,10 @@ define chips = Character("Chips:")
 ##### Backgrounds #####
 # Laptop Backgrounds
 image bg laptop_twelve = "/park/backgrounds/bg laptop.png"
-image bg stream_starting_placeholder = "/park/backgrounds/bg stream_starting_placeholder.png"
+image bg stream_fade = "/park/backgrounds/bg stream_starting_placeholder.png"
+image bg stream_starting = "/park/backgrounds/bg stream_starting.png"
+image bg fade_out = "/park/backgrounds/bg fade_out.png"
+image bg stream_switch = "/park/backgrounds/bg stream_switch.png"
 image bg park_front = "/park/backgrounds/bg park_front.png"
 image bg park_junction = "/park/backgrounds/bg park_junction.png"
 

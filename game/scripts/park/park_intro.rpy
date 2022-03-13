@@ -1,4 +1,4 @@
-label tutorial_end:
+label start_the_stream:
     stop music fadeout 1.0
     scene bg park_front
     show image "images/park/assets/shamz_fwitch.png"

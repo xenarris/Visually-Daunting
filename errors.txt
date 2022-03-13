@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 1591: u'action' is not a keyword argument or valid child for the screen statement.
-    action Jump("tutorial_lets_woah_choice")
-          ^
+File "game/scripts/park/park_stream_start.rpy", line 195: end of line expected.
+    scene bg stream_switch with dissolve squares
+                                         ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Sat Mar 12 17:38:46 2022
+Sat Mar 12 20:58:02 2022

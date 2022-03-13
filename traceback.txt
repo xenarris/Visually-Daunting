@@ -1,34 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/scripts/park/park_stream_start.rpy", line 59, in script
-    call screen tutorial_2
-  File "renpy/common/000statements.rpy", line 569, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-Exception: Screen tutorial_2 is not known.
-
+  File "game/scripts/park/park_stream_start.rpy", line 195, in script
+    scene bg stream_switch with dissolve(.1)
+TypeError: 'Dissolve' object is not callable
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scripts/park/park_stream_start.rpy", line 59, in script
-    call screen tutorial_2
-  File "renpy/ast.py", line 2015, in execute
-    self.call("execute")
-  File "renpy/ast.py", line 2003, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-  File "renpy/statements.py", line 278, in call
-    return method(parsed, *args, **kwargs)
-  File "renpy/common/000statements.rpy", line 569, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-  File "renpy/exports.py", line 3131, in call_screen
-    show_screen(_screen_name, _transient=True, *args, **kwargs)
-  File "renpy/display/screen.py", line 1131, in show_screen
-    raise Exception("Screen %s is not known.\n" % (name[0],))
-Exception: Screen tutorial_2 is not known.
-
+  File "game/scripts/park/park_stream_start.rpy", line 195, in script
+    scene bg stream_switch with dissolve(.1)
+  File "renpy/ast.py", line 1443, in execute
+    renpy.exports.with_statement(trans, paired)
+  File "renpy/exports.py", line 1684, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "renpy/display/core.py", line 2762, in do_with
+    clear=clear)
+  File "renpy/display/core.py", line 3325, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "renpy/display/core.py", line 3676, in interact_core
+    new_widget=layers_root)
+TypeError: 'Dissolve' object is not callable
 
 Windows-10-10.0.22000
 Ren'Py 7.4.11.2266
 Visually Daunting 0.01
-Sat Mar 12 17:30:26 2022
+Sat Mar 12 20:57:42 2022
