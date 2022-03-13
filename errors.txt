@@ -2,13 +2,7 @@
 errors listed below, and try again.
 
 
-File "game/scripts/park/park_intro.rpy", line 6: end of line expected.
-    show donovan forward_smile with dissolve at one
-                                             ^
-
-File "game/scripts/park/park_intro.rpy", line 8: end of line expected.
-    show ethan forward_wave with dissolve at two
-                                          ^
+File "game/scripts/park/park_intro.rpy", line 62: indentation mismatch.
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Sun Mar 13 00:24:48 2022
+Sun Mar 13 01:41:59 2022
