@@ -383,7 +383,7 @@ screen main_menu():
 
             #textbutton _("Start") action Start()
 
-            imagebutton auto "gui/mm_newgame_%s.png" xpos 802 ypos 531 focus_mask True action Start()
+            imagebutton auto "gui/mm_newgame_%s.png" xpos 802 ypos 523 focus_mask True action Start()
 
         else:
 
