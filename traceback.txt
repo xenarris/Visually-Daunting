@@ -1,60 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 73, in script
-    pause(2)
-  File "game/script.rpy", line 73, in script
-    pause(2)
-  File "renpy/common/000statements.rpy", line 453, in execute_pause
-    renpy.pause(delay)
-IOError: Couldn't find file 'audio/visually_daunting0.mp3'.
+  File "game/scripts/park/intro.rpy", line 191, in script
+    call screen park_or_billboard
+ScriptError: could not find label 'park_bilboard_choice'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/bootstrap.py", line 284, in bootstrap
+  File "renpy/bootstrap.py", line 331, in bootstrap
     renpy.main.main()
-  File "renpy/main.py", line 659, in main
+  File "renpy/main.py", line 662, in main
     run(restart)
-  File "renpy/main.py", line 145, in run
+  File "renpy/main.py", line 148, in run
     renpy.execution.run_context(True)
-  File "renpy/execution.py", line 923, in run_context
+  File "renpy/execution.py", line 922, in run_context
     context.run()
-  File "game/script.rpy", line 73, in script
-    pause(2)
-  File "game/script.rpy", line 73, in script
-    pause(2)
-  File "renpy/ast.py", line 2031, in execute
-    self.call("execute")
-  File "renpy/ast.py", line 2019, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-  File "renpy/statements.py", line 280, in call
-    return method(parsed, *args, **kwargs)
-  File "renpy/common/000statements.rpy", line 453, in execute_pause
-    renpy.pause(delay)
-  File "renpy/exports.py", line 1564, in pause
-    rv = renpy.ui.interact(mouse='pause', type='pause', roll_forward=roll_forward, pause=delay)
-  File "renpy/ui.py", line 298, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "renpy/display/core.py", line 3342, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 4050, in interact_core
-    renpy.audio.audio.periodic()
-  File "renpy/audio/audio.py", line 1158, in periodic
-    raise_(exc[0], exc[1], exc[2])
-  File "renpy/audio/audio.py", line 1136, in periodic_thread_main
-    periodic_pass()
-  File "renpy/audio/audio.py", line 1078, in periodic_pass
-    c.periodic()
-  File "renpy/audio/audio.py", line 517, in periodic
-    topf = load(filename)
-  File "renpy/audio/audio.py", line 69, in load
-    rv = renpy.loader.load(fn)
-  File "renpy/loader.py", line 804, in load
-    raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'audio/visually_daunting0.mp3'.
+  File "game/scripts/park/intro.rpy", line 191, in script
+    call screen park_or_billboard
+  File "renpy/script.py", line 918, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'park_bilboard_choice'.
 
-Windows-10-10.0.19041
-Ren'Py 7.5.0.22030403n
+Windows-10-10.0.22000
+Ren'Py 7.4.11.2266
 Visually Daunting 0.01
-Sun Mar 13 18:33:38 2022
+Sun Mar 13 22:22:17 2022
