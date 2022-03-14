@@ -296,16 +296,14 @@ screen navigation():
     vbox:
         style_prefix "navigation"
 
-        #xpos gui.navigation_xpos
-        #yalign 0.5
+        xpos gui.navigation_xpos
+        yalign 0.5
 
         spacing gui.navigation_spacing
 
         if main_menu:
 
-            #textbutton _("Start") action Start()
-
-            imagebutton auto "gui/mm_start_%s.png" xpos 717 ypos 547 focus_mask True action Start()
+            textbutton _("Start") action Start()
 
         else:
 
@@ -317,6 +315,7 @@ screen navigation():
 
         textbutton _("Preferences") action ShowMenu("preferences")
 
+
         if _in_replay:
 
             textbutton _("End Replay") action EndReplay(confirm=True)
@@ -326,6 +325,7 @@ screen navigation():
             textbutton _("Main Menu") action MainMenu()
 
         textbutton _("About") action ShowMenu("about")
+
 
         if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 
@@ -337,6 +337,7 @@ screen navigation():
             ## The quit button is banned on iOS and unnecessary on Android and
             ## Web.
             textbutton _("Quit") action Quit(confirm=not main_menu)
+
 
 
 style navigation_button is gui_button
@@ -364,12 +365,63 @@ screen main_menu():
     add gui.main_menu_background
 
     ## This empty frame darkens the main menu.
-    frame:
-        style "main_menu_frame"
+    #frame:
+        #style "main_menu_frame"
 
     ## The use statement includes another screen inside this one. The actual
     ## contents of the main menu are in the navigation screen.
-    use navigation
+    
+    fixed:
+        style_prefix "navigation"
+
+        #xpos gui.navigation_xpos
+        #yalign 0.5
+
+        spacing gui.navigation_spacing
+
+        if main_menu:
+
+            #textbutton _("Start") action Start()
+
+            imagebutton auto "gui/mm_newgame_%s.png" xpos 802 ypos 531 focus_mask True action Start()
+
+        else:
+
+            textbutton _("History") action ShowMenu("history")
+
+            textbutton _("Save") action ShowMenu("save")
+
+        #textbutton _("Load") action ShowMenu("load")
+        imagebutton auto "gui/mm_continue_%s.png" xpos 815 ypos 602 focus_mask True action ShowMenu("load")
+
+
+        #textbutton _("Preferences") action ShowMenu("preferences")
+        imagebutton auto "gui/mm_options_%s.png" xpos 819 ypos 672 focus_mask True action ShowMenu("preferences")
+
+
+        if _in_replay:
+
+            textbutton _("End Replay") action EndReplay(confirm=True)
+
+        elif not main_menu:
+
+            textbutton _("Main Menu") action MainMenu()
+
+        #textbutton _("About") action ShowMenu("about")
+        imagebutton auto "gui/mm_about_%s.png" xpos 818 ypos 751 focus_mask True action ShowMenu("about")
+
+
+        #if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
+
+            ## Help isn't necessary or relevant to mobile devices.
+            #textbutton _("Help") action ShowMenu("help")
+
+        #if renpy.variant("pc"):
+
+            ## The quit button is banned on iOS and unnecessary on Android and
+            ## Web.
+            #textbutton _("Quit") action Quit(confirm=not main_menu)
+        imagebutton auto "gui/mm_quit_%s.png" xpos 825 ypos 831 focus_mask True action Quit(confirm=not main_menu)
 
     # if gui.show_name:
 
