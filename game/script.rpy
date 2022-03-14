@@ -74,7 +74,7 @@ label start:
     pause(5)
     scene black with dissolve
     
-    play music "audio/laptop_boot1.mp3" fadein 1.0
+    play music "audio/boot_seance.mp3" fadein 1.0
     scene bg laptop_twelve with fade
     pause(1.25)
 

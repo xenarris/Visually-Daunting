@@ -48,9 +48,6 @@ label start_the_stream:
 
     ethan "A Class C felony, even for harvesting."
 
-    ##### TODO - DONATION MESSAGE HERE #####
-
-
     show donovan forward_big_smile at five with dissolve
     donovan "Don't worry you guys, we're not after anything illegal here."
 
@@ -59,12 +56,77 @@ label start_the_stream:
 
     ethan "We found a loophole!"
 
-    show ethan forward_smile at three with dissolve
-    show donovan forward_smile at five with dissolve
-
 
     hide image "images/park/chat/chat14.png"
     show image "images/park/chat/chat15.png" at topright
+
+    ##### TODO - Streamline this #####
+    ##### Dondation animation #####
+    show image "images/park/assets/rainbow_donation3.png"
+    pause(.1)
+
+    hide image "images/park/assets/rainbow_donation3.png"
+    show image "images/park/assets/rainbow_donation4.png"
+    pause(.1)
+
+    hide image "images/park/assets/rainbow_donation4.png"
+    show image "images/park/assets/rainbow_donation5.png"
+    pause(.1)
+
+    hide image "images/park/assets/rainbow_donation5.png"
+    show image "images/park/assets/rainbow_donation4.png"
+    pause(.1)
+
+    hide image "images/park/assets/rainbow_donation4.png"
+    show image "images/park/assets/rainbow_donation3.png"
+    pause(.1)
+
+    hide image "images/park/assets/rainbow_donation3.png"
+    show image "images/park/assets/rainbow_donation3.png"
+    pause(.1)
+
+    hide image "images/park/assets/rainbow_donation3.png"
+    show image "images/park/assets/rainbow_donation4.png"
+    pause(.1)
+
+    hide image "images/park/assets/rainbow_donation4.png"
+    show image "images/park/assets/rainbow_donation5.png"
+    pause(.1)
+
+    hide image "images/park/assets/rainbow_donation5.png"
+    show image "images/park/assets/rainbow_donation4.png"
+    pause(.1)
+
+    hide image "images/park/assets/rainbow_donation4.png"
+    show image "images/park/assets/rainbow_donation3.png"
+    pause(.1)
+
+    hide image "images/park/assets/rainbow_donation3.png"
+    show image "images/park/assets/rainbow_donation3.png"
+    pause(.1)
+
+    hide image "images/park/assets/rainbow_donation3.png"
+    show image "images/park/assets/rainbow_donation4.png"
+    pause(.1)
+
+    hide image "images/park/assets/rainbow_donation4.png"
+    show image "images/park/assets/rainbow_donation5.png"
+    pause(.1)
+
+    hide image "images/park/assets/rainbow_donation5.png"
+    show image "images/park/assets/rainbow_donation4.png"
+    pause(.1)
+
+    hide image "images/park/assets/rainbow_donation4.png"
+    show image "images/park/assets/rainbow_donation3.png"
+    pause(.1)
+
+    hide image "images/park/assets/rainbow_donation3.png"
+
+    #### Donation image ends #####
+
+    show ethan forward_smile at three with dissolve
+    show donovan forward_smile at five with dissolve
 
     ethan "Knew you would like that."
 
@@ -124,7 +186,32 @@ label start_the_stream:
     hide image "images/park/chat/chat17.png"
     show image "images/park/chat/chat18_choose0.png" at topright
 
-    ethan "So...into the park, or check out that bilboard?"
+    ethan "So...into the park, or check out that billboard?"
+
+    call screen park_or_billboard
+    pause
+return
+
+label park_junction_choice:
+    show donovan forward_smile at five with dissolve
+    donovan "Alright folks...let's do this!"
+    show ethan explains at three with dissolve
+    ethan "Lets!"
+
+    hide donovan with dissolve
+    hide ethan with dissolve
 
     pause
+    jump park_junction
+return
+
+label park_billboard_choice:
+    show donovan forward_smile at five with dissolve
+    donovan "You guys want us to check the billboard?"
+    show ethan explains at three with dissolve
+    show donovan forward_big_smile at five with dissolve
+    donovan "Done!"
+
+    pause
+    jump park_bilboard
 return
