@@ -67,9 +67,7 @@ label start:
 
     # Fade in
     stop music fadeout 1.0
-
-    play sound "audio/visually_daunting0.mp3"
-
+    
     pause(2)
     scene black
     show image "images/park/assets/actI.png" with dissolve
