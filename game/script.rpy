@@ -49,12 +49,14 @@ label splashscreen:
 
     show menu_fade with fade
     with Pause(.2)
+    
+    play sound "audio/visually_daunting.mp3"
 
     show menu_clear with dissolve
     with Pause(.3)
-
+    
     show menu_appear with dissolve
-    with Pause(.3)
+    with Pause(1)
 
     return
     
@@ -65,6 +67,7 @@ label start:
 
     # Fade in
     stop music fadeout 1.0
+    
     pause(2)
     scene black
     show image "images/park/assets/actI.png" with dissolve

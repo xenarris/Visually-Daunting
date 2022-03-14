@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 25: expected 'image_name_component' not found.
-    image menu = "gui/main_menu.png"
-         ^
+File "game/options.rpy", line 221: expected '=' not found.
+    define style button.activate_sound = "audio/click.mp3"
+                 ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Sun Mar 13 13:36:26 2022
+Sun Mar 13 16:38:33 2022
