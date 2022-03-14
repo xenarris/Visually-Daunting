@@ -1492,6 +1492,10 @@ screen quick_menu():
             textbutton _("Auto") action Preference("auto-forward", "toggle")
             textbutton _("Menu") action ShowMenu()
 
+screen ctc(arg=None):
+    if not config.skipping:
+        on 'hide' action Play('sound', 'audio/click.mp3')            
+
 
 style window:
     variant "small"
