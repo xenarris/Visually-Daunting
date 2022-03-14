@@ -383,7 +383,7 @@ screen main_menu():
 
             #textbutton _("Start") action Start()
 
-            imagebutton auto "gui/mm_newgame_%s.png" xpos 802 ypos 523 focus_mask True action Start()
+            imagebutton auto "gui/mm_newgame_%s.png" xpos 802 ypos 523 focus_mask True action Start() hovered [ Play("sound", "audio/click.mp3") ]
 
         else:
 
@@ -392,11 +392,11 @@ screen main_menu():
             textbutton _("Save") action ShowMenu("save")
 
         #textbutton _("Load") action ShowMenu("load")
-        imagebutton auto "gui/mm_continue_%s.png" xpos 815 ypos 602 focus_mask True action ShowMenu("load")
+        imagebutton auto "gui/mm_continue_%s.png" xpos 815 ypos 602 focus_mask True action ShowMenu("load") hovered [ Play("sound", "audio/click.mp3") ]
 
 
         #textbutton _("Preferences") action ShowMenu("preferences")
-        imagebutton auto "gui/mm_options_%s.png" xpos 819 ypos 672 focus_mask True action ShowMenu("preferences")
+        imagebutton auto "gui/mm_options_%s.png" xpos 819 ypos 672 focus_mask True action ShowMenu("preferences") hovered [ Play("sound", "audio/click.mp3") ]
 
 
         if _in_replay:
@@ -408,7 +408,7 @@ screen main_menu():
             textbutton _("Main Menu") action MainMenu()
 
         #textbutton _("About") action ShowMenu("about")
-        imagebutton auto "gui/mm_about_%s.png" xpos 818 ypos 751 focus_mask True action ShowMenu("about")
+        imagebutton auto "gui/mm_about_%s.png" xpos 818 ypos 751 focus_mask True action ShowMenu("about") hovered [ Play("sound", "audio/click.mp3") ]
 
 
         #if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
@@ -421,7 +421,7 @@ screen main_menu():
             ## The quit button is banned on iOS and unnecessary on Android and
             ## Web.
             #textbutton _("Quit") action Quit(confirm=not main_menu)
-        imagebutton auto "gui/mm_quit_%s.png" xpos 825 ypos 831 focus_mask True action Quit(confirm=not main_menu)
+        imagebutton auto "gui/mm_quit_%s.png" xpos 825 ypos 831 focus_mask True action Quit(confirm=not main_menu) hovered [ Play("sound", "audio/click.mp3") ]
 
     # if gui.show_name:
 
