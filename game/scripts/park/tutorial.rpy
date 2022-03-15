@@ -9,7 +9,7 @@ label park_stream:
 
 
     scene bg stream_fade with fade
-    play music "audio/park/stream_upbeat_loading.mp3" fadein 1.0
+    play music "audio/park/stream_upbeat_loading.mp3" fadein 1.0 volume 0.7
     scene bg stream_starting
     show image "images/park/assets/shamz_fwitch_choice.png"
     show image "images/park/chat/chat0.png" at topright
