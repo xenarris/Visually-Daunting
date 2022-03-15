@@ -178,23 +178,21 @@ label tutorial_lul_choice:
 
     hide image "images/park/assets/shamz_fwitch_choice.png"
     show image "images/park/assets/shamz_fwitch.png"
-
     show image "images/park/chat/chat4.png" at topright
     show image "images/park/chat/user/user11.png" at topright
-
     scene bg fade_out_lul with irisout
     show image "images/park/assets/shamz_fwitch.png"
     show image "images/park/chat/chat4.png" at topright
     show image "images/park/chat/user/user11.png" at topright
-    pause(2)
     jump tutorial_end
 return
 
 label tutorial_end:
-    stop music fadeout 1.0
+    stop music fadeout 1.5
+    pause(2)
     scene bg park_front
     show image "images/park/assets/shamz_fwitch.png"
     show image "images/park/chat/chat5_start_stream.png" at topright
-    
+
     jump start_the_stream
 return

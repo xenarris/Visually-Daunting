@@ -1,11 +1,8 @@
-label start_the_stream:
-    stop music fadeout 1.0
-    
+label start_the_stream: 
     scene bg park_front
-    queue music "audio/park/stream_background.mp3" fadein 3.0
     show image "images/park/assets/shamz_fwitch.png"
     show image "images/park/chat/chat5_start_stream.png" at topright
-    
+    queue music "audio/park/stream_background.mp3" fadein 1.5
     show donovan forward_smile at five with dissolve
     pause(.1)
     show ethan forward_wave at three with dissolve
@@ -39,7 +36,6 @@ label start_the_stream:
     show image "images/park/chat/chat10.png" at topright
 
     donovan "Not a location we typically visit."
-
 
     donovan "Especially considering that mushrooms are a controlled substance here."
 
