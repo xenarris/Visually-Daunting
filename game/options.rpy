@@ -216,3 +216,7 @@ init python:
 ################################################################################
 define config.mouse = { }
 define config.mouse['default'] = [ ( "gui/mouse.png", 0, 0) ]
+
+##### Rollback #####
+
+define config.rollback_enabled = False
