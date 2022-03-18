@@ -11,13 +11,13 @@ label start_the_stream:
     hide image "images/park/chat/chat5_start_stream.png"
     show image "images/park/chat/chat6.png" at topright
 
-    play sound "audio/park/snippets/donovan_hello.mp3"
+    #play sound "audio/park/snippets/donovan_hello.mp3"
     donovan "Hello, happy viewers!"
 
     hide image "images/park/chat/chat6.png"
     show image "images/park/chat/chat7.png" at topright
 
-    play sound "audio/park/snippets/ethan_treat.mp3"
+    #play sound "audio/park/snippets/ethan_treat.mp3"
     donovan "Good morning, or evening!  Where ever you are."
 
     show ethan forward_smile at three with dissolve
@@ -163,7 +163,7 @@ label start_the_stream:
     show ethan explains at three with dissolve
     show donovan forward_big_smile at five with dissolve
 
-    play sound "audio/park/snippets/ethan_devils_tooth.mp3"
+    #play sound "audio/park/snippets/ethan_devils_tooth.mp3"
     ethan "Tonight we're searching for Hydnellum Peckii, a.k.a. the 'Devil's Tooth.'"
 
     show ethan forward_smile at three with dissolve
