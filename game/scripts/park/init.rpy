@@ -9,7 +9,8 @@ define unknown = Character("???:", who_color="#404040",what_prefix='"', what_suf
 # Laptop Backgrounds
 image bg laptop_twelve = "/park/backgrounds/bg laptop.png"
 image bg stream_fade = "/park/backgrounds/bg stream_starting_placeholder.png"
-image bg stream_starting = "/park/backgrounds/bg stream_starting.png"
+image bg stream_starting = "/park/backgrounds/bg stream_starting0.png"
+image bg fade_total = "/park/backgrounds/bg fade_total.png"
 
 # Custom fade screens
 image bg fade_out_lul = "/park/backgrounds/bg fade_out_lul.png"

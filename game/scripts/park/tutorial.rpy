@@ -3,25 +3,27 @@
 label park_stream:
     stop music fadeout 1.0
     scene black
-    show image "images/park/assets/fwitch_tutorial_overlay_explanation.png" with dissolve
+    show image "images/park/assets/fwitch_tutorial_overlay_explanation.png" 
     pause(5)
-    scene black with dissolve
+    scene black 
 
 
     scene bg stream_fade with fade
     play music "audio/park/stream_upbeat_loading.mp3" fadein 1.0 volume 0.7
-    scene bg stream_starting
+    hide bg stream_fade
+    scene bg stream_starting0
     show image "images/park/assets/shamz_fwitch_choice.png"
     show image "images/park/chat/chat0.png" at topright
-
-
 
     call screen tutorial_0
     pause
 return
 
-# Tutorial 1
+# Tutorial
 label tutorial_go_choice:
+    hide image "images/park/assets/shamz_fwitch_choice.png"
+    show image "images/park/backgrounds/bg stream_starting1.png"
+    show image "images/park/assets/shamz_fwitch_choice.png"
     hide image "images/park/chat/chat0.png"
     show image "images/park/chat/chat1.png" at topright
     show image "images/park/chat/user/user0.png" at topright
@@ -31,6 +33,9 @@ label tutorial_go_choice:
 return
 
 label tutorial_hey_choice:
+    hide image "images/park/assets/shamz_fwitch_choice.png"
+    show image "images/park/backgrounds/bg stream_starting1.png"
+    show image "images/park/assets/shamz_fwitch_choice.png"
     hide image "images/park/chat/chat0.png"
     show image "images/park/chat/chat1.png" at topright
     show image "images/park/chat/user/user1.png" at topright
@@ -40,6 +45,9 @@ label tutorial_hey_choice:
 return
 
 label tutorial_kekw_choice:
+    hide image "images/park/assets/shamz_fwitch_choice.png"
+    show image "images/park/backgrounds/bg stream_starting1.png"
+    show image "images/park/assets/shamz_fwitch_choice.png"
     hide image "images/park/chat/chat0.png"
     show image "images/park/chat/chat1.png" at topright
     show image "images/park/chat/user/user2.png" at topright
@@ -50,6 +58,10 @@ return
 
 # Tutorial 2
 label tutorial_ooo_choice:
+    hide image "images/park/assets/shamz_fwitch_choice.png"
+    hide image "images/park/backgrounds/bg stream_starting1.png"
+    show image "images/park/backgrounds/bg stream_starting3.png"
+    show image "images/park/assets/shamz_fwitch_choice.png"
     hide image "images/park/chat/chat1.png"
     hide image "images/park/chat/user/user0.png"
     hide image "images/park/chat/user/user1.png"
@@ -63,6 +75,10 @@ label tutorial_ooo_choice:
 return
 
 label tutorial_yay_choice:
+    hide image "images/park/assets/shamz_fwitch_choice.png"
+    hide image "images/park/backgrounds/bg stream_starting1.png"
+    show image "images/park/backgrounds/bg stream_starting3.png"
+    show image "images/park/assets/shamz_fwitch_choice.png"
     hide image "images/park/chat/chat1.png"
     hide image "images/park/chat/user/user0.png"
     hide image "images/park/chat/user/user1.png"
@@ -77,6 +93,10 @@ label tutorial_yay_choice:
 return
 
 label tutorial_lets_go_choice:
+    hide image "images/park/assets/shamz_fwitch_choice.png"
+    hide image "images/park/backgrounds/bg stream_starting1.png"
+    show image "images/park/backgrounds/bg stream_starting3.png"
+    show image "images/park/assets/shamz_fwitch_choice.png"
     hide image "images/park/chat/chat1.png"
     hide image "images/park/chat/user/user0.png"
     hide image "images/park/chat/user/user1.png"
@@ -91,6 +111,10 @@ return
 
 # Tutorial 3
 label tutorial_woo_choice:
+    hide image "images/park/assets/shamz_fwitch_choice.png"
+    hide image "images/park/backgrounds/bg stream_starting3.png"
+    show image "images/park/backgrounds/bg stream_starting2.png"
+    show image "images/park/assets/shamz_fwitch_choice.png"
     hide image "images/park/chat/chat2.png"
     hide image "images/park/chat/user/user3.png"
     hide image "images/park/chat/user/user4.png"
@@ -104,6 +128,10 @@ label tutorial_woo_choice:
 return
 
 label tutorial_smile_choice:
+    hide image "images/park/assets/shamz_fwitch_choice.png"
+    hide image "images/park/backgrounds/bg stream_starting3.png"
+    show image "images/park/backgrounds/bg stream_starting2.png"
+    show image "images/park/assets/shamz_fwitch_choice.png"
     hide image "images/park/chat/chat2.png"
     hide image "images/park/chat/user/user3.png"
     hide image "images/park/chat/user/user4.png"
@@ -117,6 +145,10 @@ label tutorial_smile_choice:
 return
 
 label tutorial_lets_woah_choice:
+    hide image "images/park/assets/shamz_fwitch_choice.png"
+    hide image "images/park/backgrounds/bg stream_starting3.png"
+    show image "images/park/backgrounds/bg stream_starting2.png"
+    show image "images/park/assets/shamz_fwitch_choice.png"
     hide image "images/park/chat/chat2.png"
     hide image "images/park/chat/user/user3.png"
     hide image "images/park/chat/user/user4.png"
@@ -131,6 +163,10 @@ return
 
 # Final Tutorial
 label tutorial_keysmash_choice:
+    hide image "images/park/assets/shamz_fwitch_choice.png"
+    hide image "images/park/backgrounds/bg stream_starting2.png"
+    show image "images/park/backgrounds/bg stream_starting3.png"
+    show image "images/park/assets/shamz_fwitch_choice.png"
     hide image "images/park/chat/chat3.png"
     hide image "images/park/chat/user/user6.png"
     hide image "images/park/chat/user/user7.png"
@@ -142,7 +178,9 @@ label tutorial_keysmash_choice:
     show image "images/park/chat/chat4.png" at topright
     show image "images/park/chat/user/user9.png" at topright
 
-    scene bg fade_out_mash with irisout
+    show image "/park/backgrounds/bg fade_total.png"
+    pause (0.1)
+    scene bg fade_out_mash with dissolve
     show image "images/park/assets/shamz_fwitch.png"
     show image "images/park/chat/chat4.png" at topright
     show image "images/park/chat/user/user9.png" at topright
@@ -151,6 +189,10 @@ label tutorial_keysmash_choice:
 return
 
 label tutorial_zzz_choice:
+    hide image "images/park/assets/shamz_fwitch_choice.png"
+    hide image "images/park/backgrounds/bg stream_starting2.png"
+    show image "images/park/backgrounds/bg stream_starting3.png"
+    show image "images/park/assets/shamz_fwitch_choice.png"
     hide image "images/park/chat/chat3.png"
     hide image "images/park/chat/user/user6.png"
     hide image "images/park/chat/user/user7.png"
@@ -162,7 +204,9 @@ label tutorial_zzz_choice:
     show image "images/park/chat/chat4.png" at topright
     show image "images/park/chat/user/user10.png" at topright
     
-    scene bg fade_out_zzz with irisout
+    show image "/park/backgrounds/bg fade_total.png"
+    pause (0.1)
+    scene bg fade_out_zzz with dissolve
     show image "images/park/assets/shamz_fwitch.png"
     show image "images/park/chat/chat4.png" at topright
     show image "images/park/chat/user/user10.png" at topright
@@ -171,6 +215,10 @@ label tutorial_zzz_choice:
 return
 
 label tutorial_lul_choice:
+    hide image "images/park/assets/shamz_fwitch_choice.png"
+    hide image "images/park/backgrounds/bg stream_starting2.png"
+    show image "images/park/backgrounds/bg stream_starting3.png"
+    show image "images/park/assets/shamz_fwitch_choice.png"
     hide image "images/park/chat/chat3.png"
     hide image "images/park/chat/user/user6.png"
     hide image "images/park/chat/user/user7.png"
@@ -180,7 +228,10 @@ label tutorial_lul_choice:
     show image "images/park/assets/shamz_fwitch.png"
     show image "images/park/chat/chat4.png" at topright
     show image "images/park/chat/user/user11.png" at topright
-    scene bg fade_out_lul with irisout
+    
+    show image "/park/backgrounds/bg fade_total.png"
+    pause (0.1)
+    scene bg fade_out_lul with dissolve
     show image "images/park/assets/shamz_fwitch.png"
     show image "images/park/chat/chat4.png" at topright
     show image "images/park/chat/user/user11.png" at topright
