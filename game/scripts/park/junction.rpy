@@ -54,6 +54,7 @@ label park_junction:
         pause(.1)
         ethan "Or we could head East, towards the recreational center."
 
+        call screen lake_or_rec
         pause
 
     else:
@@ -64,9 +65,8 @@ label park_junction:
         show ethan forward_smile_alt with dissolve
         pause(.1)
         ethan "Should we head North or take this path East?\"\n\"Flip a coin."
+
+        call screen north_or_east
         pause
 
-    # TODO - Make some screen buttons & paths
-
-    pause
 return

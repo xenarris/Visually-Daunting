@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scripts/park/junction.rpy", line 59: if statement expects a non-empty block.
-    if seen_bulletin == False:
-                              ^
+File "game/screens_in_game.rpy", line 138: imagebutton expects a non-empty block.
+    imagebutton auto "park/choices/choice5_%s.png":
+                                                   ^
 
 Ren'Py Version: Ren'Py 8.0.0.22040201n
-Mon Apr  4 03:06:42 2022
+Mon Apr  4 16:35:58 2022

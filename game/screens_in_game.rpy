@@ -117,3 +117,25 @@ screen continue_from_billboard():
         focus_mask True
         action Jump("park_junction")
         activate_sound "audio/click.mp3"
+
+screen lake_or_rec():
+    imagebutton auto "park/choices/choice2_%s.png":
+        focus_mask True
+        action Jump("lake_loop")
+        activate_sound "audio/click.mp3"
+
+    imagebutton auto "park/choices/choice3_%s.png":
+        focus_mask True
+        action Jump("rec_center")
+        activate_sound "audio/click.mp3"
+
+screen north_or_east():
+    imagebutton auto "park/choices/choice4_%s.png":
+        focus_mask True
+        action Jump("lake_loop")
+        activate_sound "audio/click.mp3"
+
+    imagebutton auto "park/choices/choice5_%s.png":
+        focus_mask True
+        action Jump("rec_center")
+        activate_sound "audio/click.mp3"
