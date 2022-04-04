@@ -1,71 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 83, in script
-    call screen chat_nav
-  File "game/script.rpy", line 83, in script
-    call screen chat_nav
-  File "renpy/common/000statements.rpy", line 569, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-TypeError: expected string or buffer
+  File "game/scripts/park/junction.rpy", line 49, in script
+    if seen_bulletin == True:
+  File "game/scripts/park/junction.rpy", line 49, in <module>
+    if seen_bulletin == True:
+NameError: name 'seen_bulletin' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/bootstrap.py", line 331, in bootstrap
-    renpy.main.main()
-  File "renpy/main.py", line 662, in main
-    run(restart)
-  File "renpy/main.py", line 148, in run
-    renpy.execution.run_context(True)
-  File "renpy/execution.py", line 922, in run_context
-    context.run()
-  File "game/script.rpy", line 83, in script
-    call screen chat_nav
-  File "game/script.rpy", line 83, in script
-    call screen chat_nav
-  File "renpy/ast.py", line 2015, in execute
-    self.call("execute")
-  File "renpy/ast.py", line 2003, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-  File "renpy/statements.py", line 278, in call
-    return method(parsed, *args, **kwargs)
-  File "renpy/common/000statements.rpy", line 569, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-  File "renpy/exports.py", line 3136, in call_screen
-    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
-  File "renpy/ui.py", line 298, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "renpy/display/core.py", line 3325, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 4160, in interact_core
-    rv = root_widget.event(ev, x, y, 0)
-  File "renpy/display/layout.py", line 1102, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "renpy/display/layout.py", line 1102, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "renpy/display/layout.py", line 1102, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "renpy/display/screen.py", line 727, in event
-    rv = self.child.event(ev, x, y, st)
-  File "renpy/display/layout.py", line 1102, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "renpy/display/behavior.py", line 983, in event
-    return handle_click(self.clicked)
-  File "renpy/display/behavior.py", line 916, in handle_click
-    renpy.exports.play(self.style.activate_sound)
-  File "renpy/exports.py", line 3895, in play
-    renpy.audio.music.play(filename, channel=channel, loop=False, **kwargs)
-  File "renpy/audio/music.py", line 127, in play
-    c.enqueue(filenames, loop=loop, synchro_start=synchro_start, fadein=fadein, tight=tight, loop_only=loop_only, relative_volume=relative_volume)
-  File "renpy/audio/audio.py", line 655, in enqueue
-    filename, _, _ = self.split_filename(filename, False)
-  File "renpy/audio/audio.py", line 370, in split_filename
-    m = re.match(r'<(.*)>(.*)', filename)
-  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python2.7/re.py", line 141, in match
-TypeError: expected string or buffer
+  File "game/scripts/park/junction.rpy", line 49, in script
+    if seen_bulletin == True:
+  File "C:\Users\Panko\Desktop\RenPy\renpy\ast.py", line 2086, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\Panko\Desktop\RenPy\renpy\python.py", line 904, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\Panko\Desktop\RenPy\renpy\python.py", line 897, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/scripts/park/junction.rpy", line 49, in <module>
+    if seen_bulletin == True:
+NameError: name 'seen_bulletin' is not defined
 
 Windows-10-10.0.22000
-Ren'Py 7.4.11.2266
+Ren'Py 8.0.0.22040201n
 Visually Daunting 0.01
-Tue Mar 15 01:03:35 2022
+Mon Apr  4 03:20:46 2022

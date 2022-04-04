@@ -111,3 +111,9 @@ screen park_or_billboard():
         focus_mask True
         action Jump("park_billboard_choice")
         activate_sound "audio/click.mp3"
+
+screen continue_from_billboard():
+    imagebutton auto "park/choices/choice0_%s.png":
+        focus_mask True
+        action Jump("park_junction")
+        activate_sound "audio/click.mp3"

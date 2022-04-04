@@ -27,10 +27,9 @@ init:
     image bg wizcord_choice = "bg wizcord_choice.png"
     image bg wizcord_stream_ease = "bg wizcord_stream_ease.png"
 
-    ##### Flags #####
-    $ seen_bulletin = False
-    $ went_lakeside = False
-    $ went_recreation_area = False
+    ###### Char Flips ######
+    transform flip: 
+        xzoom -1.0
 
 #### Splash Screen #####
 label splashscreen:
@@ -71,6 +70,8 @@ label start:
     pause(2)
     scene black
     show image "images/park/assets/actI.png" with dissolve
+    pause(.2)
+    play sound "audio/actI.mp3"
     pause(5)
     scene black with dissolve
     
