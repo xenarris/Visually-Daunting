@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens_in_game.rpy", line 138: imagebutton expects a non-empty block.
-    imagebutton auto "park/choices/choice5_%s.png":
-                                                   ^
+File "game/scripts/park/lake_loop.rpy", line 45: expected end of line
+    play park_intensifies fadein 1.0 
+                                 ^
 
 Ren'Py Version: Ren'Py 8.0.0.22040201n
-Mon Apr  4 16:35:58 2022
+Mon Apr  4 18:12:10 2022
