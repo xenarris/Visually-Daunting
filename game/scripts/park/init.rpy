@@ -25,9 +25,3 @@ image bg park_junction = "/park/backgrounds/bg park_junction.png"
 image fwitch_choice = "park/assets/fwitch_choice.png"
 image fwitch = "park/assets/fwitch.png"
 image umbrae_intro_message = "park/assets/umbrae_intro_message.png"
-
-##### Flags #####
-$ seen_bulletin = False
-$ went_lakeside = False
-$ went_recreation_area = False
-

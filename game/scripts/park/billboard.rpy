@@ -21,7 +21,7 @@ label park_billboard:
 
     #show image "images/park/chat/chat6.png" at topright
 
-    donovan "Bruh, this park was established 1915.  Woah!"
+    donovan "Bro, this park was established 1915.  Woah!"
 
     donovan "Check out this map."
 
