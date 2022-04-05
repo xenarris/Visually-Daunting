@@ -23,16 +23,13 @@ label park_junction:
     ethan "I've got nothing."
     pause(.2)
     show donovan upset at flip with dissolve
-    pause(.1)
     show ethan frustrated with dissolve
-    pause(.1)
     donovan "I've got nothing, too."
 
     show ethan smile with dissolve
-    pause(.2)
     show donovan smile with dissolve
     ethan "Meh."
-
+    
     show donovan at three with dissolve
     show ethan at five with dissolve
     show donovan forward_smile_alt with dissolve
@@ -51,7 +48,6 @@ label park_junction:
         donovan "We could head North, towards the lake."
 
         show ethan forward_smile_alt with dissolve
-        pause(.1)
         ethan "Or we could head East, towards the recreational center."
 
         call screen lake_or_rec
@@ -59,11 +55,9 @@ label park_junction:
 
     else:
         show donovan forward_smile_alt with dissolve
-        pause(.1)
         donovan "It's the low-road or high-road situation."
 
         show ethan forward_smile_alt with dissolve
-        pause(.1)
         ethan "Should we head North or take this path East?\"\n\"Flip a coin."
 
         call screen north_or_east

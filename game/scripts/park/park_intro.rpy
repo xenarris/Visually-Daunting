@@ -21,9 +21,7 @@ label start_the_stream:
     donovan "Good morning, or evening!  Where ever you are."
 
     show ethan forward_smile at three with dissolve
-
     show donovan forward_big_smile at five with dissolve
-
     
     hide image "images/park/chat/chat7.png"
     show image "images/park/chat/chat9.png" at topright
@@ -38,13 +36,14 @@ label start_the_stream:
     donovan "Not a location we typically visit."
 
     show donovan forward_upset_alt at five with dissolve
+    show ethan forward_sad with dissolve
 
     donovan "Especially considering that mushrooms are a controlled substance here."
 
     hide image "images/park/chat/chat10.png"
     show image "images/park/chat/chat12.png" at topright
 
-    show ethan explains at three with dissolve
+    show ethan thinking at three with dissolve
 
     ethan "A Class C felony, even for harvesting."
 
@@ -53,6 +52,9 @@ label start_the_stream:
 
     hide image "images/park/chat/chat12.png"
     show image "images/park/chat/chat14.png" at topright
+
+    show ethan cheeky with dissolve
+    show donovan forward_smile_alt with dissolve
 
     ethan "We found a loophole!"
 
@@ -126,7 +128,7 @@ label start_the_stream:
     #### Donation image ends #####
 
     show ethan forward_smile at three with dissolve
-    show donovan forward_smile_alt at five with dissolve
+    show donovan forward_big_smile_alt at five with dissolve
 
     ethan "Knew you would like that."
 
