@@ -2,13 +2,17 @@
 errors listed below, and try again.
 
 
-File "game/scripts/park/lake_loop.rpy", line 159: multiple at clauses are prohibited.
-    show donna at flip at dissolve
-                         ^
+The label splashscreen is defined twice, at File "game/script.rpy", line 39:
+label splashscreen:
+and File "game/scripts/script.rpyc", line 39:
+label splashscreen:
 
-File "game/scripts/park/lake_loop.rpy", line 160: multiple at clauses are prohibited.
-    show wendy at flip at dissolve
-                         ^
+
+The label start is defined twice, at File "game/script.rpy", line 69:
+label start:
+and File "game/scripts/script.rpyc", line 69:
+label start:
+
 
 Ren'Py Version: Ren'Py 8.0.0.22040201n
-Mon Apr  4 23:46:32 2022
+Tue Apr  5 14:13:08 2022
