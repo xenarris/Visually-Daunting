@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/scripts/park/lake_loop.rpy", line 45: expected end of line
-    play park_intensifies fadein 1.0 
-                                 ^
+File "game/scripts/park/lake_loop.rpy", line 159: multiple at clauses are prohibited.
+    show donna at flip at dissolve
+                         ^
+
+File "game/scripts/park/lake_loop.rpy", line 160: multiple at clauses are prohibited.
+    show wendy at flip at dissolve
+                         ^
 
 Ren'Py Version: Ren'Py 8.0.0.22040201n
-Mon Apr  4 18:12:10 2022
+Mon Apr  4 23:46:32 2022

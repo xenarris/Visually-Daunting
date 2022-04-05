@@ -3,6 +3,7 @@ define donovan = Character("Donovan:", who_color="#404040", what_prefix='"', wha
 define ethan = Character("Ethan:", who_color="#404040",what_prefix='"', what_suffix='"')
 define wendy = Character("Wendy:", who_color="#404040",what_prefix='"', what_suffix='"')
 define donna = Character("Donna:", who_color="#404040",what_prefix='"', what_suffix='"')
+define chips = Character("Chips:", who_color="#404040",what_prefix='"', what_suffix='"')
 define unknown = Character("???:", who_color="#404040",what_prefix='"', what_suffix='"')
 
 ##### Backgrounds #####
@@ -25,7 +26,3 @@ image bg park_junction = "/park/backgrounds/bg park_junction.png"
 image fwitch_choice = "park/assets/fwitch_choice.png"
 image fwitch = "park/assets/fwitch.png"
 image umbrae_intro_message = "park/assets/umbrae_intro_message.png"
-
-# ##### Flags ##### Moved into game b/c bugs
-# $ seen_bulletin = False
-# $ went_lakeside = False

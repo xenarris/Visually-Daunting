@@ -145,3 +145,25 @@ screen continue_from_loop():
         focus_mask True
         action Jump("park_attack")
         activate_sound "audio/click.mp3"
+
+screen continue_from_rec():
+    imagebutton auto "park/choices/choice0_%s.png":
+        focus_mask True
+        action Jump("park_attack")
+        activate_sound "audio/click.mp3"
+
+screen park_ending():
+    imagebutton auto "park/choices/choice6_%s.png":
+        focus_mask True
+        action Jump("fight_wendy")
+        activate_sound "audio/click.mp3"
+
+    imagebutton auto "park/choices/choice7_%s.png":
+        focus_mask True
+        action Jump("help_donna")
+        activate_sound "audio/click.mp3"
+
+    imagebutton auto "park/choices/choice8_%s.png":
+        focus_mask True
+        action Jump("run_away")
+        activate_sound "audio/click.mp3"

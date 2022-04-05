@@ -13,16 +13,17 @@ label park_junction:
     pause(.5)
     show image "images/park/backgrounds/bg park_junction.png" with dissolve
 
-    show donovan listening at two with dissolve
+    show donovan listening at four with dissolve
     pause(.1)
-    show ethan concerned at six with dissolve
+    show ethan concerned at twelve with dissolve
     pause(0.5)
 
     show ethan dubious at flip with dissolve
 
     ethan "I've got nothing."
     pause(.2)
-    show donovan upset at flip with dissolve
+    show donovan upset at flip
+    show donovan at five with dissolve
     show ethan frustrated with dissolve
     donovan "I've got nothing, too."
 
@@ -30,14 +31,14 @@ label park_junction:
     show donovan smile with dissolve
     ethan "Meh."
     
-    show donovan at three with dissolve
-    show ethan at five with dissolve
+    show donovan with dissolve
+    show ethan with dissolve
     show donovan forward_smile_alt with dissolve
     pause(.1)
     show ethan forward_smile with dissolve
     pause(.1)
 
-    ethan "Well folks, this is not the one."
+    ethan "Well folks, this is not the spot."
 
     donovan "We've got to keep moving if we want to find our 'berries.'"
 
@@ -55,10 +56,10 @@ label park_junction:
 
     else:
         show donovan forward_smile_alt with dissolve
-        donovan "It's the low-road or high-road situation."
+        donovan "The low-road or high-road."
 
         show ethan forward_smile_alt with dissolve
-        ethan "Should we head North or take this path East?\"\n\"Flip a coin."
+        ethan "North or East? Flip a coin."
 
         call screen north_or_east
         pause

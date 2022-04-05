@@ -6,17 +6,21 @@ init:
 
     ##### Positions #####
     $ zero = Position(xpos=0.0, xanchor='center')
-    $ one = Position(xpos=0.1, xanchor='center')
-    $ two = Position(xpos=0.2, xanchor='center')
-    $ three = Position(xpos=0.3, xanchor='center')
-    $ four = Position(xpos=0.4, xanchor='center')
-    $ five = Position(xpos=0.5, xanchor='center')
-    $ six = Position(xpos=0.6, xanchor='center')
-    $ seven = Position(xpos=0.7, xanchor='center')
-    $ eight = Position(xpos=0.8, xanchor='center')
-    $ nine = Position(xpos=0.9, xanchor='center')
-    $ ten = Position(xpos=1.0, xanchor='center')
-                    
+    $ one = Position(xpos=0.5, xanchor='center')
+    $ two = Position(xpos=0.1, xanchor='center')
+    $ three = Position(xpos=0.15, xanchor='center')
+    $ four = Position(xpos=0.2, xanchor='center')
+    $ five = Position(xpos=0.25, xanchor='center')
+    $ six = Position(xpos=0.3, xanchor='center')
+    $ seven = Position(xpos=0.35, xanchor='center')
+    $ eight = Position(xpos=0.4, xanchor='center')
+    $ nine = Position(xpos=0.45, xanchor='center')
+    $ ten = Position(xpos=0.5, xanchor='center')
+    $ eleven = Position(xpos=0.55, xanchor='center')
+    $ twelve = Position(xpos=0.6, xanchor='center') 
+    $ thirteen = Position(xpos=0.65, xanchor='center')
+    $ fourteen = Position(xpos=0.68, xanchor='center')
+
     ##### Global Game Assets #####
     image logo = "dirty_rotten.png"
     image warning = "explicit_content.png"
