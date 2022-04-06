@@ -14,7 +14,7 @@ label lake_loop:
 
     show donovan forward_smile_alt at flip with dissolve
     pause(.1)
-    show ethan forward_smile_alt at six with dissolve
+    show ethan forward_smile_alt at eight with dissolve
     pause(0.5)
 
     show donovan forward_big_smile_alt with dissolve

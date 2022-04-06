@@ -22,8 +22,7 @@ label park_junction:
 
     ethan "I've got nothing."
     pause(.2)
-    show donovan upset at flip
-    show donovan at five with dissolve
+    show donovan upset at flip with dissolve
     show ethan frustrated with dissolve
     donovan "I've got nothing, too."
 
