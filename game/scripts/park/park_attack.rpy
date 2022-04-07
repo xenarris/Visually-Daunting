@@ -1,21 +1,53 @@
 label park_attack:
-    scene green
+    scene bg park_blank
+
+    show image "images/park/assets/shamz_fwitch.png"
+
+    show donovan listening at flip with dissolve
+    # pause(1)
+    show ethan listening at two with dissolve
+    # pause(1)
+
+    show donna listening at fourteen with dissolve
+    show wendy intrigued at ten with dissolve
 
     donna "We lost Chips up this way..."
 
+    show donna listening at flip with dissolve
+    show wendy intrigued at flip with dissolve
+
+    show donovan listening at six with dissolve
+    show ethan listening at three with dissolve
+
     donna "He had a lot of anxiety."
+
+    show wendy smile with dissolve
+    show ethan smile with dissolve
+    show donovan smile with dissolve
 
     wendy "We took him for training.  He was doing so much better."
 
+    show donna smile at flip with dissolve
+    
     donna "He'd run."
 
+    show donovan upset with dissolve
+
     donovan "Is that why you lost him?"
+
+    show ethan listening with dissolve
+    show donovan listening with dissolve
+    show donna listening with dissolve
 
     donna "We took him for a walk around the lake."
 
     donna "It's pretty quiet here during winter."
 
+    show wendy listening with dissolve
+
     wendy "You're not allowed to skateboard."
+
+    show donna dubious with dissolve
 
     donna "Someone came up on us.  The noise from the wheels scared him."
 
@@ -39,8 +71,17 @@ return
 
 label chips_appears:
 
+    show wendy shocked at ten with dissolve
+
     wendy "Ch-Chips...?"
 
+    hide donovan with dissolve
+    hide ethan with dissolve
+    hide wendy with dissolve
+    hide donna with dissolve
+
+    show bg chips_appears0 with dissolve
+    
     chips "Rrrrrrrr..."
 
     donna "Wendy, I-I-I-I..."

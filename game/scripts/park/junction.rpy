@@ -19,6 +19,7 @@ label park_junction:
     pause(0.5)
 
     show ethan dubious at flip with dissolve
+    show image "images/park/chat/chat24_first_stop.png" at topright
 
     ethan "I've got nothing."
     pause(.2)
@@ -36,6 +37,9 @@ label park_junction:
     pause(.1)
     show ethan forward_smile with dissolve
     pause(.1)
+
+    hide image "images/park/chat/chat24_first_stop.png"
+    show image "images/park/chat/chat25.png" at topright
 
     ethan "Well folks, this is not the spot."
 

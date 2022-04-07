@@ -2,17 +2,9 @@
 errors listed below, and try again.
 
 
-The label splashscreen is defined twice, at File "game/script.rpy", line 39:
-label splashscreen:
-and File "game/scripts/script.rpyc", line 39:
-label splashscreen:
+File "game/scripts/park/junction.rpy", line 43: expected statement.
+    hie image "images/park/chat/chat24_first_stop.png"
+        ^
 
-
-The label start is defined twice, at File "game/script.rpy", line 69:
-label start:
-and File "game/scripts/script.rpyc", line 69:
-label start:
-
-
-Ren'Py Version: Ren'Py 8.0.0.22040201n
-Tue Apr  5 14:13:08 2022
+Ren'Py Version: Ren'Py 7.4.11.2266
+Wed Apr  6 21:13:07 2022

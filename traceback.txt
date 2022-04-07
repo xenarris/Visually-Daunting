@@ -1,22 +1,64 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/scripts/park/park_endings.rpy", line 14, in script
-    donoavan "Woah, Ethan...dude. NO!"
-Exception: Sayer 'donoavan' is not defined.
+  File "renpy/common/00action_file.rpy", line 462, in __call__
+    renpy.load(fn)
+ImportError: No module named rollback
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scripts/park/park_endings.rpy", line 14, in script
-    donoavan "Woah, Ethan...dude. NO!"
-  File "C:\Users\Panko\Desktop\RenPy\renpy\ast.py", line 857, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "C:\Users\Panko\Desktop\RenPy\renpy\ast.py", line 750, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'donoavan' is not defined.
+  File "renpy/common/_layout/screen_load_save.rpym", line 35, in script
+    $ ui.interact()
+  File "renpy/ast.py", line 928, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "renpy/python.py", line 2245, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/_layout/screen_load_save.rpym", line 35, in <module>
+    $ ui.interact()
+  File "renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "renpy/display/core.py", line 3325, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "renpy/display/core.py", line 4160, in interact_core
+    rv = root_widget.event(ev, x, y, 0)
+  File "renpy/display/layout.py", line 1102, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/transition.py", line 48, in event
+    return self.new_widget.event(ev, x, y, st) # E1101
+  File "renpy/display/layout.py", line 1102, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/layout.py", line 1102, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/screen.py", line 727, in event
+    rv = self.child.event(ev, x, y, st)
+  File "renpy/display/layout.py", line 1102, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/layout.py", line 1323, in event
+    rv = super(Window, self).event(ev, x, y, st)
+  File "renpy/display/layout.py", line 273, in event
+    rv = d.event(ev, x - xo, y - yo, st)
+  File "renpy/display/layout.py", line 1102, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/layout.py", line 1102, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/behavior.py", line 983, in event
+    return handle_click(self.clicked)
+  File "renpy/display/behavior.py", line 918, in handle_click
+    rv = run(action)
+  File "renpy/display/behavior.py", line 323, in run
+    new_rv = run(i, *args, **kwargs)
+  File "renpy/display/behavior.py", line 330, in run
+    return action(*args, **kwargs)
+  File "renpy/common/00action_file.rpy", line 462, in __call__
+    renpy.load(fn)
+  File "renpy/loadsave.py", line 770, in load
+    roots, log = loads(location.load(filename))
+  File "renpy/loadsave.py", line 63, in loads
+    return cPickle.loads(s)
+ImportError: No module named rollback
 
 Windows-10-10.0.22000
-Ren'Py 8.0.0.22040201n
+Ren'Py 7.4.11.2266
 Visually Daunting 0.01
-Tue Apr  5 01:13:23 2022
+Wed Apr  6 18:58:53 2022
