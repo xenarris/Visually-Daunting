@@ -36,6 +36,10 @@ init:
         xzoom -1.0
 
 #### Splash Screen #####
+
+init:
+    $ song_2 = False
+
 label splashscreen:
     scene black with fade
     with Pause(.25)
@@ -54,6 +58,7 @@ label splashscreen:
     with Pause(.2)
     
     play sound "audio/visually_daunting.mp3"
+    $ persistent.song_2 = True
 
     show menu_clear with dissolve
     with Pause(.3)
@@ -65,6 +70,9 @@ label splashscreen:
     
 ########################### The game starts here. ###############################
 
+init:
+    $ song_1 = False
+    
 ##### Park ######
 label start:
 
@@ -80,6 +88,7 @@ label start:
     scene black with dissolve
     
     play music "audio/boot_seance.mp3" fadein 1.0
+    $ persistent.song_1 = True
     scene bg laptop_twelve with fade
     pause(1.25)
 

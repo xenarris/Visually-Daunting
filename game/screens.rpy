@@ -315,6 +315,7 @@ screen navigation():
 
         textbutton _("Preferences") action ShowMenu("preferences")
 
+        textbutton _("Music Room") action ShowMenu("musicgallery")
 
         if _in_replay:
 
@@ -422,6 +423,8 @@ screen main_menu():
             ## Web.
             #textbutton _("Quit") action Quit(confirm=not main_menu)
         imagebutton auto "gui/mm_quit_%s.png" xpos 825 ypos 831 focus_mask True action Quit(confirm=not main_menu) hovered [ Play("sound", "audio/click.mp3") ]
+
+        textbutton _("Music Gallery") xpos 1700 ypos 0 focus_mask True action ShowMenu("musicgallery") hovered [ Play("sound", "audio/click.mp3") ]
 
     # if gui.show_name:
 
@@ -1186,6 +1189,60 @@ style help_label_text:
 ## Additional screens
 ################################################################################
 
+screen musicgallery:
+    tag menu
+
+    add "gui/game_menu.png"
+    
+    hbox:
+        text "Music Gallery"
+        xalign 0.03 yalign 0.05
+
+    vbox:
+        xalign 0.05
+        yalign 0.22
+
+        if not persistent.song_1:
+            textbutton "1. ?????????????????????????" action NullAction()
+        elif persistent.song_1:
+            textbutton "1. Boot Séance" action mr.Play("/audio/boot_seance.mp3")
+
+        if not persistent.song_2:
+            textbutton "2. ?????????????????????????" action NullAction()
+        elif persistent.song_2:
+            textbutton "2. Menu" action mr.Play("/audio/menu.mp3")
+
+        if not persistent.song_3:
+            textbutton "3. ?????????????????????????" action NullAction()
+        elif persistent.song_3:
+            textbutton "3. Peter Jam" action mr.Play("/audio/peter_jam.mp3")
+        
+        if not persistent.song_4:
+            textbutton "4. ?????????????????????????" action NullAction()
+        elif persistent.song_1:
+            textbutton "4. Brain Done" action mr.Play("/audio/park/brain_done.mp3")
+        
+        if not persistent.song_5:
+            textbutton "5. ?????????????????????????" action NullAction()
+        elif persistent.song_5:
+            textbutton "5. Park Attack" action mr.Play("/audio/park/park_attack.mp3")
+        
+        if not persistent.song_6:
+            textbutton "6. ?????????????????????????" action NullAction()
+        elif persistent.song_6:
+            textbutton "6. Park Intensifies" action mr.Play("/audio/park/park_intensifies.mp3")
+
+        if not persistent.song_7:
+            textbutton "7. ?????????????????????????" action NullAction()
+        elif persistent.song_7:
+            textbutton "7. Steam Background" action mr.Play("/audio/park/stream_background.mp3")
+
+        if not persistent.song_8:
+            textbutton "8. ?????????????????????????" action NullAction()
+        elif persistent.song_8:
+            textbutton "8. Stream Upbeat Loading" action mr.Play("/audio/park/stream_upbeat_loading.mp3")        
+
+    textbutton "Return" action Return() xalign 0.03 yalign 0.95
 
 ## Confirm screen ##############################################################
 ##
