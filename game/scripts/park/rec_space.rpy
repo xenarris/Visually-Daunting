@@ -83,17 +83,35 @@ label rec_center:
 
     else:
         
+        show donovan big_smile at ten with dissolve
+        show ethan listening at five with dissolve
+
         donovan "Hey, I see something."
 
+        show donovan smile at flip with dissolve
+        show donovan smile at three with dissolve
+        show wendy appears at ten with dissolve
+        show donna appears at fourteen with dissolve
         donovan "Someone...?"
 
+        show wendy intrigued with dissolve
+        show donna listening with dissolve
         unknown "Have you guys seen a dog?"
 
+        show wendy dubious with dissolve
+        show ethan concerned with dissolve
         ethan "A dog...?"
 
+        show ethan listening with dissolve
+        show donovan upset with dissolve
         donovan "No, we haven't seen one."
 
+        show donovan listening with dissolve
+        show wendy intrigued with dissolve
+        show donna dubious with dissolve
         unknown "We're looking for our dog, Chips.  We lost him."
+        
+        show donna listening with dissolve
 
     show donovan big_smile with dissolve
     donovan "If you guys need it, we can totally help you."
