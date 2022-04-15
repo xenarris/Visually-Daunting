@@ -9,7 +9,7 @@ scene green
 
     terry "I'm Terry, your Story Weaver (SW) for this evening."
 
-    lenn "I'm Len otherwise known as Ryden, Lionborn Paladin!"
+    lenn "I'm Lenn otherwise known as Ryden, Lionborn Paladin!"
 
     skye "Hey, I'm Skye! A.k.a. Tiefling Assassin Iiria!"
 
