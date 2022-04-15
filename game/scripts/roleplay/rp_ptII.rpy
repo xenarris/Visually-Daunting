@@ -24,7 +24,6 @@ scene green
     terry "Let's get to it."
 
     # TODO - Make this into a chat screen w/ multiple options
-    pause
 
     jump innkeeper
 return
@@ -54,7 +53,7 @@ label innkeeper:
 
     lenn "(Ryden) 'How do, Kada! Cheerier walls, we've seen. Yet rest comes well!'"
 
-    terry "(Kada) 'Kind words. Of mine I shall not mince! I’ve come with a request.'"
+    terry "(Kada) 'Kind words. Of mine I shall not mince! I've come with a request.'"
 
     terry "(Kada) 'Our village is under attack. Locals lost to unseen captives.'"
 
@@ -86,81 +85,81 @@ return
 
 label tell_light:
 
-terry "They want the light."	
+    terry "They want the light."	
 
-johnny "(Alvie) 'Could you tell us more about the light?'"
+    johnny "(Alvie) 'Could you tell us more about the light?'"
 
-marlon "(Gilbert) 'Do you know if it's containable by nature?'"
+    marlon "(Gilbert) 'Do you know if it's containable by nature?'"
 
-terry "(Kada) 'There is very little we can figure of it.'"
+    terry "(Kada) 'There is very little we can figure of it.'"
 
-terry "(Kada) 'It appears sometimes a soft glow, other times a flash!'"
+    terry "(Kada) 'It appears sometimes a soft glow, other times a flash!'"
 
-terry "(Kada) 'Its arrival began with loss of others.'"
+    terry "(Kada) 'Its arrival began with loss of others.'"
 
-marlon "(Gilbert) 'So, it's containable?'"
+    marlon "(Gilbert) 'So, it's containable?'"
 
-# TODO - Merge to start_journey
-pause
+    jump start_journey
+    pause
 return
 
 label tell_missing:
 
-terry "They want to explore missing people!"
+    terry "They want to explore missing people!"
 
-skye "(Iiria) 'Could you tell, of the ones missing?'"
+    skye "(Iiria) 'Could you tell, of the ones missing?'"
 
-skye "(Iiria) 'Perhaps there is a link?'"
+    skye "(Iiria) 'Perhaps there is a link?'"
 
-terry "(Kada) 'We did not notice at first.'"
+    terry "(Kada) 'We did not notice at first.'"
 
-terry "(Kada) 'Our numbers dwindled, and we became alarmed.'"
+    terry "(Kada) 'Our numbers dwindled, and we became alarmed.'"
 
-terry "(Kada) 'Last night they took Vruma's daughter as she slept.'"
+    terry "(Kada) 'Last night they took Vruma's daughter as she slept.'"
 
-terry "(Kada) 'We fear the worse, yet of no link can we form.'"
+    terry "(Kada) 'We fear the worse, yet of no link can we form.'"
 
-# TODO - Merge to start_journey
-pause
+    jump start_journey
+    pause
 return
 
 label tell_contacted:
 
-terry "They want to know who was contacted for help."
+    terry "They want to know who was contacted for help."
 
-lenn "(Ryden) 'Who turned their backs on such holy a quest?'"
+    lenn "(Ryden) 'Who turned their backs on such holy a quest?'"
 
-terry "(Kada) 'Westra Stonar, a Tiefling Ranger and local legend.'"
+    terry "(Kada) 'Westra Stonar, a Tiefling Ranger and local legend.'"
 
-terry "(Kada) 'Kethend the Great, a Lizardfolk Wizard who has...'"
+    terry "(Kada) 'Kethend the Great, a Lizardfolk Wizard who has...'"
 
-lenn "(Ryden) 'Let the people of this town down.'"
+    lenn "(Ryden) 'Let the people of this town down.'"
 
-lenn "(Ryden) 'Let's drink to our soon glory!'"
+    lenn "(Ryden) 'Let's drink to our soon glory!'"
 
-# TODO - Merge to start_journey
-pause
+    jump start_journey
+    pause
 return
 
 label start_journey:
 
-terry "(Kada) 'Please, eat well and rest soon.'"
+    terry "(Kada) 'Please, eat well and rest soon.'"
 
-terry "(Kada) 'We will need you gone before sunset.'"
+    terry "(Kada) 'We will need you gone before sunset.'"
 
-marlon "(Gilbert) 'Before sunset? Why so soon?'"
+    marlon "(Gilbert) 'Before sunset? Why so soon?'"
 
-terry "(Kada) 'We fear another will be taken, if haste is not used.'"
+    terry "(Kada) 'We fear another will be taken, if haste is not used.'"
 
-skye "(Iiria) 'We should rest soon.'"
+    skye "(Iiria) 'We should rest soon.'"
 
-johnny "(Alvie) 'I've got some elk jerky if anyone wants some!'"
+    johnny "(Alvie) 'I've got some elk jerky if anyone wants some!'"
 
-marlon "(Gilbert) 'Murph!'"
+    marlon "(Gilbert) 'Murph!'"
 
-lenn "Alright, let's figure this out!"
+    lenn "Alright, let's figure this out!"
 
-#TODO - Strange chant enters again
-# TODO - Split into next scene
-pause
+    #TODO - Strange chant enters again
+    # TODO - Split into next scene
+    pause
 return
