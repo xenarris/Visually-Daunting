@@ -1,0 +1,7 @@
+define terry = Character("Terry:", who_color="#404040", what_prefix='"', what_suffix='"')
+define lenn = Character("Len:", who_color="#404040",what_prefix='"', what_suffix='"')
+define skye = Character("Skye:", who_color="#404040",what_prefix='"', what_suffix='"')
+define marlon = Character("Marlon:", who_color="#404040",what_prefix='"', what_suffix='"')
+define johnny = Character("Johnny:", who_color="#404040",what_prefix='"', what_suffix='"')
+define unknown = Character("???:", who_color="#404040",what_prefix='"', what_suffix='"')
+define cultists = Character("Cultist:", who_color="#404040",what_prefix='"', what_suffix='"')
