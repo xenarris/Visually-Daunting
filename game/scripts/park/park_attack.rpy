@@ -1,5 +1,6 @@
 label park_attack:
     scene green
+    show image "images/park/assets/shamz_fwitch.png"
 
     donna "We lost Chips up this way..."
 
@@ -38,6 +39,7 @@ label park_attack:
 return
 
 label chips_appears:
+    show image "images/park/assets/shamz_fwitch.png"
 
     wendy "Ch-Chips...?"
 
@@ -61,6 +63,7 @@ label chips_appears:
 return
 
 label chips_attacks:
+    show image "images/park/assets/shamz_fwitch.png"
 
     wendy "...ghhhk...ghkk..."
 
