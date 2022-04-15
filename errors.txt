@@ -2,17 +2,9 @@
 errors listed below, and try again.
 
 
-The label splashscreen is defined twice, at File "game/script.rpy", line 39:
-label splashscreen:
-and File "game/scripts/script.rpyc", line 39:
-label splashscreen:
-
-
-The label start is defined twice, at File "game/script.rpy", line 69:
-label start:
-and File "game/scripts/script.rpyc", line 69:
-label start:
-
+File "game/scripts/roleplay/rp_ptII.rpy", line 4: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation.
+    terry "Welcome to Shiverbrows!"
+    ^
 
 Ren'Py Version: Ren'Py 8.0.0.22040201n
-Tue Apr  5 14:13:08 2022
+Thu Apr 14 22:24:49 2022

@@ -1,5 +1,5 @@
 label roleplay_intro:
-scene green
+    scene green
 
     terry "Welcome to Shiverbrows!"
 
@@ -17,7 +17,7 @@ scene green
 
     marlon "Human name, Marlon. Goblin name, Gilbert."
 
-    marlon "Tinkerer with a heart of gold and a pocket of boom!"	
+    marlon "Tinkerer with a heart of gold and pocket full of boom!"
 
     terry "Thanks everyone for the introductions."
 
@@ -85,8 +85,8 @@ return
 
 label tell_light:
 
-    terry "They want the light."	
-
+    terry "They want the light."
+    
     johnny "(Alvie) 'Could you tell us more about the light?'"
 
     marlon "(Gilbert) 'Do you know if it's containable by nature?'"
