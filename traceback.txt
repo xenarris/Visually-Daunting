@@ -1,22 +1,32 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/scripts/park/park_endings.rpy", line 14, in script
-    donoavan "Woah, Ethan...dude. NO!"
-Exception: Sayer 'donoavan' is not defined.
+  File "game/scripts/park/rec_space.rpy", line 31, in script
+    show donna appears at fifteen with dissolve
+  File "game/scripts/park/rec_space.rpy", line 31, in <module>
+    show donna appears at fifteen with dissolve
+NameError: name 'fifteen' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scripts/park/park_endings.rpy", line 14, in script
-    donoavan "Woah, Ethan...dude. NO!"
-  File "C:\Users\Panko\Desktop\RenPy\renpy\ast.py", line 857, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "C:\Users\Panko\Desktop\RenPy\renpy\ast.py", line 750, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'donoavan' is not defined.
+  File "game/scripts/park/rec_space.rpy", line 31, in script
+    show donna appears at fifteen with dissolve
+  File "C:\Users\Panko\Desktop\RenPy\renpy\ast.py", line 1381, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "C:\Users\Panko\Desktop\RenPy\renpy\ast.py", line 1340, in show_imspec
+    at_list = [ renpy.python.py_eval(i) for i in at_list ]
+  File "C:\Users\Panko\Desktop\RenPy\renpy\ast.py", line 1340, in <listcomp>
+    at_list = [ renpy.python.py_eval(i) for i in at_list ]
+  File "C:\Users\Panko\Desktop\RenPy\renpy\python.py", line 904, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\Panko\Desktop\RenPy\renpy\python.py", line 897, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/scripts/park/rec_space.rpy", line 31, in <module>
+    show donna appears at fifteen with dissolve
+NameError: name 'fifteen' is not defined
 
 Windows-10-10.0.22000
 Ren'Py 8.0.0.22040201n
 Visually Daunting 0.01
-Tue Apr  5 01:13:23 2022
+Sun Apr 17 18:34:16 2022
