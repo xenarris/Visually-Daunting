@@ -12,7 +12,7 @@ label start_the_stream:
     show image "images/park/chat/chat6.png" at topright
 
     #play sound "audio/park/snippets/donovan_hello.mp3"
-    donovan "Hello, happy viewers!"
+    ethan "Hello, happy viewers!"
 
     hide image "images/park/chat/chat6.png"
     show image "images/park/chat/chat7.png" at topright

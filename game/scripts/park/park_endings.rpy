@@ -1,5 +1,6 @@
 label fight_wendy:
     scene blue
+    show image "images/park/assets/shamz_fwitch.png"
 
     donovan "I've got a knife, I'm going to fight."
 
@@ -25,6 +26,7 @@ return
 
 label help_donna:
     scene green
+    show image "images/park/assets/shamz_fwitch.png"
 
     donovan "Donna. We need to go.  Come on!"
 
@@ -40,6 +42,7 @@ return
 
 label run_away:
     scene white
+    show image "images/park/assets/shamz_fwitch.png"
 
     donovan "Fuck this, I'm gone!"
 
@@ -54,6 +57,7 @@ return
 
 label mods_shut_down_park:
     scene purple
+    show image "images/park/assets/shamz_fwitch.png"
 
     "This channel is currently under review.\nAll content is temporarily removed."
 
