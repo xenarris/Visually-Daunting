@@ -423,6 +423,10 @@ screen main_menu():
             #textbutton _("Quit") action Quit(confirm=not main_menu)
         imagebutton auto "gui/mm_quit_%s.png" xpos 825 ypos 831 focus_mask True action Quit(confirm=not main_menu) hovered [ Play("sound", "audio/click.mp3") ]
 
+        imagebutton auto "gui/button/navigation/music_room_%s.png" xpos 1650 action ShowMenu("music_room") hovered [ Play("sound", "audio/click.mp3") ]
+
+        imagebutton auto "gui/button/navigation/gallery_%s.png" xpos 1650 ypos 100 action ShowMenu("auto_gallery") hovered [ Play("sound", "audio/click.mp3") ]
+
     # if gui.show_name:
 
     #     vbox:
