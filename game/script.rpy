@@ -20,6 +20,7 @@ init:
     $ twelve = Position(xpos=0.6, xanchor='center') 
     $ thirteen = Position(xpos=0.65, xanchor='center')
     $ fourteen = Position(xpos=0.68, xanchor='center')
+    $ fifteen = Position(xpos=0.72, xanchor='center')
 
     ##### Global Game Assets #####
     image logo = "dirty_rotten.png"

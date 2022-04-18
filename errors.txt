@@ -2,9 +2,7 @@
 errors listed below, and try again.
 
 
-File "game/scripts/park/park_attack.rpy", line 164: expected 'simple_expression' not found.
-    show wendy happy_cry at 
-                            ^
+File "game/scripts/park/park_attack.rpy", line 302: indentation mismatch.
 
 Ren'Py Version: Ren'Py 8.0.0.22040201n
-Sun Apr 17 23:37:47 2022
+Mon Apr 18 03:25:38 2022

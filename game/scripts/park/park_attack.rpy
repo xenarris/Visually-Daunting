@@ -163,17 +163,31 @@ label chips_appears:
 
     show wendy happy_cry at eleven with dissolve
 
+    show wendy at eleven with dissolve
+
     show donna disbelief with dissolve
 
-    wendy "Chips, baby. Come here. Come on. We've got you. Come!"
+    wendy "There's my baby! Chips, come on. Let's go home!"
 
-    show wendy happy_big_cry at fourteen with dissolve
+    show wendy happy_big_cry at fifteen with dissolve
 
     wendy "Chips!"
 
-    show donovan scared_mad with dissolve
+    show donna at ten with dissolve
+
+    show donovan scared_mad at six with dissolve
+
+    show ethan at two with dissolve
 
     donovan "Woah...!"
+
+    hide ethan
+
+    hide donovan
+
+    hide donna
+
+    hide wendy
 
     stop music fadeout 3
     play music "audio/park/park_attack.mp3" fadein 3
@@ -183,17 +197,108 @@ return
 label chips_attacks:
     show image "images/park/assets/shamz_fwitch.png"
 
+    show image "images/park/backgrounds/bg chips_attacks0.png"
+
+    show image "images/park/backgrounds/bg chips_attacks1.png" with dissolve
+    hide image "images/park/backgrounds/bg chips_attacks0.png"
+    pause(.2)
+
+    show image "images/park/backgrounds/bg chips_attacks2.png" with dissolve
+    hide image "images/park/backgrounds/bg chips_attacks1.png"
+    pause(.2)
+    show image "images/park/backgrounds/bg chips_pukes0.png" with dissolve
+    hide image "images/park/backgrounds/bg chips_attacks2.png"
+    pause(.2)
+    
+    show image "images/park/backgrounds/bg chips_pukes1.png" with dissolve
+    hide image "images/park/backgrounds/bg chips_pukes0.png"
+    pause(.2)
+
+    show image "images/park/backgrounds/bg chips_pukes1.png" with dissolve
+    hide image "images/park/backgrounds/bg chips_pukes0.png"
+    pause(.2)
+
+    show image "images/park/backgrounds/bg chips_pukes2.png" with dissolve
+    hide image "images/park/backgrounds/bg chips_pukes1.png"
+    pause(.2)
+
+    show image "images/park/backgrounds/bg chips_pukes3.png" with dissolve
+    hide image "images/park/backgrounds/bg chips_pukes2.png"
+    pause(.2)
+
+    hide image "images/park/backgrounds/bg chips_pukes3.png" with dissolve
+
+    show donna shocked at ten with dissolve
+
+    show donovan shocked at six with dissolve
+
+    show ethan shocked at two with dissolve
+
     wendy "...ghhhk...ghkk..."
 
     donovan "Oh fuck, oh fuck!"
 
     ethan "Oh my god, we have to help!"
 
-    wendy "Rrrraeeee!"
+    hide ethan
 
-    ethan "Aughhhh! Oh-my-god, oh-my-god. What the fuck! Ughhh..."
+    hide donovan
 
-    donovan "Dude, Ethan. Bro. What? Fuck!"
+    hide donna
+
+    show image "images/park/backgrounds/bg wendy_dies0.png"
+
+    show image "images/park/backgrounds/bg wendy_dies1.png" with dissolve
+    hide image "images/park/backgrounds/bg wendy_dies0.png"
+    pause(.2)
+
+    show image "images/park/backgrounds/bg wendy_dies2.png" with dissolve
+    hide image "images/park/backgrounds/bg wendy_dies1.png"
+    pause(.2)
+
+    show image "images/park/backgrounds/bg ethan_attack0.png" with dissolve
+    hide image "images/park/backgrounds/bg wendy_dies2.png"
+    pause(.2)
+
+    show image "images/park/backgrounds/bg ethan_attack1.png" with dissolve
+    hide image "images/park/backgrounds/bg ethan_attack0.png"
+    pause(.2)
+
+    hide image "images/park/backgrounds/bg ethan_attack1.png" with dissolve
+
+    show ethan after_attack at fourteen with dissolve
+
+    show donovan shocked_big_ups at six with dissolve
+
+    show donna in_shock at ten with dissolve
+
+    show donovan shocked_big at six with dissolve
+    pause(.3)
+
+    show donovan shocked_big_ups at six with dissolve
+
+    donovan "Dude, Ethan. Bro. What the fuck!?"
+
+    ethan "Aughhhh! Oh-my-god, oh-my-god. Ughhh...!"
+
+    hide ethan
+
+    hide donovan
+
+    hide donna
+
+    show image "images/park/backgrounds/bg ethan_dies0.png"
+    pause(.4)
+
+    show image "images/park/backgrounds/bg ethan_dies1.png" with dissolve
+    hide image "images/park/backgrounds/bg ethan_dies0.png"
+    pause(1)
+
+    show image "images/park/backgrounds/bg ethan_dies2.png" with dissolve
+    hide image "images/park/backgrounds/bg ethan_dies1.png"
+
+    pause(2.5)
+    hide image "images/park/backgrounds/bg ethan_dies2.png" with dissolve
 
     donovan "Donna. Donna, come on. We've got to go. Donna. Get up. Fuck!"
 
