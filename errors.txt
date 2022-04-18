@@ -2,7 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scripts/park/park_attack.rpy", line 302: indentation mismatch.
+File "game/scripts/park/park_attack.rpy", line 301: Line is indented, but the preceding pause statement statement does not expect a block. Please check this line's indentation.
+    show image "images/park/backgrounds/bg ethan_dies2.png" with dissolve
+    ^
 
 Ren'Py Version: Ren'Py 8.0.0.22040201n
-Mon Apr 18 03:25:38 2022
+Mon Apr 18 03:41:45 2022

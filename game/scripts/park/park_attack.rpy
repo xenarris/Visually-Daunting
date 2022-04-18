@@ -296,15 +296,39 @@ label chips_attacks:
 
     show image "images/park/backgrounds/bg ethan_dies2.png" with dissolve
     hide image "images/park/backgrounds/bg ethan_dies1.png"
-
     pause(2.5)
-    hide image "images/park/backgrounds/bg ethan_dies2.png" with dissolve
+
+    show image "images/park/backgrounds/bg ethan_dies3.png" with dissolve
+    hide image "images/park/backgrounds/bg ethan_dies2.png"
+    pause(3.5)
+
+    hide image "images/park/backgrounds/bg ethan_dies3.png" with dissolve
+
+    show donovan shocked_big_ups at six with dissolve
+
+    show donna in_shock at ten with dissolve
+
+    show donovan shocked_big at six with dissolve
 
     donovan "Donna. Donna, come on. We've got to go. Donna. Get up. Fuck!"
 
+    show donovan shocked_big_ups at six with dissolve
+
     donovan "Fuck man. What the fuck!?"
 
+    show donovan shocked_big_ups at flip with dissolve
+
+    pause(.2)
+
+    show donovan shocked_big at flip_back with dissolve
+
+    pause(.1)
+
+    show donovan shocked_big_ups with dissolve
+
     donovan "What do I do? What do I do?  Fuck."
+    
+    show donovan shocked_big at flip_back with dissolve
 
     call screen park_ending
     pause
