@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scripts/roleplay/rp_ptII.rpy", line 4: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation.
-    terry "Welcome to Shiverbrows!"
+File "game/scripts/park/rec_space.rpy", line 93: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation.
+    show ethan concerned with dissolve
     ^
 
 Ren'Py Version: Ren'Py 8.0.0.22040201n
-Thu Apr 14 22:24:49 2022
+Sun Apr 17 19:06:05 2022
