@@ -193,8 +193,6 @@ label rec_center:
 
     show donovan at eight with dissolve
 
-    show ethan at five with dissolve
-
     donovan "Lead the way."
 
     call screen continue_from_rec
