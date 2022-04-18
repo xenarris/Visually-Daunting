@@ -6,7 +6,7 @@ init:
 
     ##### Positions #####
     $ zero = Position(xpos=0.0, xanchor='center')
-    $ one = Position(xpos=0.5, xanchor='center')
+    $ one = Position(xpos=0.05, xanchor='center')
     $ two = Position(xpos=0.1, xanchor='center')
     $ three = Position(xpos=0.15, xanchor='center')
     $ four = Position(xpos=0.2, xanchor='center')
@@ -34,6 +34,9 @@ init:
     ###### Char Flips ######
     transform flip: 
         xzoom -1.0
+
+    transform flip_back: 
+        xzoom 1.0
 
 #### Splash Screen #####
 label splashscreen:
