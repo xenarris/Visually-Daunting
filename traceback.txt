@@ -1,22 +1,62 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/scripts/park/park_endings.rpy", line 14, in script
-    donoavan "Woah, Ethan...dude. NO!"
-Exception: Sayer 'donoavan' is not defined.
+While loading <renpy.display.im.Image object ('…s/bg ethan_dies3.png') at 0x00000000064acb50>:
+  File "game/scripts/park/park_attack.rpy", line 301, in script
+    show image "images/park/backgrounds/bg ethan_dies3.png" with dissolve
+OSError: Couldn't find file 'images/park/backgrounds/bg ethan_dies3.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scripts/park/park_endings.rpy", line 14, in script
-    donoavan "Woah, Ethan...dude. NO!"
-  File "C:\Users\Panko\Desktop\RenPy\renpy\ast.py", line 857, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "C:\Users\Panko\Desktop\RenPy\renpy\ast.py", line 750, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'donoavan' is not defined.
+  File "game/scripts/park/park_attack.rpy", line 301, in script
+    show image "images/park/backgrounds/bg ethan_dies3.png" with dissolve
+  File "C:\Users\Panko\Desktop\RenPy\renpy\ast.py", line 1631, in execute
+    renpy.exports.with_statement(trans, paired)
+  File "C:\Users\Panko\Desktop\RenPy\renpy\exports.py", line 1691, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 2782, in do_with
+    return self.interact(trans_pause=True,
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 3344, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 3866, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 2586, in draw_screen
+    surftree = renpy.display.render.render_screen(
+  File "render.pyx", line 492, in renpy.display.render.render_screen
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\layout.py", line 842, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\transition.py", line 373, in render
+    top = render(self.new_widget, width, height, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\layout.py", line 842, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\layout.py", line 842, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\transform.py", line 741, in render
+    return transform_render(self, width, height, st, at)
+  File "accelerator.pyx", line 187, in renpy.display.accelerator.transform_render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\im.py", line 619, in render
+    return cache.get(self, render=True)
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\im.py", line 287, in get
+    surf = image.load()
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\im.py", line 715, in load
+    raise e
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\im.py", line 680, in load
+    filelike = renpy.loader.load(self.filename)
+  File "C:\Users\Panko\Desktop\RenPy\renpy\loader.py", line 810, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'images/park/backgrounds/bg ethan_dies3.png'.
 
 Windows-10-10.0.22000
 Ren'Py 8.0.0.22040201n
 Visually Daunting 0.01
-Tue Apr  5 01:13:23 2022
+Mon Apr 18 03:42:07 2022
