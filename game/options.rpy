@@ -222,7 +222,7 @@ define config.mouse['default'] = [ ( "gui/mouse.png", 0, 0) ]
 # define config.rollback_enabled = False
 
 # For Development
-##define config.rollback_enabled = True
+define config.rollback_enabled = True
 
 ################################################################################
 ## Kit Options
