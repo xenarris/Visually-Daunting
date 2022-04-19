@@ -6,7 +6,7 @@ label park_attack:
 
     show wendy listening at ten with dissolve
 
-    show donovan listening at flip with dissolve
+    show donovan listening at three with dissolve
 
     show ethan listening at six with dissolve
 
@@ -96,7 +96,7 @@ label park_attack:
 
     show donna surprised with dissolve
 
-    show donovan confused at flip with dissolve
+    show donovan confused with dissolve
 
     ethan "What as that?"
 
@@ -130,18 +130,15 @@ label chips_appears:
     hide image "images/park/backgrounds/bg chips_appears3.png"
     pause(3.4)
 
-    show image "images/park/backgrounds/bg chips_appears1.png" with dissolve
-    hide image "images/park/backgrounds/bg chips_appears4.png"
-    pause(1)
-    hide image "images/park/backgrounds/bg chips_appears1.png"
+    hide image "images/park/backgrounds/bg chips_appears4.png" with dissolve
 
     show wendy shocked at ten
 
     show donna big_upset at thirteen
 
-    show donovan scared at three with dissolve
-
     show ethan scared at six with dissolve
+
+    show donovan scared at three with dissolve
 
     wendy "Ch-Chips...?"
 
@@ -218,15 +215,7 @@ label chips_attacks:
     hide image "images/park/backgrounds/bg chips_pukes0.png"
     pause(.2)
 
-    show image "images/park/backgrounds/bg chips_pukes2.png" with dissolve
-    hide image "images/park/backgrounds/bg chips_pukes1.png"
-    pause(.2)
-
-    show image "images/park/backgrounds/bg chips_pukes3.png" with dissolve
-    hide image "images/park/backgrounds/bg chips_pukes2.png"
-    pause(.2)
-
-    hide image "images/park/backgrounds/bg chips_pukes3.png" with dissolve
+    hide image "images/park/backgrounds/bg chips_pukes1.png" with dissolve
 
     show donna shocked at ten with dissolve
 
