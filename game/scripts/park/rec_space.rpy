@@ -31,6 +31,8 @@ label rec_center:
 
         show donovan frown with dissolve
 
+        show image "images/park/chat/chat_ethan_hey.png"
+
         ethan "Hey, we've got people...!"
 
         show donna appears at fourteen with dissolve
@@ -44,6 +46,9 @@ label rec_center:
         show donna surprised with dissolve
 
         show wendy big_sad with dissolve
+
+        hide image "images/park/chat/chat_ethan_hey.png"
+        show image "images/park/chat/chat_dono_what.png"
 
         donovan "Hello?"
 
