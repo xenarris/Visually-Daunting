@@ -20,11 +20,18 @@ label rec_center:
     stop music fadeout 3
     play music "audio/park/park_intensifies.mp3" fadein 3
 
+    # show donovan forward_smile_alt at flip with dissolve
+    # pause(.1)
+    # show ethan forward_smile_alt at eight with dissolve
+    # pause(0.5)
+
     if seen_bulletin == True:
 
         show ethan frustrated at six with dissolve
 
         show donovan frown with dissolve
+
+        show image "images/park/chat/chat_ethan_hey.png"
 
         ethan "Hey, we've got people...!"
 
@@ -40,9 +47,16 @@ label rec_center:
 
         show wendy big_sad with dissolve
 
+        hide image "images/park/chat/chat_ethan_hey.png"
+        show image "images/park/chat/chat_dono_what.png"
+
         donovan "Hello?"
 
         show donna listening with dissolve
+
+        show donovan upset with dissolve
+        show wendy intrigued with dissolve
+        show donna dubious with dissolve
 
         unknown "Hey."
 
@@ -62,6 +76,7 @@ label rec_center:
 
         show donna ashamed with dissolve
 
+        show wendy cry with dissolve
         unknown "We've been looking..."
 
         show ethan concerned with dissolve
@@ -95,12 +110,16 @@ label rec_center:
         show ethan concerned with dissolve
 
         unknown "Oh yeah, that's our baby. We put that up a week ago."
+        show donna listening with dissolve
 
         show ethan listening with dissolve
 
 
     else:
         
+        show donovan big_smile at ten with dissolve
+        show ethan listening at five with dissolve
+
         donovan "Hey, I see something."
 
         show donovan frown with dissolve
@@ -121,6 +140,8 @@ label rec_center:
 
         unknown "Have you guys seen a dog?"
 
+        show wendy dubious with dissolve
+        show ethan concerned with dissolve
         ethan "A dog...?"
 
         show donovan listening with dissolve
@@ -134,6 +155,8 @@ label rec_center:
         show ethan listening with dissolve
 
         unknown "We're looking for our dog, Chips.  We lost him."
+        
+        show donna listening with dissolve
 
     show donovan smile with dissolve
     
@@ -165,6 +188,9 @@ label rec_center:
 
     show donna listening with dissolve
 
+    show donna surprised with dissolve
+    show donovan smile with dissolve
+    show ethan smile with dissolve
     donovan "No problem!  I'm Donovan by the way. He's Ethan."
 
     show ethan listening with dissolve
@@ -185,6 +211,8 @@ label rec_center:
 
     donovan "Well, let's go find that pup!"
 
+    show donovan smile with dissolve
+    show wendy intrigued with dissolve
     wendy "The last time we saw him was around the lake."
 
     show donna at flip with dissolve

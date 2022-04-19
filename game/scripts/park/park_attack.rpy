@@ -24,6 +24,8 @@ label park_attack:
 
     show donna ashamed with dissolve
 
+    show donna smile at flip with dissolve
+    
     donna "He'd run."
 
     show donovan question with dissolve
@@ -142,6 +144,8 @@ label chips_appears:
     show donovan scared at three with dissolve
 
     show ethan scared at six with dissolve
+
+    show wendy shocked at ten with dissolve
 
     wendy "Ch-Chips...?"
 
