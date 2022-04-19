@@ -6,7 +6,7 @@ label park_attack:
 
     show wendy listening at ten with dissolve
 
-    show donovan listening at flip with dissolve
+    show donovan listening with dissolve
 
     show ethan listening at six with dissolve
 
@@ -98,7 +98,7 @@ label park_attack:
 
     show donna surprised with dissolve
 
-    show donovan confused at flip with dissolve
+    show donovan confused with dissolve
 
     ethan "What as that?"
 
@@ -320,7 +320,7 @@ label chips_attacks:
 
     donovan "Fuck man. What the fuck!?"
 
-    show donovan shocked_big_ups at flip with dissolve
+    show donovan shocked_big_ups with dissolve
 
     pause(.2)
 
@@ -331,7 +331,7 @@ label chips_attacks:
     show donovan shocked_big_ups with dissolve
 
     donovan "What do I do? What do I do?  Fuck."
-    
+
     show donovan shocked_big at flip_back with dissolve
 
     call screen park_ending

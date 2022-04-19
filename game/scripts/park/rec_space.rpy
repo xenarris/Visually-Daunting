@@ -12,7 +12,7 @@ label rec_center:
     pause(.5)
     show image "images/park/backgrounds/bg rec_center.png" with dissolve
 
-    show donovan listening at flip with dissolve
+    show donovan listening at five with dissolve
     pause(.1)
     show ethan listening at ten with dissolve
     pause(.6)
@@ -20,28 +20,19 @@ label rec_center:
     stop music fadeout 3
     play music "audio/park/park_intensifies.mp3" fadein 3
 
-    # show donovan forward_smile_alt at flip with dissolve
-    # pause(.1)
-    # show ethan forward_smile_alt at eight with dissolve
-    # pause(0.5)
-
     if seen_bulletin == True:
-
-        show ethan frustrated at six with dissolve
-
-        show donovan frown with dissolve
 
         show image "images/park/chat/chat_ethan_hey.png"
 
         ethan "Hey, we've got people...!"
 
+        show donovan upset at three with dissolve
+
+        show ethan concerned at six with dissolve
+
         show donna appears at fourteen with dissolve
 
         show wendy appears at eleven with dissolve
-
-        show ethan concerned with dissolve
-
-        show donovan upset with dissolve
 
         show donna surprised with dissolve
 
@@ -116,15 +107,12 @@ label rec_center:
 
 
     else:
-        
-        show donovan big_smile at ten with dissolve
-        show ethan listening at five with dissolve
 
         donovan "Hey, I see something."
+        
+        show donovan frown at six with dissolve
 
-        show donovan frown with dissolve
-
-        show ethan concerned at two with dissolve
+        show ethan concerned at three with dissolve
 
         show donna appears at eleven with dissolve
 
@@ -188,9 +176,6 @@ label rec_center:
 
     show donna listening with dissolve
 
-    show donna surprised with dissolve
-    show donovan smile with dissolve
-    show ethan smile with dissolve
     donovan "No problem!  I'm Donovan by the way. He's Ethan."
 
     show ethan listening with dissolve

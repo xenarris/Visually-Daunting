@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/scripts/park/rec_space.rpy", line 33: end of line expected.
+    show ethan concerned at sixwith dissolve
+                                    ^
+
+Ren'Py Version: Ren'Py 8.0.0.22040201n
+Mon Apr 18 19:35:40 2022

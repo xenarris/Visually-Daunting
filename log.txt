@@ -1,305 +1,35 @@
-Mon Apr 18 17:03:38 2022
+Mon Apr 18 19:10:34 2022
 Windows-10-10.0.22000
-Ren'Py 7.4.11.2266
+Ren'Py 8.0.0.22040201n
  
 
-Bootstrap to the start of init.init took 0.09s
+Bootstrap to the start of init.init took 0.03s
 Early init took 0.00s
-Loader init took 0.03s
-Loading error handling took 0.03s
-Loading script took 0.19s
-Loading save slot metadata. took 0.04s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.08s
+Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.06s
-Loading analysis data took 0.03s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Panko\\Desktop\\RenPy\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.03s
+Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Dump and make backups. took 0.08s
+Dump and make backups. took 0.03s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
+Initial gc. took 0.02s
+DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.21s
+Creating interface object took 0.17s
 Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.01s
+Init translation took 0.02s
+Build styles took 0.00s
 Load screen analysis took 0.02s
 Analyze screens took 0.00s
 Save screen analysis took 0.00s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce GTX 1070/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 511.23'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1074, 604) drawable=(1074, 604)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1L
-Resetting cache.
-Bootstrap to the start of init.init took 2371.95s
-Early init took 0.00s
-Loader init took 0.03s
-Loading error handling took 0.02s
-Loading script took 0.29s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.06s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\james\\AppData\\Roaming/RenPy/backups\\Visually-Daunting':
-Dump and make backups. took 0.10s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.22s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.04s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce GTX 1070/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 511.23'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1074, 604) drawable=(1074, 604)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2393.49s
-Early init took 0.00s
-Loader init took 0.03s
-Loading error handling took 0.03s
-Loading script took 0.21s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.07s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\james\\AppData\\Roaming/RenPy/backups\\Visually-Daunting':
-Dump and make backups. took 0.10s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.25s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.01s
-Load screen analysis took 0.01s
-Analyze screens took 0.02s
-Save screen analysis took 0.04s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce GTX 1070/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 511.23'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1074, 604) drawable=(1074, 604)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 3813.41s
-Early init took 0.00s
-Loader init took 0.03s
-Loading error handling took 0.02s
-Loading script took 0.21s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.05s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\james\\AppData\\Roaming/RenPy/backups\\Visually-Daunting':
-Dump and make backups. took 0.09s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.23s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.05s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce GTX 1070/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 511.23'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1074, 604) drawable=(1074, 604)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 3851.48s
-Early init took 0.00s
-Loader init took 0.03s
-Loading error handling took 0.03s
-Loading script took 0.22s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\james\\AppData\\Roaming/RenPy/backups\\Visually-Daunting':
-Dump and make backups. took 0.10s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.24s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.02s
-Save screen analysis took 0.05s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce GTX 1070/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 511.23'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1074, 604) drawable=(1074, 604)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 3893.99s
-Early init took 0.00s
-Loader init took 0.03s
-Loading error handling took 0.02s
-Loading script took 0.21s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\james\\AppData\\Roaming/RenPy/backups\\Visually-Daunting':
-Dump and make backups. took 0.09s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.24s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.05s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce GTX 1070/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 511.23'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1074, 604) drawable=(1074, 604)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 3957.60s
-Early init took 0.00s
-Loader init took 0.03s
-Loading error handling took 0.03s
-Loading script took 0.18s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Dump and make backups. took 0.09s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.25s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.09s
+Prepare screens took 0.04s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
 Running _start took 0.00s
@@ -310,9 +40,1869 @@ Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
 Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce GTX 1070/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 511.23'
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1074, 604) drawable=(1074, 604)
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 381.43s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.09s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Panko\\Desktop\\RenPy\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 461.58s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.12s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/park/rec_space.rpy", line 27: expected 'simple_expression' not found.
+    show donovan frown at  with dissolve
+                           ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.24s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 464.78s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Panko\\Desktop\\RenPy\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Panko\\AppData\\Roaming/RenPy/backups\\Visually-Daunting':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 473.49s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.09s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Panko\\Desktop\\RenPy\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.18s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 499.32s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Panko\\Desktop\\RenPy\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Panko\\AppData\\Roaming/RenPy/backups\\Visually-Daunting':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.18s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 508.62s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Panko\\Desktop\\RenPy\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Panko\\AppData\\Roaming/RenPy/backups\\Visually-Daunting':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.19s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 514.95s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Panko\\Desktop\\RenPy\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Panko\\AppData\\Roaming/RenPy/backups\\Visually-Daunting':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.18s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 567.88s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Panko\\Desktop\\RenPy\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Panko\\AppData\\Roaming/RenPy/backups\\Visually-Daunting':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.18s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 572.64s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Panko\\Desktop\\RenPy\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Panko\\AppData\\Roaming/RenPy/backups\\Visually-Daunting':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.18s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1005.08s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Panko\\Desktop\\RenPy\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Panko\\AppData\\Roaming/RenPy/backups\\Visually-Daunting':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1032.47s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Panko\\Desktop\\RenPy\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Panko\\AppData\\Roaming/RenPy/backups\\Visually-Daunting':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1035.78s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Panko\\Desktop\\RenPy\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Panko\\AppData\\Roaming/RenPy/backups\\Visually-Daunting':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1042.05s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Panko\\Desktop\\RenPy\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Panko\\AppData\\Roaming/RenPy/backups\\Visually-Daunting':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.18s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1046.86s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.11s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Panko\\Desktop\\RenPy\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Panko\\AppData\\Roaming/RenPy/backups\\Visually-Daunting':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1060.66s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.11s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Panko\\Desktop\\RenPy\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Panko\\AppData\\Roaming/RenPy/backups\\Visually-Daunting':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1063.96s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/park/rec_space.rpy", line 33: end of line expected.
+    show ethan at six concerned with dissolve
+                      ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.24s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1067.19s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/park/rec_space.rpy", line 33: end of line expected.
+    show ethan at six concerned with dissolve
+                      ^
+
+File "game/scripts/park/rec_space.rpy", line 35: end of line expected.
+    show donovan at three upset with dissolve
+                          ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.26s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1079.44s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.09s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/park/rec_space.rpy", line 33: end of line expected.
+    show ethan at six concerned with dissolve
+                      ^
+
+File "game/scripts/park/rec_space.rpy", line 35: end of line expected.
+    show donovan at three upset with dissolve
+                          ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.23s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1084.20s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/park/rec_space.rpy", line 33: end of line expected.
+    show ethan at six concerned with dissolve
+                      ^
+
+File "game/scripts/park/rec_space.rpy", line 35: end of line expected.
+    show donovan at three upset with dissolve
+                          ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.23s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1097.89s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/park/rec_space.rpy", line 33: end of line expected.
+    show ethan at six concerned with dissolve
+                      ^
+
+File "game/scripts/park/rec_space.rpy", line 35: end of line expected.
+    show donovan at three upset with dissolve
+                          ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.23s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1100.14s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.09s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/park/rec_space.rpy", line 33: end of line expected.
+    show ethan at six concerned with dissolve
+                      ^
+
+File "game/scripts/park/rec_space.rpy", line 35: end of line expected.
+    show donovan at three upset with dissolve
+                          ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.22s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1100.90s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.09s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/park/rec_space.rpy", line 33: end of line expected.
+    show ethan at six concerned with dissolve
+                      ^
+
+File "game/scripts/park/rec_space.rpy", line 35: end of line expected.
+    show donovan at three upset with dissolve
+                          ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.22s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1126.66s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/park/rec_space.rpy", line 33: end of line expected.
+    show ethan at six concerned with dissolve
+                      ^
+
+File "game/scripts/park/rec_space.rpy", line 35: end of line expected.
+    show donovan at three upset with dissolve
+                          ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.22s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1132.90s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.09s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/park/rec_space.rpy", line 33: end of line expected.
+    show ethan at six concerned with dissolve
+                      ^
+
+File "game/scripts/park/rec_space.rpy", line 35: end of line expected.
+    show donovan at three upset with dissolve
+                          ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.23s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1307.37s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/park/rec_space.rpy", line 148: indentation mismatch.
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.23s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1309.09s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/park/rec_space.rpy", line 33: end of line expected.
+    show ethan at six concerned with dissolve
+                      ^
+
+File "game/scripts/park/rec_space.rpy", line 35: end of line expected.
+    show donovan at three upset with dissolve
+                          ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.23s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1315.30s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/park/rec_space.rpy", line 33: end of line expected.
+    show ethan at six concerned with dissolve
+                      ^
+
+File "game/scripts/park/rec_space.rpy", line 35: end of line expected.
+    show donovan at three upset with dissolve
+                          ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.23s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1453.72s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.09s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/park/rec_space.rpy", line 149: indentation mismatch.
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.23s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1455.45s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/park/rec_space.rpy", line 33: end of line expected.
+    show ethan at six concerned with dissolve
+                      ^
+
+File "game/scripts/park/rec_space.rpy", line 35: end of line expected.
+    show donovan at three upset with dissolve
+                          ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.26s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1464.66s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.09s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/park/rec_space.rpy", line 33: end of line expected.
+    show ethan at six concerned with dissolve
+                      ^
+
+File "game/scripts/park/rec_space.rpy", line 35: end of line expected.
+    show donovan at three upset with dissolve
+                          ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.23s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1471.88s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.09s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/park/rec_space.rpy", line 33: end of line expected.
+    show ethan at six concerned with dissolve
+                      ^
+
+File "game/scripts/park/rec_space.rpy", line 35: end of line expected.
+    show donovan at three upset with dissolve
+                          ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.22s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1472.61s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.09s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/park/rec_space.rpy", line 33: end of line expected.
+    show ethan at six concerned with dissolve
+                      ^
+
+File "game/scripts/park/rec_space.rpy", line 35: end of line expected.
+    show donovan at three upset with dissolve
+                          ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.23s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1473.16s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.09s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/park/rec_space.rpy", line 33: end of line expected.
+    show ethan at six concerned with dissolve
+                      ^
+
+File "game/scripts/park/rec_space.rpy", line 35: end of line expected.
+    show donovan at three upset with dissolve
+                          ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.23s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1495.91s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/park/rec_space.rpy", line 33: end of line expected.
+    show ethan at six concerned with dissolve
+                      ^
+
+File "game/scripts/park/rec_space.rpy", line 35: end of line expected.
+    show donovan at threewith dissolve
+                              ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.23s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1497.62s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/park/rec_space.rpy", line 33: end of line expected.
+    show ethan at six concerned with dissolve
+                      ^
+
+File "game/scripts/park/rec_space.rpy", line 35: end of line expected.
+    show donovan upset at threewith dissolve
+                                    ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.23s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1499.33s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/park/rec_space.rpy", line 33: end of line expected.
+    show ethan at six concerned with dissolve
+                      ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.23s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1501.06s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/park/rec_space.rpy", line 33: end of line expected.
+    show ethan at sixwith dissolve
+                          ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.23s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1504.25s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.09s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/park/rec_space.rpy", line 33: end of line expected.
+    show ethan concerned  at sixwith dissolve
+                                     ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.23s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1505.91s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.09s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/park/rec_space.rpy", line 33: end of line expected.
+    show ethan concerned at sixwith dissolve
+                                    ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.24s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1507.64s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Panko\\Desktop\\RenPy\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Panko\\AppData\\Roaming/RenPy/backups\\Visually-Daunting':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.02s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1531.98s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.11s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Panko\\Desktop\\RenPy\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Panko\\AppData\\Roaming/RenPy/backups\\Visually-Daunting':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.18s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1535.33s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Panko\\Desktop\\RenPy\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Panko\\AppData\\Roaming/RenPy/backups\\Visually-Daunting':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.18s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1537.14s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Panko\\Desktop\\RenPy\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Panko\\AppData\\Roaming/RenPy/backups\\Visually-Daunting':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1538.94s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.09s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Panko\\Desktop\\RenPy\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1554.27s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Panko\\Desktop\\RenPy\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Panko\\AppData\\Roaming/RenPy/backups\\Visually-Daunting':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.18s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1556.04s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Panko\\Desktop\\RenPy\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Panko\\AppData\\Roaming/RenPy/backups\\Visually-Daunting':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.16s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1557.83s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Panko\\Desktop\\RenPy\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Panko\\AppData\\Roaming/RenPy/backups\\Visually-Daunting':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1559.59s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Panko\\Desktop\\RenPy\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Panko\\AppData\\Roaming/RenPy/backups\\Visually-Daunting':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1731.68s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.11s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Panko\\Desktop\\RenPy\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.02s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Panko\\AppData\\Roaming/RenPy/backups\\Visually-Daunting':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1751.03s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.09s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Panko\\Desktop\\RenPy\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.18s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 472.19'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1340, 754) drawable=(1340, 754)
 Maximum texture size: 4096x4096
