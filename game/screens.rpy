@@ -743,6 +743,21 @@ style slot_button_text is gui_button_text
 style slot_time_text is slot_button_text
 style slot_name_text is slot_button_text
 
+style pg_num_idle:
+    yoffset 15
+    xoffset 28
+    color gui.interface_text_color
+
+style pg_num_insensitive:
+    yoffset 15
+    xoffset 28
+    color "#aaa"
+
+style pg_num_hover:
+    yoffset 15
+    xoffset 28
+    color "#fff"    
+
 style page_label:
     xpadding 75
     ypadding 5
@@ -757,12 +772,15 @@ style page_button:
 
 style page_button_text:
     properties gui.button_text_properties("page_button")
+    size 30
 
 style slot_button:
     properties gui.button_properties("slot_button")
 
 style slot_button_text:
     properties gui.button_text_properties("slot_button")
+    xoffset 25
+    yoffset 25
 
 
 ## Preferences screen ##########################################################

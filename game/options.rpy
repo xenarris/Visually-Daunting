@@ -246,5 +246,10 @@ init -25:
     define music_room.tracks = [
         {"name": "Main Menu", "file": "audio/menu.mp3"},
         {"name": "Boot Séance", "file": "audio/boot_seance.mp3"},
-        {"name": "stream_background", "file": "audio/peter_jam.mp3"}
+        {"name": "stream_background", "file": "audio/peter_jam.mp3"},
+        {"name": "Brain Done", "file": "audio/park/brain_done.mp3"},
+        {"name": "Park Attack", "file": "audio/park/park_attack.mp3"},
+        {"name": "Park Intensifies", "file": "audio/park/park_intensifies.mp3"},
+        {"name": "Stream Background", "file": "audio/park/stream_background.mp3"},
+        {"name": "Stream Loading", "file": "audio/park/stream_upbeat_loading.mp3"}
         ]
