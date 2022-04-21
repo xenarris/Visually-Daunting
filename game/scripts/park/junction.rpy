@@ -13,7 +13,7 @@ label park_junction:
     pause(.5)
     show image "images/park/backgrounds/bg park_junction.png" with dissolve
 
-    show donovan listening at four with dissolve
+    show donovan listening at flip  with dissolve
     pause(.1)
     show ethan concerned at twelve with dissolve
     pause(0.5)
@@ -22,7 +22,7 @@ label park_junction:
 
     ethan "I've got nothing."
     pause(.2)
-    show donovan upset at flip with dissolve
+    show donovan upset at flip_back with dissolve
     show ethan frustrated with dissolve
     donovan "I've got nothing, too."
 

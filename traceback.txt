@@ -1,15 +1,15 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <renpy.display.im.Image object ('…s/bg ethan_dies3.png') at 0x00000000064acb50>:
-  File "game/scripts/park/park_attack.rpy", line 301, in script
-    show image "images/park/backgrounds/bg ethan_dies3.png" with dissolve
-OSError: Couldn't find file 'images/park/backgrounds/bg ethan_dies3.png'.
+While loading <renpy.display.im.Image object ('…bg ethan_attack0.png') at 0x0000000005fcc520>:
+  File "game/scripts/park/park_attack.rpy", line 248, in script
+    show image "images/park/backgrounds/bg ethan_attack0.png" with dissolve
+OSError: Couldn't find file 'images/park/backgrounds/bg ethan_attack0.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scripts/park/park_attack.rpy", line 301, in script
-    show image "images/park/backgrounds/bg ethan_dies3.png" with dissolve
+  File "game/scripts/park/park_attack.rpy", line 248, in script
+    show image "images/park/backgrounds/bg ethan_attack0.png" with dissolve
   File "C:\Users\Panko\Desktop\RenPy\renpy\ast.py", line 1631, in execute
     renpy.exports.with_statement(trans, paired)
   File "C:\Users\Panko\Desktop\RenPy\renpy\exports.py", line 1691, in with_statement
@@ -54,9 +54,9 @@ Full traceback:
     filelike = renpy.loader.load(self.filename)
   File "C:\Users\Panko\Desktop\RenPy\renpy\loader.py", line 810, in load
     raise IOError("Couldn't find file '%s'." % name)
-OSError: Couldn't find file 'images/park/backgrounds/bg ethan_dies3.png'.
+OSError: Couldn't find file 'images/park/backgrounds/bg ethan_attack0.png'.
 
 Windows-10-10.0.22000
 Ren'Py 8.0.0.22040201n
 Visually Daunting 0.01
-Mon Apr 18 03:42:07 2022
+Mon Apr 18 23:16:57 2022

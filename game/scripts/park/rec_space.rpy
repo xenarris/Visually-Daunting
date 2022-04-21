@@ -12,9 +12,9 @@ label rec_center:
     pause(.5)
     show image "images/park/backgrounds/bg rec_center.png" with dissolve
 
-    show donovan listening at flip with dissolve
+    show donovan listening at ten with dissolve
     pause(.1)
-    show ethan listening at ten with dissolve
+    show ethan listening at five with dissolve
     pause(.6)
 
     stop music fadeout 3
@@ -22,9 +22,9 @@ label rec_center:
 
     if seen_bulletin == True:
 
-        show ethan frustrated at six with dissolve
+        show ethan frustrated at two with dissolve
 
-        show donovan frown with dissolve
+        show donovan frown at five with dissolve
 
         ethan "Hey, we've got people...!"
 
@@ -94,7 +94,7 @@ label rec_center:
 
         show ethan concerned with dissolve
 
-        unknown "Oh yeah, that's our baby. We put that up a week ago."
+        unknown "Oh yeah, that's our baby. TYeah,hat's Chips!"
 
         show ethan listening with dissolve
 
@@ -103,9 +103,9 @@ label rec_center:
         
         donovan "Hey, I see something."
 
-        show donovan frown with dissolve
-
         show ethan concerned at two with dissolve
+
+        show donovan frown at five with dissolve
 
         show donna appears at eleven with dissolve
 
@@ -192,6 +192,8 @@ label rec_center:
     show wendy at flip with dissolve
 
     show donovan at eight with dissolve
+
+    show ethan at five with dissolve
 
     donovan "Lead the way."
 
