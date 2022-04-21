@@ -242,8 +242,9 @@ init -25:
 
     define music_room.enabled = True
     # If True, all tracks will be unlocked by default. If false, tracks will appear only once they are heard by the player.
-    define music_room.unlocked = True
+    define music_room.unlocked = False
     define music_room.tracks = [
         {"name": "Main Menu", "file": "audio/menu.mp3"},
-        {"name": "Boot", "file": "audio/boot_seance.mp3"}
+        {"name": "Boot Séance", "file": "audio/boot_seance.mp3"},
+        {"name": "stream_background", "file": "audio/peter_jam.mp3"}
         ]
