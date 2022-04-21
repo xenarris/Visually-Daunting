@@ -94,7 +94,7 @@ label rec_center:
 
         show ethan concerned with dissolve
 
-        unknown "Oh yeah, that's our baby. TYeah,hat's Chips!"
+        unknown "Oh yeah, that's our baby. That's Chips!"
 
         show ethan listening with dissolve
 
