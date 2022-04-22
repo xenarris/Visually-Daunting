@@ -235,7 +235,9 @@ init -25:
     # If true, items in the gallery will be unlocked based on variables and instead of automatically after the player has seen them
     define gallery.variable_mode = False
 
-    define gallery.items = []
+    define gallery.items = ["bg billboard", "bg billboard_transition0",
+    "bg donovan_attack0", "bg donovan_attack2", "bg donovan_attack3",
+    "bg donovan_attack8", ]
 
     # If true, items in the gallery will only unlock once all items have been seen. Doesn't do anything if variable mode is on.
     define gallery.strict_multiple = False
