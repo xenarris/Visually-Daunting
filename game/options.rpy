@@ -235,15 +235,23 @@ init -25:
     # If true, items in the gallery will be unlocked based on variables and instead of automatically after the player has seen them
     define gallery.variable_mode = False
 
-    define gallery.items = []
+    define gallery.items = ["bg billboard", "bg billboard_transition0",
+    "bg donovan_attack0", "bg donovan_attack2", "bg donovan_attack3",
+    "bg donovan_attack8", ]
 
     # If true, items in the gallery will only unlock once all items have been seen. Doesn't do anything if variable mode is on.
     define gallery.strict_multiple = False
 
     define music_room.enabled = True
     # If True, all tracks will be unlocked by default. If false, tracks will appear only once they are heard by the player.
-    define music_room.unlocked = True
+    define music_room.unlocked = False
     define music_room.tracks = [
         {"name": "Main Menu", "file": "audio/menu.mp3"},
-        {"name": "Boot", "file": "audio/boot_seance.mp3"}
+        {"name": "Boot Séance", "file": "audio/boot_seance.mp3"},
+        {"name": "stream_background", "file": "audio/peter_jam.mp3"},
+        {"name": "Brain Done", "file": "audio/park/brain_done.mp3"},
+        {"name": "Park Attack", "file": "audio/park/park_attack.mp3"},
+        {"name": "Park Intensifies", "file": "audio/park/park_intensifies.mp3"},
+        {"name": "Stream Background", "file": "audio/park/stream_background.mp3"},
+        {"name": "Stream Loading", "file": "audio/park/stream_upbeat_loading.mp3"}
         ]
