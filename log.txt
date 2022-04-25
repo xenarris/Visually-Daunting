@@ -1,4 +1,4 @@
-Fri Apr 22 12:18:22 2022
+Fri Apr 22 12:28:21 2022
 Windows-10-10.0.22000
 Ren'Py 8.0.0.22040201n
  
@@ -44,9 +44,7 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 472.19'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1738, 977) drawable=(1738, 977)
+Screen sizes: virtual=(1920, 1080) physical=(1738, 978) drawable=(1738, 978)
 Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1051) drawable=(1920, 1051)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
 Maximum texture size: 4096x4096
