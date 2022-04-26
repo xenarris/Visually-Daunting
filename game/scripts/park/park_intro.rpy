@@ -137,7 +137,7 @@ label start_the_stream:
     hide image "images/park/chat/chat15.png"
     show image "images/park/chat/chat16_ricitoxy.png" at topright
 
-    donovan "We got a tip from user ricitioxy on how local psychonauts surive such harsh climates."
+    donovan "We got a tip from user ricitioxy on how local psychonauts survive such harsh climates."
 
     
     ##### TODO - add more chats here ####
