@@ -1,41 +1,64 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/scripts/park/park_attack.rpy", line 304, in script
-    show image "images/park/backgrounds/bg ethan_dies3.png" with dissolve
-OSError: Couldn't find file 'audio/park/voices/effects/hits_ground.mp3'.
+While loading <renpy.display.im.Image object ('…g stream_offline.png') at 0x0000000005ea5a00>:
+  File "game/scripts/park/park_endings.rpy", line 101, in script
+    "This channel is currently under review.\nAll content is temporarily removed."
+OSError: Couldn't find file 'images/park/background/bg stream_offline.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scripts/park/park_attack.rpy", line 304, in script
-    show image "images/park/backgrounds/bg ethan_dies3.png" with dissolve
-  File "C:\Users\Panko\Desktop\RenPy\renpy\ast.py", line 1631, in execute
-    renpy.exports.with_statement(trans, paired)
-  File "C:\Users\Panko\Desktop\RenPy\renpy\exports.py", line 1691, in with_statement
-    return renpy.game.interface.do_with(trans, paired, clear=clear)
-  File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 2782, in do_with
-    return self.interact(trans_pause=True,
+  File "game/scripts/park/park_endings.rpy", line 101, in script
+    "This channel is currently under review.\nAll content is temporarily removed."
+  File "C:\Users\Panko\Desktop\RenPy\renpy\ast.py", line 897, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\Panko\Desktop\RenPy\renpy\exports.py", line 1420, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\Panko\Desktop\RenPy\renpy\character.py", line 1249, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "C:\Users\Panko\Desktop\RenPy\renpy\character.py", line 910, in do_display
+    display_say(who,
+  File "C:\Users\Panko\Desktop\RenPy\renpy\character.py", line 648, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "C:\Users\Panko\Desktop\RenPy\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 3344, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 4052, in interact_core
-    renpy.audio.audio.periodic()
-  File "C:\Users\Panko\Desktop\RenPy\renpy\audio\audio.py", line 1159, in periodic
-    raise_(exc[0], exc[1], exc[2])
-  File "/home/tom/ab/nightly-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 441, in raise_
-  File "C:\Users\Panko\Desktop\RenPy\renpy\audio\audio.py", line 1137, in periodic_thread_main
-    periodic_pass()
-  File "C:\Users\Panko\Desktop\RenPy\renpy\audio\audio.py", line 1079, in periodic_pass
-    c.periodic()
-  File "C:\Users\Panko\Desktop\RenPy\renpy\audio\audio.py", line 518, in periodic
-    topf = load(filename)
-  File "C:\Users\Panko\Desktop\RenPy\renpy\audio\audio.py", line 70, in load
-    rv = renpy.loader.load(fn)
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 3866, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 2586, in draw_screen
+    surftree = renpy.display.render.render_screen(
+  File "render.pyx", line 492, in renpy.display.render.render_screen
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\layout.py", line 842, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\layout.py", line 842, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\layout.py", line 842, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\transform.py", line 741, in render
+    return transform_render(self, width, height, st, at)
+  File "accelerator.pyx", line 187, in renpy.display.accelerator.transform_render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\im.py", line 619, in render
+    return cache.get(self, render=True)
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\im.py", line 287, in get
+    surf = image.load()
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\im.py", line 715, in load
+    raise e
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\im.py", line 680, in load
+    filelike = renpy.loader.load(self.filename)
   File "C:\Users\Panko\Desktop\RenPy\renpy\loader.py", line 810, in load
     raise IOError("Couldn't find file '%s'." % name)
-OSError: Couldn't find file 'audio/park/voices/effects/hits_ground.mp3'.
+OSError: Couldn't find file 'images/park/background/bg stream_offline.png'.
 
 Windows-10-10.0.22000
 Ren'Py 8.0.0.22040201n
 Visually Daunting 0.01
-Mon Apr 25 23:54:44 2022
+Tue Apr 26 02:23:32 2022

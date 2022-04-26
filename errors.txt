@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scripts/park/park_attack.rpy", line 252: play requires a channel
-    play 
-         ^
+File "game/scripts/park/park_endings.rpy", line 108: expected 'simple_expression' not found.
+    hide image 
+               ^
 
 Ren'Py Version: Ren'Py 8.0.0.22040201n
-Mon Apr 25 23:22:39 2022
+Tue Apr 26 02:48:55 2022
