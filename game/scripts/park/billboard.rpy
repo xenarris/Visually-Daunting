@@ -17,6 +17,7 @@ label park_billboard:
     pause(1)
     donovan "Let's check this out."
 
+    play sound "audio/park/voices/ethan/ethan_aww.mp3"
     ethan "Aww, there's a little missing dog.  Sad." 
 
     #show image "images/park/chat/chat6.png" at topright

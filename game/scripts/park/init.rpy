@@ -1,9 +1,9 @@
 ##### Characters #####
-define donovan = Character("Donovan:", who_color="#404040", what_prefix='"', what_suffix='"')
-define ethan = Character("Ethan:", who_color="#404040",what_prefix='"', what_suffix='"')
-define wendy = Character("Wendy:", who_color="#404040",what_prefix='"', what_suffix='"')
-define donna = Character("Donna:", who_color="#404040",what_prefix='"', what_suffix='"')
-define chips = Character("Chips:", who_color="#404040",what_prefix='"', what_suffix='"')
+define donovan = Character("Donovan:", who_color="#ab7f47", what_prefix='"', what_suffix='"')
+define ethan = Character("Ethan:", who_color="#4555a4",what_prefix='"', what_suffix='"')
+define wendy = Character("Wendy:", who_color="#b2313e",what_prefix='"', what_suffix='"')
+define donna = Character("Donna:", who_color="#773c75",what_prefix='"', what_suffix='"')
+define chips = Character("Chips:", who_color="#539652",what_prefix='"', what_suffix='"')
 define unknown = Character("???:", who_color="#404040",what_prefix='"', what_suffix='"')
 
 ##### Backgrounds #####
