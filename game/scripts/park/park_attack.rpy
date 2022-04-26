@@ -20,6 +20,7 @@ label park_attack:
 
     show ethan sorry with dissolve
 
+    play sound "audio/park/voices/wendy/wendy_specialist.mp3"
     wendy "We got him help! He was doing so much better."
 
     show donna ashamed with dissolve
@@ -46,6 +47,7 @@ label park_attack:
 
     show donna upset with dissolve
 
+    play sound "audio/park/voices/donna/donna_scared.mp3"
     donna "Someone came up on us.  The noise from the wheels scared him."
 
     show wendy big_cry with dissolve
@@ -60,10 +62,12 @@ label park_attack:
 
     show donna cry with dissolve
 
+    play sound "audio/park/voices/wendy/wendy_stop.mp3"
     wendy "The leash flew from my hand, and we lost him!"
 
     show donna big_cry with dissolve
 
+    play sound "audio/park/voices/donna/donna_looked.mp3"
     donna "He took off into the woods.  We've been looking ever since."
 
     show donna big_big_cry with dissolve
@@ -72,7 +76,8 @@ label park_attack:
 
     show ethan dubious with dissolve
 
-    ethan "A week!? We might be looking for a..."
+    play sound "audio/park/voices/ethan/ethan_sass.mp3"
+    ethan "A week!? We might be looking for a uhhh...!"
 
     show donovan smile with dissolve
 
@@ -126,6 +131,7 @@ label chips_appears:
     show image "images/park/backgrounds/bg chips_appears3.png" with dissolve
     hide image "images/park/backgrounds/bg chips_appears2.png"
     pause(2)
+    play sound "audio/park/voices/chips/chips_growl.mp3"
     show image "images/park/backgrounds/bg chips_appears4.png" with dissolve
     hide image "images/park/backgrounds/bg chips_appears3.png"
     pause(3.4)
@@ -140,12 +146,14 @@ label chips_appears:
 
     show donovan scared at three with dissolve
 
+    play sound "audio/park/voices/wendy/wendy_chips.mp3"
     wendy "Ch-Chips...?"
 
     show donovan at four with dissolve
 
     show ethan at one with dissolve    
 
+    play sound "audio/park/voices/chips/chips_angry.mp3"
     chips "Rrrrrrrr..."
 
     show wendy at six with dissolve
@@ -164,10 +172,12 @@ label chips_appears:
 
     show donna disbelief with dissolve
 
+    play sound "audio/park/voices/wendy/wendy_come.mp3"
     wendy "There's my baby! Chips, come on. Let's go home!"
 
     show wendy happy_big_cry at fifteen with dissolve
 
+    play sound "audio/park/voices/wendy/wendy_calls.mp3"
     wendy "Chips!"
 
     show donna at ten with dissolve
@@ -176,6 +186,7 @@ label chips_appears:
 
     show ethan at two with dissolve
 
+    play sound "audio/park/voices/donovan/donovan_woah.mp3"
     donovan "Woah...!"
 
     hide ethan
@@ -196,15 +207,16 @@ label chips_attacks:
 
     play sound "audio/park/voices/chips/chips_lunges.mp3"
     show image "images/park/backgrounds/bg chips_attacks0.png"
-    pause(3.2)
+    pause(2)
 
     show image "images/park/backgrounds/bg chips_attacks1.png" with dissolve
     hide image "images/park/backgrounds/bg chips_attacks0.png"
-    pause(1)
+    pause(1.4)
 
+    play sound "audio/park/voices/chips/chips_before_spew.mp3"
     show image "images/park/backgrounds/bg chips_attacks2.png" with dissolve
     hide image "images/park/backgrounds/bg chips_attacks1.png"
-    pause(2)
+    pause(1.3)
 
 
     play sound "audio/park/voices/chips/chips_spews.mp3"
@@ -212,6 +224,7 @@ label chips_attacks:
     hide image "images/park/backgrounds/bg chips_attacks2.png"
     pause(3)
     
+    play sound "audio/park/voices/chips/chips_breathes.mp3"
     show image "images/park/backgrounds/bg chips_attacks4.png" with dissolve
     hide image "images/park/backgrounds/bg chips_attacks3.png"
     pause(3)
@@ -335,6 +348,7 @@ label chips_attacks:
 
     show donovan shocked_big_ups with dissolve
 
+    play sound "audio/park/voices/donovan/donovan_upset.mp3" 
     donovan "What do I do? What do I do?  Fuck."
     
     show donovan shocked_big at flip_back with dissolve
