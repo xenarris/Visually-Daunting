@@ -12,15 +12,14 @@ label lake_loop:
     pause(.5)
     show image "images/park/backgrounds/bg lake_loop.png" with dissolve
 
-    show donovan forward_smile_alt at flip with dissolve
+    show donovan forward_smile_alt at three with dissolve
     pause(.1)
     show ethan forward_smile_alt at eight with dissolve
     pause(0.5)
 
-    show donovan forward_big_smile_alt with dissolve
-
     donovan "Alright, you guys, let's talk some facts."
 
+    show donovan forward_big_smile with dissolve
     show ethan forward_smile with dissolve
 
     donovan "Ethan, take it away!"
@@ -61,7 +60,7 @@ label lake_loop_appears:
 
     show donna appears at fourteen with dissolve
     show wendy appears at ten with dissolve
-    show donovan upset at three with dissolve
+    show donovan upset at two with dissolve
     show ethan concerned at five with dissolve
 
     donovan "Woah!"

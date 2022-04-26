@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scripts/park/rec_space.rpy", line 196: expected 'simple_expression' not found.
-    show ethan at 
-                  ^
+File "game/scripts/park/park_attack.rpy", line 252: play requires a channel
+    play 
+         ^
 
 Ren'Py Version: Ren'Py 8.0.0.22040201n
-Mon Apr 18 22:18:36 2022
+Mon Apr 25 23:22:39 2022
