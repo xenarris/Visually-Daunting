@@ -28,6 +28,8 @@ label park_junction:
 
     show ethan smile with dissolve
     show donovan smile with dissolve
+
+    play sound "audio/park/voices/ethan/ethan_meh.mp3"
     ethan "Meh."
     
     show donovan with dissolve

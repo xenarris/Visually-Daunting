@@ -28,11 +28,13 @@ label rec_center:
 
         show donovan frown at five with dissolve
 
-        ethan "Hey, we've got people...!"
+        pause(1)
 
         show donna appears at fourteen with dissolve
 
         show wendy appears at eleven with dissolve
+
+        ethan "Hey, we've got people...!"
 
         show ethan concerned with dissolve
 
@@ -45,7 +47,8 @@ label rec_center:
         hide image "images/park/chat/Rec_center/Billboard/chat1_ethan.png"
         show image "images/park/chat/Rec_center/Billboard/chat2_donovan.png" at topright
 
-        donovan "Hello?"
+        play sound "audio/park/voices/ethan/ethan_unknown_hello.mp3"
+        ethan "Hello?"
 
         show donna listening with dissolve
         

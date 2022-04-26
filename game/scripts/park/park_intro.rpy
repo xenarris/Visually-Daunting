@@ -3,21 +3,25 @@ label start_the_stream:
     show image "images/park/assets/shamz_fwitch.png"
     show image "images/park/chat/chat5_start_stream.png" at topright
     queue music "audio/park/stream_background.mp3" fadein 1.5
-    show donovan forward_smile at ten with dissolve
+    show donovan forward_smile_alt at ten with dissolve
     pause(.1)
-    show ethan forward_wave at five with dissolve
-    pause(0.5)
-
+    show ethan forward_smile at five with dissolve
+    pause(1)
+    show ethan forward_wave with dissolve
     hide image "images/park/chat/chat5_start_stream.png"
     show image "images/park/chat/chat6.png" at topright
 
-    #play sound "audio/park/snippets/donovan_hello.mp3"
+    play sound "audio/park/voices/ethan/ethan_hello.mp3"
     ethan "Hello, happy viewers!"
 
     hide image "images/park/chat/chat6.png"
     show image "images/park/chat/chat7.png" at topright
 
-    #play sound "audio/park/snippets/ethan_treat.mp3"
+    show ethan forward_smile_alt with dissolve
+
+    show donovan forward_smile with dissolve
+
+    play sound "audio/park/voices/donovan/donovan_hello.mp3"
     donovan "Good morning, or evening!  Where ever you are."
 
     show ethan forward_smile with dissolve
@@ -56,6 +60,7 @@ label start_the_stream:
     show ethan cheeky with dissolve
     show donovan forward_smile_alt with dissolve
 
+    play sound "audio/park/voices/ethan/ethan_loophole.mp3"
     ethan "We found a loophole!"
 
 
@@ -167,7 +172,7 @@ label start_the_stream:
     show ethan explains with dissolve
     show donovan forward_big_smile_alt with dissolve
 
-    #play sound "audio/park/snippets/ethan_devils_tooth.mp3"
+    play sound "audio/park/voices/ethan/ethan_devil.mp3"
     ethan "Tonight we're searching for Hydnellum Peckii, a.k.a. the 'Devil's Tooth.'"
 
     show ethan forward_smile with dissolve

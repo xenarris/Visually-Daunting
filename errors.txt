@@ -2,9 +2,7 @@
 errors listed below, and try again.
 
 
-File "game/scripts/park/park_endings.rpy", line 108: expected 'simple_expression' not found.
-    hide image 
-               ^
+File "game/scripts/park/rec_space.rpy", line 136: indentation mismatch.
 
 Ren'Py Version: Ren'Py 8.0.0.22040201n
-Tue Apr 26 02:48:55 2022
+Tue Apr 26 12:30:19 2022
