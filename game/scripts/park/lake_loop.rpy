@@ -33,7 +33,7 @@ label lake_loop:
 
     show ethan cheeky with dissolve
 
-    ethan "And while maye look like we made a bad choice in parks, don't even worry."
+    ethan "And while it may look like we made a bad choice in parks, don't even worry."
 
     show donovan forward_big_smile_alt with dissolve
 
