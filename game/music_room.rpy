@@ -38,6 +38,7 @@ screen music_room:
                         foreground Text(_("STOP"), style="mr_btn", size=24) 
                         hover_foreground Text(_("STOP"), style="mr_btn_hover", size=24)
                         insensitive_foreground Text(_("STOP"), style="mr_btn_insensitive", size=24)
+                        hovered [ Play("sound", "audio/click.mp3") ]
                         
             
             frame:
@@ -77,6 +78,7 @@ screen music_room:
 
 
                                     sensitive not is_playing == track["name"]
+                                    hovered [ Play("sound", "audio/click.mp3") ]
                             
                             else:
                                 add "gui/gallery/locked.png"
@@ -102,6 +104,7 @@ screen music_room:
                             insensitive_foreground Text(_("<"),style="pg_num_insensitive")
                             action [SetScreenVariable('mr_page', prev_mr_page)]
                             sensitive mr_page != 0
+                            hovered [ Play("sound", "audio/click.mp3") ]
 
                         for num in range(pages):
                             $display_num = num + 1
@@ -110,6 +113,7 @@ screen music_room:
                                 foreground Text(_("{}".format(display_num)), style="pg_num_idle")
                                 hover_foreground Text(_("{}".format(display_num)), style="pg_num_hover")
                                 action [SetScreenVariable('mr_page', num)]
+                                hovered [ Play("sound", "audio/click.mp3") ]
 
                         imagebutton:
                             auto "gui/gallery/page_number_%s.png"
@@ -118,6 +122,7 @@ screen music_room:
                             insensitive_foreground Text(_(">"),style="pg_num_insensitive")
                             action [SetScreenVariable('mr_page', next_mr_page)]
                             sensitive mr_page != pages-1
+                            hovered [ Play("sound", "audio/click.mp3") ]
 
     if config.main_menu_music:
         on "replaced" action Play("music", config.main_menu_music, if_changed=True)
@@ -128,15 +133,18 @@ screen music_room:
 style mr_btn:
     xalign 0.5
     yalign 0.5
+    size 46
     
 style mr_btn_hover:
     xalign 0.5
     yalign 0.5
+    size 46
     color gui.hover_color
 
 style mr_btn_insensitive:
     xalign 0.5
     yalign 0.5
+    size 46
     color "#ddd"
 
 

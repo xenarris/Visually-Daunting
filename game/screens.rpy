@@ -248,7 +248,7 @@ screen quick_menu():
     zorder 100
 
     if quick_menu:
-
+        
         hbox:
             style_prefix "quick"
 
@@ -746,16 +746,19 @@ style slot_name_text is slot_button_text
 style pg_num_idle:
     yoffset 15
     xoffset 28
+    size 40
     color gui.interface_text_color
 
 style pg_num_insensitive:
     yoffset 15
     xoffset 28
+    size 40
     color "#aaa"
 
 style pg_num_hover:
     yoffset 15
     xoffset 28
+    size 40
     color "#fff"    
 
 style page_label:
