@@ -5,6 +5,7 @@ label park_billboard:
 
     scene bg park_blank
     show image "images/park/assets/shamz_fwitch.png"
+    show image "images/park/chat/billboard/bbchat1_donovan.png" at topright
     show image "images/park/backgrounds/bg billboard_transition0.png" with dissolve
     pause(.4)
     hide image "images/park/backgrounds/bg billboard_transition0.png"
@@ -18,7 +19,9 @@ label park_billboard:
     donovan "Let's check this out."
 
     play sound "audio/park/voices/ethan/ethan_aww.mp3"
-    ethan "Aww, there's a little missing dog.  Sad." 
+    hide image "images/park/chat/billboard/bbchat1_donovan.png"
+    show image "images/park/chat/billboard/bbchat2_ethan.png" at topright
+    ethan "Aww, there's a little missing dog.  Sad."
 
     #show image "images/park/chat/chat6.png" at topright
 
@@ -26,14 +29,20 @@ label park_billboard:
 
     donovan "Check out this map."
 
+    hide image "images/park/chat/billboard/bbchat2_ethan.png"
+    show image "images/park/chat/billboard/bbchat3_donovan.png" at topright
     donovan "The lake is to the North of here."
 
     donovan "Eagle Point is a little further up. Connected to this side trail here."
 
+    hide image "images/park/chat/billboard/bbchat3_donovan.png"
+    show image "images/park/chat/billboard/bbchat4_ethan.png" at topright
     ethan "There's also a little recreational space to the East.  With some benches and a stage."
 
     donovan "We should probably memorize this, so that we don't get lost."
 
+    hide image "images/park/chat/billboard/bbchat4_ethan.png"
+    show image "images/park/chat/billboard/bbchat5_ethan.png" at topright
     ethan "I've got you, I'll take a picture."
 
     pause(.3)
@@ -44,6 +53,8 @@ label park_billboard:
     show image "images/park/backgrounds/bg billboard.png" with dissolve
 
     pause(1)
+    hide image "images/park/chat/billboard/bbchat5_ethan.png"
+    show image "images/park/chat/billboard/bbchat6_ethan.png" at topright
     ethan "Got it!"
     donovan "Alright, let's go!"
 
