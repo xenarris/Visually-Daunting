@@ -283,9 +283,15 @@ label rec_center:
     show image "images/park/chat/Rec_center/chat22_donovan.png" at topright
 
     donovan "Lead the way."
-
-    hide image "images/park/chat/Rec_Center/chat22_donovan.png"
     
+    hide donna with dissolve
+
+    hide wendy with dissolve
+
+    hide donovan with dissolve
+    
+    hide ethan with dissolve
+
     call screen continue_from_rec
     pause
 return

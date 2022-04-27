@@ -254,7 +254,13 @@ label lake_loop_appears:
 
     ethan "Lead the way!"
 
-    hide image "images/park/chat/lake_loop/chat29_ethan.png"
+    hide donna with dissolve
+
+    hide wendy with dissolve
+
+    hide donovan with dissolve
+
+    hide ethan with dissolve
 
     call screen continue_from_loop
     pause
