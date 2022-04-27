@@ -1,5 +1,31 @@
 label park_attack:
-    scene bg lake_event
+    scene bg park_blank
+    show image "images/park/assets/shamz_fwitch.png"
+
+    # TODO - ADD TRANSITIONAL CHAT HERE
+
+    if went_lakeside == True:
+        show image "images/park/backgrounds/bg lake_loop_transition2.png" with dissolve
+        pause(.4)
+        hide image "images/park/backgrounds/bg lake_loop_transition2.png"
+        show image "images/park/backgrounds/bg lake_loop_transition3.png" with dissolve
+        pause(.4)
+        hide image "images/park/backgrounds/bg lake_loop_transition3.png"  with dissolve
+        pause(.5)
+
+    else:
+        show image "images/park/backgrounds/bg rec_center_transition0.png" with dissolve
+        pause(.4)
+        hide image "images/park/backgrounds/bg rec_center_transition0.png"
+        show image "images/park/backgrounds/bg rec_center_transition1.png" with dissolve
+        pause(.4)
+        hide image "images/park/backgrounds/bg rec_center_transition1.png"  with dissolve
+        pause(.5)
+
+    show image "images/park/backgrounds/bg lake_event.png" with dissolve
+
+    pause(1)
+
     show image "images/park/assets/shamz_fwitch.png"
 
     show donna listening at thirteen with dissolve

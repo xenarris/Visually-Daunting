@@ -1,62 +1,62 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While processing the color property of anonymous style:
-  File "game/scripts/park/rec_space.rpy", line 249, in script
-    donna "I'm Donna"
-Exception: Color string '9F5F9F\t' must be 3, 4, 6, or 8 hex digits long.
+While loading <renpy.display.im.Image object ('…loop_transition2.png') at 0x00000000060983a0>:
+  File "game/scripts/park/park_attack.rpy", line 8, in script
+    show image "images/park/backgrounds/bg lake_loop_transition2.png" with dissolve
+OSError: Couldn't find file 'images/park/backgrounds/bg lake_loop_transition2.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scripts/park/rec_space.rpy", line 249, in script
-    donna "I'm Donna"
-  File "C:\Users\Panko\Desktop\RenPy\renpy\ast.py", line 897, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "C:\Users\Panko\Desktop\RenPy\renpy\exports.py", line 1420, in say
-    who(what, *args, **kwargs)
-  File "C:\Users\Panko\Desktop\RenPy\renpy\character.py", line 1249, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "C:\Users\Panko\Desktop\RenPy\renpy\character.py", line 910, in do_display
-    display_say(who,
-  File "C:\Users\Panko\Desktop\RenPy\renpy\character.py", line 648, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "C:\Users\Panko\Desktop\RenPy\renpy\ui.py", line 299, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "game/scripts/park/park_attack.rpy", line 8, in script
+    show image "images/park/backgrounds/bg lake_loop_transition2.png" with dissolve
+  File "C:\Users\Panko\Desktop\RenPy\renpy\ast.py", line 1631, in execute
+    renpy.exports.with_statement(trans, paired)
+  File "C:\Users\Panko\Desktop\RenPy\renpy\exports.py", line 1691, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 2782, in do_with
+    return self.interact(trans_pause=True,
   File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 3344, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 3764, in interact_core
-    root_widget.visit_all(lambda i : i.per_interact())
-  File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 575, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 575, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 575, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Users\Panko\Desktop\RenPy\renpy\display\screen.py", line 443, in visit_all
-    self.child.visit_all(callback, seen=None)
-  File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 575, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 575, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 575, in visit_all
-    d.visit_all(callback, seen)
-  [Previous line repeated 1 more time]
-  File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 577, in visit_all
-    callback(self)
-  File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 3764, in <lambda>
-    root_widget.visit_all(lambda i : i.per_interact())
-  File "C:\Users\Panko\Desktop\RenPy\renpy\text\text.py", line 1721, in per_interact
-    if self.style.slow_abortable:
-  File "gen3-static/styleclass.pxi", line 533, in renpy.styledata.styleclass.Style.slow_abortable.__get__
-  File "style.pyx", line 493, in renpy.style.StyleCore._get
-  File "style.pyx", line 709, in renpy.style.build_style
-  File "style.pyx", line 706, in renpy.style.build_style
-  File "gen3-static/style_functions.pyx", line 323, in style_functions.color_property
-  File "C:\Users\Panko\Desktop\RenPy\renpy\color.py", line 167, in __new__
-    raise Exception("Color string {!r} must be 3, 4, 6, or 8 hex digits long.".format(c))
-Exception: Color string '9F5F9F\t' must be 3, 4, 6, or 8 hex digits long.
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 3866, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 2586, in draw_screen
+    surftree = renpy.display.render.render_screen(
+  File "render.pyx", line 492, in renpy.display.render.render_screen
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\layout.py", line 842, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\transition.py", line 373, in render
+    top = render(self.new_widget, width, height, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\layout.py", line 842, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\layout.py", line 842, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\transform.py", line 741, in render
+    return transform_render(self, width, height, st, at)
+  File "accelerator.pyx", line 187, in renpy.display.accelerator.transform_render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\im.py", line 619, in render
+    return cache.get(self, render=True)
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\im.py", line 287, in get
+    surf = image.load()
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\im.py", line 715, in load
+    raise e
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\im.py", line 680, in load
+    filelike = renpy.loader.load(self.filename)
+  File "C:\Users\Panko\Desktop\RenPy\renpy\loader.py", line 810, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'images/park/backgrounds/bg lake_loop_transition2.png'.
 
 Windows-10-10.0.22000
 Ren'Py 8.0.0.22040201n
 Visually Daunting 0.01
-Tue Apr 26 12:43:55 2022
+Wed Apr 27 00:13:59 2022
