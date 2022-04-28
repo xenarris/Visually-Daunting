@@ -65,10 +65,10 @@ return
 label help_donna:
     scene bg park_blank
     show image "images/park/assets/shamz_fwitch.png"
-    show image "images/park/chat/chat_help_donna.png" at topright
 
 
     pause(2)
+    show image "images/park/chat/chat_help_donna.png" at topright
     show image "images/park/backgrounds/bg donovan_attack0.png" with dissolve
 
     pause(1)
