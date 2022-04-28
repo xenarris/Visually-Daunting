@@ -69,29 +69,38 @@ label help_donna:
     pause(1.4)
     show image "images/park/backgrounds/bg donovan_attack0.png" with dissolve
 
+    show image "images/park/chat/park_endings/parkend_helpDonna1.png" at topright
     donovan "Donna. We need to go.  Come on!"
 
     show image "images/park/backgrounds/bg donovan_attack1.png" with dissolve
     hide image "images/park/backgrounds/bg donovan_attack0.png"
     pause(1.4)
 
+    hide image "images/park/chat/park_endings/parkend_helpDonna1.png"
+    show image "images/park/chat/park_endings/parkend_helpDonna2.png" at topright    
     donovan "Please, get up!"
 
     show image "images/park/backgrounds/bg donovan_attack2.png" with dissolve
     hide image "images/park/backgrounds/bg donovan_attack1.png"
     pause(1.4)
+    hide image "images/park/chat/park_endings/parkend_helpDonna2.png"
+    show image "images/park/chat/park_endings/parkend_helpDonna3.png" at topright  
     donovan "Donna..."
     hide image "images/park/backgrounds/bg donovan_attack2.png" with dissolve
     pause(1.5)
 
     play sound "audio/park/voices/chips/chips_creeps.mp3"
     show image "images/park/backgrounds/bg donovan_attack3.png" with dissolve
+    hide image "images/park/chat/park_endings/parkend_helpDonna3.png"
+    show image "images/park/chat/park_endings/parkend_helpDonna4.png" at topright  
     pause(3.2)
 
     hide image "images/park/backgrounds/bg donovan_attack3.png" with dissolve
     pause(1.5)
 
     show image "images/park/backgrounds/bg donovan_attack4.png" with dissolve
+    hide image "images/park/chat/park_endings/parkend_helpDonna4.png"
+    show image "images/park/chat/park_endings/parkend_helpDonna5.png" at topright  
     pause(.3)
 
     show image "images/park/backgrounds/bg donovan_attack5.png" with dissolve
@@ -102,6 +111,8 @@ label help_donna:
     hide image "images/park/backgrounds/bg donovan_attack5.png"
     pause(.3)
 
+    hide image "images/park/chat/park_endings/parkend_helpDonna5.png"
+    show image "images/park/chat/park_endings/parkend_helpDonna6.png" at topright 
     show image "images/park/backgrounds/bg donovan_attack7.png" with dissolve
     hide image "images/park/backgrounds/bg donovan_attack6.png"
     pause(.3)
@@ -112,6 +123,8 @@ label help_donna:
     play sound "audio/park/voices/donovan/donovan_dies.mp3"
     show image "images/park/backgrounds/bg donovan_attack8.png" with dissolve
     pause(5)
+    hide image "images/park/chat/park_endings/parkend_helpDonna6.png"
+
     
     jump mods_shut_down_park
 return
