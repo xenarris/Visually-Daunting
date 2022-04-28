@@ -303,17 +303,17 @@ screen navigation():
 
         if main_menu:
 
-            textbutton _("Start") action Start()
+            textbutton _("Start") action Start() hovered [ Play("sound", "audio/click.mp3") ]
 
         else:
 
-            textbutton _("History") action ShowMenu("history")
+            textbutton _("History") action ShowMenu("history") hovered [ Play("sound", "audio/click.mp3") ]
 
-            textbutton _("Save") action ShowMenu("save")
+            textbutton _("Save") action ShowMenu("save") hovered [ Play("sound", "audio/click.mp3") ]
 
-        textbutton _("Load") action ShowMenu("load")
+        textbutton _("Load") action ShowMenu("load") hovered [ Play("sound", "audio/click.mp3") ]
 
-        textbutton _("Preferences") action ShowMenu("preferences")
+        textbutton _("Preferences") action ShowMenu("preferences") hovered [ Play("sound", "audio/click.mp3") ]
 
 
         if _in_replay:
@@ -322,21 +322,21 @@ screen navigation():
 
         elif not main_menu:
 
-            textbutton _("Main Menu") action MainMenu()
+            textbutton _("Main Menu") action MainMenu() hovered [ Play("sound", "audio/click.mp3") ]
 
-        textbutton _("About") action ShowMenu("about")
+        textbutton _("About") action ShowMenu("about") hovered [ Play("sound", "audio/click.mp3") ]
 
 
         if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 
             ## Help isn't necessary or relevant to mobile devices.
-            textbutton _("Help") action ShowMenu("help")
+            textbutton _("Help") action ShowMenu("help") hovered [ Play("sound", "audio/click.mp3") ]
 
         if renpy.variant("pc"):
 
             ## The quit button is banned on iOS and unnecessary on Android and
             ## Web.
-            textbutton _("Quit") action Quit(confirm=not main_menu)
+            textbutton _("Quit") action Quit(confirm=not main_menu) hovered [ Play("sound", "audio/click.mp3") ]
 
 
 
@@ -695,7 +695,7 @@ screen file_slots(title):
                     $ slot = i + 1
 
                     button:
-                        action FileAction(slot)
+                        action FileAction(slot) hovered [ Play("sound", "audio/click.mp3") ] activate_sound "audio/game_saved.mp3"
 
                         has vbox
 
@@ -1245,8 +1245,8 @@ screen confirm(message, yes_action, no_action):
                 xalign 0.5
                 spacing 150
 
-                textbutton _("Yes") action yes_action
-                textbutton _("No") action no_action
+                textbutton _("Yes") action yes_action hovered [ Play("sound", "audio/click.mp3") ]
+                textbutton _("No") action no_action hovered [ Play("sound", "audio/click.mp3") ]
 
     ## Right-click and escape answer "no".
     key "game_menu" action no_action
