@@ -195,6 +195,9 @@ label start_the_stream:
 
     ethan "So...into the park, or check out that billboard?"
 
+    hide image "images/park/chat/chat18_choose0.png"
+    show image "images/park/chat/chat_pick_billboard_or_go.png" at topright
+
     call screen park_or_billboard
     pause
 return
@@ -205,7 +208,7 @@ label park_junction_choice:
     show donovan forward_big_smile with dissolve
     donovan "Alright folks...let's do this!"
     show ethan explains with dissolve
-    ethan "Lets!"
+    ethan "Let's!"
 
     hide donovan with dissolve
     hide ethan with dissolve
@@ -216,6 +219,10 @@ return
 
 label park_billboard_choice:
     show donovan forward_smile_alt with dissolve
+
+    hide image "images/park/chat/chat_pick_billboard_or_go.png"
+    show image "images/park/chat/chat_pick_billboard.png" at topright
+
     donovan "You guys want us to check the billboard?"
     show ethan explains with dissolve
     show donovan forward_big_smile_alt with dissolve

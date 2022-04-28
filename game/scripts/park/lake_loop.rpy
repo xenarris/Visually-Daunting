@@ -3,6 +3,8 @@ label lake_loop:
     scene bg park_blank
     show image "images/park/assets/shamz_fwitch.png"
 
+    show image "images/park/chat/chat_lake_loop_transition.png" at topright
+
     show image "images/park/backgrounds/bg lake_loop_transition0.png" with dissolve
     pause(.5)
     hide image "images/park/backgrounds/bg lake_loop_transition0.png"
@@ -17,6 +19,7 @@ label lake_loop:
     show ethan forward_smile_alt at eight with dissolve
     pause(0.5)
 
+    hide image "images/park/chat/chat_lake_loop_transition.png"
     show image "images/park/chat/lake_loop/chat1_donovan.png" at topright
 
     donovan "Alright, you guys, let's talk some facts."
@@ -244,7 +247,7 @@ label lake_loop_appears:
     hide image "images/park/chat/lake_loop/chat27_ethan.png"
     show image "images/park/chat/lake_loop/chat28_donna.png" at topright
 
-    donna "It's right up here" 
+    donna "It's right up here." 
 
     show donovan at eight with dissolve
     show ethan smile at four with dissolve
