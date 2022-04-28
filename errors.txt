@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scripts/park/park_intro.rpy", line 224: expected 'simple_expression' not found.
-    show image "images/chat/" at 
-                                 ^
+File "game/scripts/park/park_endings.rpy", line 76: end of line expected.
+    show image "images/park/chat/park_endings/parkend_helpDonna1.png" at topright    donovan "Donna. We need to go.  Come on!"
+                                                                                     ^
 
 Ren'Py Version: Ren'Py 8.0.0.22040201n
-Wed Apr 27 21:24:16 2022
+Wed Apr 27 23:07:46 2022

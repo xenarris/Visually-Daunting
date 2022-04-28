@@ -205,6 +205,9 @@ return
 label park_junction_choice:
     $ seen_bulletin = False
 
+    hide image "images/park/chat/chat_pick_billboard_or_go.png"
+    show image "images/park/chat/chat_pick_enter_park.png" at topright
+
     show donovan forward_big_smile with dissolve
     donovan "Alright folks...let's do this!"
     show ethan explains with dissolve

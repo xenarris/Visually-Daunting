@@ -141,13 +141,13 @@ screen north_or_east():
         activate_sound "audio/click.mp3"
 
 screen continue_from_loop():
-    imagebutton auto "park/choices/choice0_%s.png":
+    imagebutton auto "park/choices/choice9_%s.png":
         focus_mask True
         action Jump("park_attack")
         activate_sound "audio/click.mp3"
 
 screen continue_from_rec():
-    imagebutton auto "park/choices/choice0_%s.png":
+    imagebutton auto "park/choices/choice9_%s.png":
         focus_mask True
         action Jump("park_attack")
         activate_sound "audio/click.mp3"

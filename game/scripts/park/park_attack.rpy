@@ -2,7 +2,7 @@ label park_attack:
     scene bg park_blank
     show image "images/park/assets/shamz_fwitch.png"
 
-    # TODO - ADD TRANSITIONAL CHAT HERE
+    show image "images/park/chat/chat_find_chips.png" at topright
 
     if went_lakeside == True:
         show image "images/park/backgrounds/bg lake_loop_transition2.png" with dissolve
@@ -25,6 +25,8 @@ label park_attack:
     show image "images/park/backgrounds/bg lake_event.png" with dissolve
 
     pause(1)
+
+    hide image "images/park/chat/chat_find_chips.png" 
 
     show image "images/park/assets/shamz_fwitch.png"
 
