@@ -65,11 +65,16 @@ return
 label help_donna:
     scene bg park_blank
     show image "images/park/assets/shamz_fwitch.png"
+    show image "images/park/chat/chat_help_donna.png" at topright
 
-    pause(1.4)
+
+    pause(2)
     show image "images/park/backgrounds/bg donovan_attack0.png" with dissolve
 
+    pause(1)
+    hide image "images/park/chat/chat_help_donna.png"
     show image "images/park/chat/park_endings/parkend_helpDonna1.png" at topright
+    
     donovan "Donna. We need to go.  Come on!"
 
     show image "images/park/backgrounds/bg donovan_attack1.png" with dissolve

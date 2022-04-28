@@ -1,62 +1,66 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <renpy.display.im.Image object ('…loop_transition2.png') at 0x00000000060983a0>:
-  File "game/scripts/park/park_attack.rpy", line 8, in script
-    show image "images/park/backgrounds/bg lake_loop_transition2.png" with dissolve
-OSError: Couldn't find file 'images/park/backgrounds/bg lake_loop_transition2.png'.
+While running game code:
+  File "game/scripts/park/rec_space.rpy", line 298, in script
+    call screen continue_from_rec
+  File "renpy/common/000statements.rpy", line 569, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "game/screens_in_game.rpy", line 149, in execute
+    screen continue_from_rec():
+  File "game/screens_in_game.rpy", line 149, in execute
+    screen continue_from_rec():
+  File "game/screens_in_game.rpy", line 150, in execute
+    imagebutton auto "park/choices/choice90_%s.png":
+Exception: Imagebutton does not have a idle image. (auto='park/choices/choice90_%s.png').
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scripts/park/park_attack.rpy", line 8, in script
-    show image "images/park/backgrounds/bg lake_loop_transition2.png" with dissolve
-  File "C:\Users\Panko\Desktop\RenPy\renpy\ast.py", line 1631, in execute
-    renpy.exports.with_statement(trans, paired)
-  File "C:\Users\Panko\Desktop\RenPy\renpy\exports.py", line 1691, in with_statement
-    return renpy.game.interface.do_with(trans, paired, clear=clear)
-  File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 2782, in do_with
-    return self.interact(trans_pause=True,
+  File "game/scripts/park/rec_space.rpy", line 298, in script
+    call screen continue_from_rec
+  File "C:\Users\Panko\Desktop\RenPy\renpy\ast.py", line 2203, in execute
+    self.call("execute")
+  File "C:\Users\Panko\Desktop\RenPy\renpy\ast.py", line 2191, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "C:\Users\Panko\Desktop\RenPy\renpy\statements.py", line 281, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 569, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "C:\Users\Panko\Desktop\RenPy\renpy\exports.py", line 3149, in call_screen
+    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
+  File "C:\Users\Panko\Desktop\RenPy\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 3344, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 3866, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 2586, in draw_screen
-    surftree = renpy.display.render.render_screen(
-  File "render.pyx", line 492, in renpy.display.render.render_screen
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\Panko\Desktop\RenPy\renpy\display\layout.py", line 842, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\Panko\Desktop\RenPy\renpy\display\transition.py", line 373, in render
-    top = render(self.new_widget, width, height, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\Panko\Desktop\RenPy\renpy\display\layout.py", line 842, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\Panko\Desktop\RenPy\renpy\display\layout.py", line 842, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\Panko\Desktop\RenPy\renpy\display\transform.py", line 741, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 187, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\Panko\Desktop\RenPy\renpy\display\im.py", line 619, in render
-    return cache.get(self, render=True)
-  File "C:\Users\Panko\Desktop\RenPy\renpy\display\im.py", line 287, in get
-    surf = image.load()
-  File "C:\Users\Panko\Desktop\RenPy\renpy\display\im.py", line 715, in load
-    raise e
-  File "C:\Users\Panko\Desktop\RenPy\renpy\display\im.py", line 680, in load
-    filelike = renpy.loader.load(self.filename)
-  File "C:\Users\Panko\Desktop\RenPy\renpy\loader.py", line 810, in load
-    raise IOError("Couldn't find file '%s'." % name)
-OSError: Couldn't find file 'images/park/backgrounds/bg lake_loop_transition2.png'.
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 3764, in interact_core
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 575, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 575, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 575, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\screen.py", line 438, in visit_all
+    callback(self)
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\core.py", line 3764, in <lambda>
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\screen.py", line 449, in per_interact
+    self.update()
+  File "C:\Users\Panko\Desktop\RenPy\renpy\display\screen.py", line 639, in update
+    self.screen.function(**self.scope)
+  File "game/screens_in_game.rpy", line 149, in execute
+    screen continue_from_rec():
+  File "game/screens_in_game.rpy", line 149, in execute
+    screen continue_from_rec():
+  File "game/screens_in_game.rpy", line 150, in execute
+    imagebutton auto "park/choices/choice90_%s.png":
+  File "C:\Users\Panko\Desktop\RenPy\renpy\ui.py", line 952, in _imagebutton
+    idle = choice(idle, idle_image, "idle", required=True)
+  File "C:\Users\Panko\Desktop\RenPy\renpy\ui.py", line 946, in choice
+    raise Exception("Imagebutton does not have a %s image. (auto=%r)." % (name, auto))
+Exception: Imagebutton does not have a idle image. (auto='park/choices/choice90_%s.png').
 
 Windows-10-10.0.22000
 Ren'Py 8.0.0.22040201n
 Visually Daunting 0.01
-Wed Apr 27 00:13:59 2022
+Wed Apr 27 22:57:29 2022

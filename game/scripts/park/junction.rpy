@@ -4,6 +4,8 @@ label park_junction:
     scene bg park_blank
     show image "images/park/assets/shamz_fwitch.png"
 
+    show image "images/park/chat/chat_enter_junction.png" at topright
+
     show image "images/park/backgrounds/bg billboard_transition0.png" with dissolve
     pause(.5)
     hide image "images/park/backgrounds/bg billboard_transition0.png"
@@ -20,6 +22,7 @@ label park_junction:
 
     show ethan dubious at flip with dissolve
 
+    hide image "images/park/chat/chat_enter_junction.png"
     show image "images/park/chat/junction/chat1_ethan.png" at topright
 
     ethan "I've got nothing."
