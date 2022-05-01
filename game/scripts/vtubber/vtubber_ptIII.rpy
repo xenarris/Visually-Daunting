@@ -58,8 +58,16 @@
 
 # Chat shifts to single cult chant fiant tenebrae!
 
-# Yes.  That's better.  Now I can hear you, and you alone.
+# Yes.  That's better.  Now your answer will be clear.
 
-# So, my child.  Consider joining the darkness.
+# We have worked, so hard, to spread our joy.
 
-# The light provides nothing but endless wanting
+# And we have chosen you, as our next inductee.
+
+# Commit to your physical transformation, transcend your humanity.
+
+# Join us in the bringing pleasure
+
+# Awaken your demons
+
+# Flip it to the end~
