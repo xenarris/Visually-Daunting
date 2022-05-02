@@ -10,6 +10,7 @@ label park_stream:
 
     scene bg stream_fade with fade
     play music "audio/park/stream_upbeat_loading.mp3" fadein 1.0 volume 0.7
+    $ quick_menu = True
     hide bg stream_fade
     scene bg stream_starting0
     show image "images/park/assets/shamz_fwitch_choice.png"
