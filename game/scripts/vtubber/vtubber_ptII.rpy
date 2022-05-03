@@ -4,44 +4,84 @@ label vtubber_start:
 
     show image "images/park/chat/chat_find_chips.png" at topright
 
-    # Subtle call out to main character joining
+    # ALL OF THISE IS CULT CHAT - SO THEY'RE PRETTY HAPPY
+    # AND HYPED ABOUT ALL THIS NASTY TALK - NO FEAR POSTS
 
-    morrigu "You're here now? Fantastic, we can begin."
-
-    # Add mini pic - someone beating someone wiht their hands
+    morrigu "Ah! Wonderful, we can begin now."
 
     morrigu "We have been receiving such wonderful feedback."
 
-    # Flip pic of someone setting fire to something
-
     morrigu "And we are so proud of the work done."
 
-    # Flip act of people murdering then running off
+    morrigu "Such carnage and rage, we rejoice!"
 
-    morrigu "You've all shown such enthusiasm."
+    pause (.3)
 
-    morrigu "There is joy in your chaos. Yet opportunities for enhancement."
+    morrigu "Yet we're lacking in personal revelations."
 
-    morrigu "It is time to untether. From idyllic relations and fear."
+    morrigu "We share our joy, then leave none of ourselves."
 
-    morrigu "The gateway is pain. Go forth and commit your greatest act yet."
+    morrigu "Let's shift focus, provide our own blood!"
 
-# chats change to creepy worship posts
+    morrigu "May our offerings feed the darkness!"
 
-# So grab your closest weapon
+    morrigu "Fiant tenebrae!"
 
-# If you have a pen, stab your neck
+    pause (1)
 
-# Knife, cut off some fingers
+    #Chat update 1
+    pause(1.5)
+    # Chat update 2
+    pause(1.5)
+    # Chat update 3
+    pause(1.5)
 
-# Or get creative smash up something metal
+    morrigu "Come, let's rejoice in unison. It is time!"
 
-# and impale yourself on it
+    morrigu "Turn the blade inward, offer a piece of yourself."
 
-# Send pictures & video to [blurred out email]
+    pause(3)
 
-# Share your suffering
+    morrigu "Ah, how provocative! Already sharing!"
 
-# Don't keep it to yourself
+    pause(1)
+
+    morrigu "Here we see [[doubtTree] getting creative with a pencil."
+
+    morrigu "Oh, what a wonderful tribute [[JackCrabbit]!"
+
+    morrigu "Offering parents, as an extension of one's pain? Lovely!"
+
+    morrigu "A farewell from our golden child [[unblinking_umbrae]."
+
+    # Umbrae is hella dead here - just a heads up to chat folk
+
+    morrigu "She has shed her fleshy casing."
+
+    morrigu "In her stead, she offers another."
+
+    morrigu "One who never turned away from her playgrounds."
+
+    morrigu "Who took voyeuristic delight in others suffering."
+
+    morrigu "You indeed harbor darkness. Let us mold it."
+
+    morrigu "As it grows, so will your powers of influence."
+
+    morrigu "You will transcend pain. Gutting your fears."
+
+    morrigu "Upon death, you will be among the twilight."
+
+    morrigu "We extend an invitation, for a trifle offering."
+
+    morrigu "A payment in blood, a sacrifice of your choice."
+
+    morrigu "Proof of your devotion for our immortal secrets."
+
+    # ...(Cont.)/No. (Cont.)/I'm Ready
+    # Silence is not an answer... - trauma ending - turn off pc - get killed ne ways
+    # Will be "forced" to join - but as a sacrifice (We shall see you soon!)
+    # Excellent, then we need no further persuassion - goes to kitchen - xs off 2 fingers
+
     pause
 return
