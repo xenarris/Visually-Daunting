@@ -248,6 +248,36 @@ screen quick_menu():
     zorder 100
 
     if quick_menu:
+
+        imagebutton:
+            xpos 1540
+            ypos 590
+            auto "gui/button/quick_menu/save_%s.png"
+            action ShowMenu('save')
+
+        imagebutton:
+            xpos 1600
+            ypos 590
+            auto "gui/button/quick_menu/load_%s.png"
+            action ShowMenu('load')
+
+        imagebutton:
+            xpos 1660
+            ypos 590
+            auto "gui/button/quick_menu/auto_%s.png"
+            action Preference("auto-forward", "toggle")
+
+        imagebutton:
+            xpos 1720
+            ypos 590
+            auto "gui/button/quick_menu/history_%s.png"
+            action ShowMenu('history')
+
+        imagebutton:
+            xpos 1780
+            ypos 590
+            auto "gui/button/quick_menu/settings_%s.png"
+            action ShowMenu('preferences')
         
         hbox:
             style_prefix "quick"
