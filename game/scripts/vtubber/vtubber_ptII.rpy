@@ -1,16 +1,30 @@
-# Starts off chat with init - hello...
+label vtubber_start:
+    scene bg park_blank
+    show image "images/park/assets/shamz_fwitch.png"
 
-# But calls you out (sutbly?) "Thank you for joining us..."
+    show image "images/park/chat/chat_find_chips.png" at topright
 
-# Talks about how much all her fans love her
+    # Subtle call out to main character joining
 
-# Enough to send in videos of them commiting horrible acts
+    morrigu "You're here now? Fantastic, we can begin."
 
-# Saying while these petty acts are fun
+    # Add mini pic - someone beating someone wiht their hands
 
-# There's no bigger act of devotion then sacrificing
+    morrigu "We have been receiving such wonderful feedback."
 
-# A piece of yourself
+    # Flip pic of someone setting fire to something
+
+    morrigu "And we are so proud of the work done."
+
+    # Flip act of people murdering then running off
+
+    morrigu "You've all shown such enthusiasm."
+
+    morrigu "There is joy in your chaos. Yet opportunities for enhancement."
+
+    morrigu "It is time to untether. From idyllic relations and fear."
+
+    morrigu "The gateway is pain. Go forth and commit your greatest act yet."
 
 # chats change to creepy worship posts
 
@@ -29,3 +43,5 @@
 # Share your suffering
 
 # Don't keep it to yourself
+    pause
+return

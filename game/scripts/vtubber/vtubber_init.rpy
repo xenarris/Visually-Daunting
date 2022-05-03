@@ -1,0 +1,1 @@
+define morrigu = Character("Morrigu:", who_color="#383838", what_prefix='"', what_suffix='"')
