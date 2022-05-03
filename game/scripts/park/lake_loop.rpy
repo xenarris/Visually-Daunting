@@ -63,7 +63,7 @@ label lake_loop:
         hide image "images/park/chat/lake_loop/chat6_ethan.png"
         show image "images/park/chat/lake_loop/chat7_ethan.png" at topright
 
-        ethan "Although its seen some revisions, I'm sure we'll find us some pines!"
+        ethan "Although it's seen some revisions, I'm sure we'll find us some pines!"
 
         hide image "images/park/chat/lake_loop/chat7_ethan.png"
 
