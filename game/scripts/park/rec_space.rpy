@@ -132,7 +132,7 @@ label rec_center:
         hide image "images/park/chat/Rec_center/Billboard/chat10_ethan.png"
         show image "images/park/chat/Rec_center/Billboard/chat11_donna.png" at topright
 
-        unknown "Oh yeah, that's our baby. TYeah,hat's Chips!"
+        unknown "Oh yeah, that's our baby. Yeah, that's Chips!"
 
         show ethan listening with dissolve
 

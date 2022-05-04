@@ -38,6 +38,7 @@ label park_attack:
 
     show ethan listening at six with dissolve
 
+    show image "images/park/chat/park_attack/pa_chat1.png" at topright
     donna "We lost Chips up this way..."
 
     show donna sad with dissolve
@@ -48,11 +49,15 @@ label park_attack:
 
     show ethan sorry with dissolve
 
+    hide image "images/park/chat/park_attack/pa_chat1.png"
+    show image "images/park/chat/park_attack/pa_chat2.png" at topright
     play sound "audio/park/voices/wendy/wendy_specialist.mp3"
     wendy "We got him help! He was doing so much better."
 
     show donna ashamed with dissolve
 
+    hide image "images/park/chat/park_attack/pa_chat2.png"
+    show image "images/park/chat/park_attack/pa_chat3.png" at topright
     donna "He'd run."
 
     show donovan question with dissolve
