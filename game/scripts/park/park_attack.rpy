@@ -68,6 +68,8 @@ label park_attack:
 
     show donovan listening with dissolve
 
+    hide image "images/park/chat/park_attack/pa_chat3.png"
+    show image "images/park/chat/park_attack/pa_chat4.png" at topright
     donna "We took him for a walk around the lake."
 
     show donna sad with dissolve
