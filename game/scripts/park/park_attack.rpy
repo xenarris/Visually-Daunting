@@ -66,10 +66,10 @@ label park_attack:
 
     show donna listening with dissolve
 
-    show donovan listening with dissolve
-
     hide image "images/park/chat/park_attack/pa_chat3.png"
     show image "images/park/chat/park_attack/pa_chat4.png" at topright
+    show donovan listening with dissolve
+
     donna "We took him for a walk around the lake."
 
     show donna sad with dissolve
@@ -78,6 +78,8 @@ label park_attack:
 
     show wendy cry with dissolve
 
+    hide image "images/park/chat/park_attack/pa_chat4.png"
+    show image "images/park/chat/park_attack/pa_chat5.png" at topright
     wendy "You're not allowed to skateboard."
 
     show donna upset with dissolve
@@ -87,6 +89,8 @@ label park_attack:
 
     show wendy big_cry with dissolve
 
+    hide image "images/park/chat/park_attack/pa_chat5.png"
+    show image "images/park/chat/park_attack/pa_chat6.png" at topright
     wendy "I was holding his leash, when he started to pull."
 
     show donna ashamed_cry with dissolve
@@ -95,6 +99,8 @@ label park_attack:
 
     show wendy big_big_cry with dissolve
 
+    hide image "images/park/chat/park_attack/pa_chat6.png"
+    show image "images/park/chat/park_attack/pa_chat7.png" at topright
     show donna cry with dissolve
 
     play sound "audio/park/voices/wendy/wendy_stop.mp3"
@@ -107,6 +113,8 @@ label park_attack:
 
     show donna big_big_cry with dissolve
 
+    hide image "images/park/chat/park_attack/pa_chat7.png"
+    show image "images/park/chat/park_attack/pa_chat8.png" at topright
     donna "It's been a week.  I can't even believe it."
 
     show ethan dubious with dissolve
@@ -120,6 +128,8 @@ label park_attack:
 
     show donna cry with dissolve
 
+    hide image "images/park/chat/park_attack/pa_chat8.png"
+    show image "images/park/chat/park_attack/pa_chat9.png" at topright
     donovan "Look, E.  Let's make this right. We can find him."
 
     play sound "audio/park/effects/twigs.mp3"
@@ -138,7 +148,9 @@ label park_attack:
 
     show donovan confused with dissolve
 
-    ethan "What as that?"
+    hide image "images/park/chat/park_attack/pa_chat9.png"
+    show image "images/park/chat/park_attack/pa_chat10.png" at topright
+    ethan "What was that?"
 
     hide ethan
 
@@ -157,12 +169,19 @@ label chips_appears:
 
     show image "images/park/backgrounds/bg chips_appears0.png"
     pause (.2)
+
     show image "images/park/backgrounds/bg chips_appears1.png" with dissolve
     hide image "images/park/backgrounds/bg chips_appears0.png"
     pause (.2)
+
+    hide image "images/park/chat/park_attack/pa_chat10.png"
+    show image "images/park/chat/park_attack/pa_chat11.png" at topright
     show image "images/park/backgrounds/bg chips_appears2.png" with dissolve
     hide image "images/park/backgrounds/bg chips_appears1.png"
     pause(1.1)
+
+    hide image "images/park/chat/park_attack/pa_chat11.png"
+    show image "images/park/chat/park_attack/pa_chat12.png" at topright
     show image "images/park/backgrounds/bg chips_appears3.png" with dissolve
     hide image "images/park/backgrounds/bg chips_appears2.png"
     pause(2)
