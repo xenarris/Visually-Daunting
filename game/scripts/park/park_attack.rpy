@@ -200,6 +200,8 @@ label chips_appears:
 
     show donovan scared at three with dissolve
 
+    hide image "images/park/chat/park_attack/pa_chat12.png"
+    show image "images/park/chat/park_attack/pa_chat13.png" at topright
     play sound "audio/park/voices/wendy/wendy_chips.mp3"
     wendy "Ch-Chips...?"
 
