@@ -190,6 +190,8 @@ label chips_appears:
     hide image "images/park/backgrounds/bg chips_appears3.png"
     pause(3.4)
 
+    hide image "images/park/chat/park_attack/pa_chat12.png"
+    show image "images/park/chat/park_attack/pa_chat13.png" at topright
     hide image "images/park/backgrounds/bg chips_appears4.png" with dissolve
 
     show wendy shocked at ten
@@ -197,14 +199,15 @@ label chips_appears:
     show donna big_upset at thirteen
 
     show ethan scared at six with dissolve
-
+    
     show donovan scared at three with dissolve
 
-    hide image "images/park/chat/park_attack/pa_chat12.png"
-    show image "images/park/chat/park_attack/pa_chat13.png" at topright
+    
     play sound "audio/park/voices/wendy/wendy_chips.mp3"
     wendy "Ch-Chips...?"
 
+    hide image "images/park/chat/park_attack/pa_chat13.png"
+    show image "images/park/chat/park_attack/pa_chat14.png" at topright
     show donovan at four with dissolve
 
     show ethan at one with dissolve    
@@ -214,6 +217,8 @@ label chips_appears:
 
     show wendy at six with dissolve
 
+    hide image "images/park/chat/park_attack/pa_chat14.png"
+    show image "images/park/chat/park_attack/pa_chat15.png" at topright
     show donna glower at nine with dissolve
 
     donna "Honey, back up. I...don't think Chips is okay."
@@ -222,6 +227,8 @@ label chips_appears:
 
     ethan "No, he's not!"
 
+    hide image "images/park/chat/park_attack/pa_chat15.png"
+    show image "images/park/chat/park_attack/pa_chat16.png" at topright
     show wendy happy_cry at eleven with dissolve
 
     show wendy at eleven with dissolve
@@ -230,6 +237,8 @@ label chips_appears:
 
     play sound "audio/park/voices/wendy/wendy_come.mp3"
     wendy "There's my baby! Chips, come on. Let's go home!"
+    hide image "images/park/chat/park_attack/pa_chat16.png"
+    show image "images/park/chat/park_attack/pa_chat17.png" at topright
 
     show wendy happy_big_cry at fifteen with dissolve
 
@@ -240,6 +249,8 @@ label chips_appears:
 
     show donovan scared_mad at six with dissolve
 
+    hide image "images/park/chat/park_attack/pa_chat17.png"
+    show image "images/park/chat/park_attack/pa_chat18.png" at topright
     show ethan at two with dissolve
 
     play sound "audio/park/voices/donovan/donovan_woah.mp3"
@@ -261,6 +272,8 @@ return
 label chips_attacks:
     show image "images/park/assets/shamz_fwitch.png"
 
+    hide image "images/park/chat/park_attack/pa_chat18.png"
+    show image "images/park/chat/park_attack/pa_chat19.png" at topright
     play sound "audio/park/voices/chips/chips_lunges.mp3"
     show image "images/park/backgrounds/bg chips_attacks0.png"
     pause(2)
@@ -269,6 +282,8 @@ label chips_attacks:
     hide image "images/park/backgrounds/bg chips_attacks0.png"
     pause(1.4)
 
+    hide image "images/park/chat/park_attack/pa_chat19.png"
+    show image "images/park/chat/park_attack/pa_chat20.png" at topright
     play sound "audio/park/voices/chips/chips_before_spew.mp3"
     show image "images/park/backgrounds/bg chips_attacks2.png" with dissolve
     hide image "images/park/backgrounds/bg chips_attacks1.png"
@@ -291,6 +306,8 @@ label chips_attacks:
     show donna shocked at ten with dissolve
 
     show donovan shocked at six with dissolve
+    hide image "images/park/chat/park_attack/pa_chat20.png"
+    show image "images/park/chat/park_attack/pa_chat21.png" at topright
 
     show ethan shocked at two with dissolve
 
@@ -300,8 +317,11 @@ label chips_attacks:
     play sound "audio/park/voices/donovan/donovan_freaks.mp3"
     donovan "Oh fuck, oh fuck!"
 
+    hide image "images/park/chat/park_attack/pa_chat21.png"
+    show image "images/park/chat/park_attack/pa_chat22.png" at topright
     play sound "audio/park/voices/ethan/ethan_shocked.mp3"
     ethan "Oh my god, we have to help!"
+
 
     hide ethan with dissolve
     pause(1)
@@ -314,6 +334,8 @@ label chips_attacks:
     show image "images/park/backgrounds/bg wendy_dies0.png"
     pause(3)
 
+    hide image "images/park/chat/park_attack/pa_chat22.png"
+    show image "images/park/chat/park_attack/pa_chat23.png" at topright
     show image "images/park/backgrounds/bg wendy_dies1.png" with dissolve
     hide image "images/park/backgrounds/bg wendy_dies0.png"
     pause(1)
@@ -322,6 +344,8 @@ label chips_attacks:
     show image "images/park/backgrounds/bg wendy_dies2.png" with dissolve
     hide image "images/park/backgrounds/bg wendy_dies1.png"
     pause(2)
+    hide image "images/park/chat/park_attack/pa_chat23.png"
+    show image "images/park/chat/park_attack/pa_chat24.png" at topright
 
 
     play sound "audio/park/voices/ethan/ethan_attacked.mp3" 
@@ -344,8 +368,11 @@ label chips_attacks:
     show donovan shocked_big at six with dissolve
     pause(.3)
 
+    hide image "images/park/chat/park_attack/pa_chat24.png"
+    show image "images/park/chat/park_attack/pa_chat25.png" at topright
     show donovan shocked_big_ups at six with dissolve
 
+   
     play sound "audio/park/voices/donovan/donovan_disbelief.mp3" 
     donovan "Dude, Ethan. Bro. What the fuck!?"
 
@@ -361,20 +388,25 @@ label chips_attacks:
     pause(1)
 
     show image "images/park/backgrounds/bg ethan_dies1.png" with dissolve
+    hide image "images/park/chat/park_attack/pa_chat25.png"
+    show image "images/park/chat/park_attack/pa_chat26.png" at topright
     hide image "images/park/backgrounds/bg ethan_dies0.png"
     pause(1)
 
     play sound "audio/park/voices/ethan/ethan_dies.mp3" 
+    
     show image "images/park/backgrounds/bg ethan_dies2.png" with dissolve
     hide image "images/park/backgrounds/bg ethan_dies1.png"
     pause(3)
 
-    play sound "audio/park/effects/hits_ground.mp3" 
+    play sound "audio/park/effects/hits_ground.mp3"
+    hide image "images/park/chat/park_attack/pa_chat26.png"
+    show image "images/park/chat/park_attack/pa_chat27.png" at topright 
     show image "images/park/backgrounds/bg ethan_dies3.png"
     hide image "images/park/backgrounds/bg ethan_dies2.png"
     pause(1)
 
-    play sound "audio/park/voices/wendy/wendy_eats.mp3" 
+    play sound "audio/park/voices/wendy/wendy_eats.mp3"
     show image "images/park/backgrounds/bg ethan_dies4.png" with dissolve
     hide image "images/park/backgrounds/bg ethan_dies3.png"
     pause(3)
@@ -387,6 +419,8 @@ label chips_attacks:
 
     show donovan shocked_big at six with dissolve
 
+    hide image "images/park/chat/park_attack/pa_chat27.png"
+    show image "images/park/chat/park_attack/pa_chat28.png" at topright 
     play sound "audio/park/voices/donovan/donovan_come_on.mp3" 
     donovan "Donna. Donna, come on. We've got to go. Donna. Get up. Fuck!"
 
@@ -398,6 +432,8 @@ label chips_attacks:
 
     pause(.2)
 
+    hide image "images/park/chat/park_attack/pa_chat28.png"
+    show image "images/park/chat/park_attack/pa_chat29.png" at topright 
     show donovan shocked_big at flip_back with dissolve
 
     pause(.1)
@@ -406,6 +442,8 @@ label chips_attacks:
 
     play sound "audio/park/voices/donovan/donovan_upset.mp3" 
     donovan "What do I do? What do I do?  Fuck."
+    hide image "images/park/chat/park_attack/pa_chat29.png"
+    show image "images/park/chat/park_attack/pa_chat30.png" at topright 
     
     show donovan shocked_big at flip_back with dissolve
 
