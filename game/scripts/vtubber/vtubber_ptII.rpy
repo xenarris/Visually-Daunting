@@ -2,7 +2,6 @@ label vtubber_start:
     scene bg park_blank
     show image "images/park/assets/shamz_fwitch.png"
 
-    show image "images/park/chat/chat_find_chips.png" at topright
 
     # ALL OF THISE IS CULT CHAT - SO THEY'RE PRETTY HAPPY
     # AND HYPED ABOUT ALL THIS NASTY TALK - NO FEAR POSTS
@@ -52,7 +51,7 @@ label vtubber_start:
 
     morrigu "Offering parents, as an extension of one's pain? Lovely!"
 
-    morrigu "A farewell from our golden child [[unblinking_umbrae]."
+    morrigu "A farewell from our golden child [[uu_umbrae_uu]."
 
     # Umbrae is hella dead here - just a heads up to chat folk
 
@@ -64,7 +63,7 @@ label vtubber_start:
 
     morrigu "Who took voyeuristic delight in others suffering."
 
-    morrigu "You indeed harbor darkness. Let us mold it."
+    morrigu "Your darkness. Let's mold it!"
 
     morrigu "As it grows, so will your powers of influence."
 
@@ -76,7 +75,7 @@ label vtubber_start:
 
     morrigu "A payment in blood, a sacrifice of your choice."
 
-    morrigu "Proof of your devotion for our immortal secrets."
+    morrigu "Proof of your devotion, for our immortal secrets."
 
     # ...(Cont.)/No. (Cont.)/I'm Ready
     # Silence is not an answer... - trauma ending - turn off pc - get killed ne ways
