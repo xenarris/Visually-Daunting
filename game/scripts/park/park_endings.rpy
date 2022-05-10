@@ -144,6 +144,8 @@ label run_away:
 
     show donna in_shock at ten with dissolve
 
+    show image "images/park/chat/park_endings/parkend_run1.png" at topright
+
     donovan "Fuck this, I'm gone!"
 
     hide donovan
@@ -151,23 +153,41 @@ label run_away:
     hide donna
 
     show image "images/park/backgrounds/bg donovan_runs0.png" with dissolve
+
+    hide image "images/park/chat/park_endings/parkend_run1.png"
+    show image "images/park/chat/park_endings/parkend_run2.png" at topright
+
     pause(1)
 
     show image "images/park/backgrounds/bg donovan_runs1.png" with dissolve
     hide image "images/park/backgrounds/bg donovan_runs0.png"
+    
+    hide image "images/park/chat/park_endings/parkend_run2.png"
+    show image "images/park/chat/park_endings/parkend_run3.png" at topright
     pause(.4)
 
     show image "images/park/backgrounds/bg donovan_runs2.png" with dissolve
     hide image "images/park/backgrounds/bg donovan_runs1.png"
+
+    hide image "images/park/chat/park_endings/parkend_run3.png"
+    show image "images/park/chat/park_endings/parkend_run4.png" at topright
+
     pause(.4)
 
     show image "images/park/backgrounds/bg donovan_runs3.png" with dissolve
     hide image "images/park/backgrounds/bg donovan_runs2.png"
+
+    hide image "images/park/chat/park_endings/parkend_run4.png"
+    show image "images/park/chat/park_endings/parkend_run5.png" at topright
     pause(.4)
 
 
 
     show image "images/park/backgrounds/bg donovan_runs4.png" with dissolve
+    
+    hide image "images/park/chat/park_endings/parkend_run5.png"
+    show image "images/park/chat/park_endings/parkend_run6.png" at topright
+
     pause(.1)
     donovan "Keys."
     hide image "images/park/backgrounds/bg donovan_runs3.png"
@@ -178,6 +198,9 @@ label run_away:
     pause(3)
     show image "images/park/backgrounds/bg donovan_runs5.png" with dissolve
     hide image "images/park/backgrounds/bg donovan_runs4.png"
+
+    hide image "images/park/chat/park_endings/parkend_run6.png"
+    show image "images/park/chat/park_endings/parkend_run7.png" at topright
     pause(2.1)
     
     jump mods_shut_down_park
@@ -186,6 +209,7 @@ return
 label mods_shut_down_park:
     scene bg park_blank
     show image "images/park/assets/shamz_fwitch.png"
+    show image "images/park/chat/park_endings/parkend_chatlockv2.png" at topright
 
     pause (4)
     show image "images/park/backgrounds/bg stream_offline.png" with dissolve
