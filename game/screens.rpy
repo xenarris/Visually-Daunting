@@ -279,6 +279,7 @@ screen quick_menu():
             auto "gui/button/quick_menu/settings_%s.png"
             action ShowMenu('preferences')
         
+        # Commented out below to refrain from the quick menu showing unnecessary
         # hbox:
         #     style_prefix "quick"
 
